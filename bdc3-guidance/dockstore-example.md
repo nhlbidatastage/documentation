@@ -12,14 +12,14 @@ of the workflow will be exported.
 
 ![Export current WDL workflow, launch with Terra button](../.gitbook/assets/terra_from_dockstore1.png "Export current WDL workflow, launch with Terra button")
 
-* Image: WDL workflow *
+*Figure 1: WDL workflow*
 
 If not logged into Terra, you will be prompted to login. Otherwise, or
 after login, you will be presented with the following screen.
 
 ![Terra import from Dockstore prompt](../.gitbook/assets/terra_from_dockstore2.png "Terra import from Dockstore prompt")
 
-* Image: WDL workflow import *
+*Figure 2: WDL workflow import*
 
 You will need to pick a workspace to export it into. You can either
 select an existing workspace or create a new one.
