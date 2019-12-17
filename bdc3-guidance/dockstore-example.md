@@ -1,10 +1,10 @@
-# Dockstore integration with Terra
+# Dockstore Integration With Terra
 
 Dockstore integrates with the Terra platform, allowing you to launch
 WDL-based workflows from Dockstore in Terra. This mini tutorial demonstrates 
 what the Dockstore-Terra integration looks like from a user point of view.
 
-## Exporting WDL workflows into Terra
+## Exporting WDL Workflows Into Terra
 
 When browsing WDL workflows from within Dockstore, you will see a
 "Launch with Terra" button on the right. The currently selected version
