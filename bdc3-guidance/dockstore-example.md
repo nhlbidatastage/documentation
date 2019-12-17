@@ -31,13 +31,13 @@ Note that you may want to double-check that the workflow specifies a
 runtime environment (docker, cpu, memory, and disks) to avoid using
 limiting defaults on Terra. See more [here](https://cromwell.readthedocs.io/en/stable/wf_options/Overview/).
 
-## Limitations
+## WDL Workflows Limitations
 
 1. While we support launching of WDL workflows, tools as listed in Dockstore are currently not supported.
 2. Terra does not currently support file-path based imports. Importing a workflow with file-based imports will result in error. See the [converting file-based imports doc](https://docs.dockstore.org/en/develop/end-user-topics/language-support.html#converting-file-path-based-imports-to-public-http-s-based-imports-for-wdl) for more info.
 3. Only the WDL language is supported.
 
-## See Also
+## See Related Documentation
 
 - [AWS Batch](https://docs.dockstore.org/en/develop/advanced-topics/aws-batch.html)
 - [Azure Batch](https://docs.dockstore.org/en/develop/advanced-topics/azure-batch.html)
