@@ -15,7 +15,8 @@ Available Markdown elements for use and syntax:
 | Ordered List | `1. First item 2. Second item 3. Third item` |
 | Unordered List | `- First item - Second item - Third item` |
 | Task List | `- [x] Write the press release - [ ] Update the website - [ ] Contact the media` |
-| Code | ```code```  |
+| Code | ` ``code`` `  |
+| Commands | ` ``ENTER`` `  |
 | Horizontal Rule | `---` |
 | Link | `[title](https://www.example.com)` |
 | Image | `![alt text](image.jpg)` |
