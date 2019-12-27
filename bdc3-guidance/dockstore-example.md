@@ -1,26 +1,35 @@
 # Dockstore Integration With Terra
 
-Dockstore integrates with the Terra platform, allowing you to launch WDL-based workflows from Dockstore in Terra. This mini tutorial demonstrates what the Dockstore-Terra integration looks like from a user point of view.
+Dockstore integrates with the Terra platform, allowing you to launch
+WDL-based workflows from Dockstore in Terra. This mini tutorial demonstrates 
+what the Dockstore-Terra integration looks like from a user point of view.
 
 ## Exporting WDL Workflows Into Terra
 
-When browsing WDL workflows from within Dockstore, you will see a "Launch with Terra" button on the right. The currently selected version of the workflow will be exported.
+When browsing WDL workflows from within Dockstore, you will see a
+"Launch with Terra" button on the right. The currently selected version
+of the workflow will be exported.
 
-![Export current WDL workflow, launch with Terra button](../.gitbook/assets/terra_from_dockstore1.png)
+![Export current WDL workflow, launch with Terra button](../.gitbook/assets/terra_from_dockstore1.png "Export current WDL workflow, launch with Terra button")
 
-_Figure 1: WDL workflow_
+*Figure 1: WDL workflow*
 
-If not logged into Terra, you will be prompted to login. Otherwise, or after login, you will be presented with the following screen.
+If not logged into Terra, you will be prompted to login. Otherwise, or
+after login, you will be presented with the following screen.
 
-![Terra import from Dockstore prompt](../.gitbook/assets/terra_from_dockstore2.png)
+![Terra import from Dockstore prompt](../.gitbook/assets/terra_from_dockstore2.png "Terra import from Dockstore prompt")
 
-_Figure 2: WDL workflow import_
+*Figure 2: WDL workflow import*
 
-You will need to pick a workspace to export it into. You can either select an existing workspace or create a new one.
+You will need to pick a workspace to export it into. You can either
+select an existing workspace or create a new one.
 
-Then hit the "Import" button and continue from within the Terra interface to configure and run your workflow.
+Then hit the "Import" button and continue from within the Terra
+interface to configure and run your workflow.
 
-Note that you may want to double-check that the workflow specifies a runtime environment \(docker, cpu, memory, and disks\) to avoid using limiting defaults on Terra. See more [here](https://cromwell.readthedocs.io/en/stable/wf_options/Overview/).
+Note that you may want to double-check that the workflow specifies a
+runtime environment (docker, cpu, memory, and disks) to avoid using
+limiting defaults on Terra. See more [here](https://cromwell.readthedocs.io/en/stable/wf_options/Overview/).
 
 ## WDL Workflows Limitations
 
@@ -30,8 +39,7 @@ Note that you may want to double-check that the workflow specifies a runtime env
 
 ## See Related Documentation
 
-* [AWS Batch](https://docs.dockstore.org/en/develop/advanced-topics/aws-batch.html)
-* [Azure Batch](https://docs.dockstore.org/en/develop/advanced-topics/azure-batch.html)
-* [DNAnexus Launch With](https://docs.dockstore.org/en/develop/launch-with/dnanexus-launch-with.html)
-* [DNAstack Launch With](https://docs.dockstore.org/en/develop/launch-with/dnastack-launch-with.html)
-
+- [AWS Batch](https://docs.dockstore.org/en/develop/advanced-topics/aws-batch.html)
+- [Azure Batch](https://docs.dockstore.org/en/develop/advanced-topics/azure-batch.html)
+- [DNAnexus Launch With](https://docs.dockstore.org/en/develop/launch-with/dnanexus-launch-with.html)
+- [DNAstack Launch With](https://docs.dockstore.org/en/develop/launch-with/dnastack-launch-with.html)
