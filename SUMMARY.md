@@ -12,4 +12,5 @@
 ## Platform Orientation
 
 * [Get Access](platform-orientation/get-access.md)
+* [Data Access](data-access.md)
 
