@@ -8,8 +8,8 @@
 
 ## BDC3 Guidance
 
-* [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
 * [Common Markdown](bdc3-guidance/common-markdown.md)
+* [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
 * [Dockstore Integration With Terra](bdc3-guidance/dockstore-example.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
 
