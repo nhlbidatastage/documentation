@@ -14,4 +14,5 @@
 * [Get Access](platform-orientation/get-access.md)
 * [Data Access](platform-orientation/data-access.md)
 * [Analysis & Tools Available](analysis-and-tools-available.md)
+* [Documentation Available](documentation-available.md)
 
