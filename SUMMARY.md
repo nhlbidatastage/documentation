@@ -1,8 +1,10 @@
 # Table of contents
 
 * [Documentation](README.md)
-* [GWAS-Terra-Tutorial](gwas-terra-tutorial/README.md)
-  * [BDCatalyst-GWAS-Gen3-Dockstore-Terra](GWAS-Terra-Tutorial/BDCatalyst-GWAS-Gen3-Dockstore-Terra.md)
+
+## GWAS Terra Tutorial
+
+* [BDCatalyst-GWAS-Gen3-Dockstore-Terra](GWAS-Terra-Tutorial/BDCatalyst-GWAS-Gen3-Dockstore-Terra.md)
 
 ## BDC3 Guidance
 
