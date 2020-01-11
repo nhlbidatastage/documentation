@@ -4,7 +4,7 @@
 
 ## GWAS Terra Tutorial
 
-* [BDCatalyst-GWAS-Gen3-Dockstore-Terra](GWAS-Terra-Tutorial/BDCatalyst-GWAS-Gen3-Dockstore-Terra.md)
+* [BDCatalyst-GWAS-Gen3-Dockstore-Terra](gwas-terra-tutorial/bdcatalyst-gwas-gen3-dockstore-terra.md)
 
 ## BDC3 Guidance
 
@@ -19,5 +19,9 @@
 * [Data Access](platform-orientation/data-access.md)
 * [Analysis & Tools Available](platform-orientation/analysis-and-tools-available.md)
 * [Documentation Available](platform-orientation/documentation-available.md)
-* [Help Available](help-available.md)
+* [Help Available](platform-orientation/help-available.md)
+
+## Gen3 Documentation
+
+* [Discovering Data](gen3-documentation/discovering-data.md)
 
