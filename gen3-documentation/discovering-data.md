@@ -20,5 +20,5 @@ After clicking on the [Exploration](https://internalstaging.datastage.io/explore
 
 
 
-
+Using these facets that are located on the left side panel, a user can leverage the DCC harmonized variables to create a custom cohort in the "Cases" tab. At this time, a user can filter based on three categories of information from `Medical History`, `Diagnosis`, and `subject`. 
 
