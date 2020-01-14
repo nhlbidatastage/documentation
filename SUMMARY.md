@@ -15,7 +15,6 @@
 ## Workflow Tools
 
 * [Dockstore Integration With Terra](workflow-tools/dockstore-example.md)
-* [Untitled](workflow-tools/untitled.md)
 
 ## Platform Orientation
 
