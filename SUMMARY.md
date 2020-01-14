@@ -10,11 +10,11 @@
 
 * [Common Markdown](bdc3-guidance/common-markdown.md)
 * [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
-* [Dockstore Integration With Terra](bdc3-guidance/dockstore-example.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
 
 ## Workflow Tools
 
+* [Dockstore Integration With Terra](workflow-tools/dockstore-example.md)
 * [Untitled](workflow-tools/untitled.md)
 
 ## Platform Orientation
