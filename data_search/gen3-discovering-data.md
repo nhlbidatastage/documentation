@@ -2,7 +2,7 @@
 description: How to login to the Gen3 BioData Catalyst site and view available data.
 ---
 
-# Discovering Data
+# Discovering Data Using Gen3
 
 ## Login to Gen3 BioData Catalyst
 

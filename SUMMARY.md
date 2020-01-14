@@ -8,7 +8,7 @@
 
 ## Workflow Tools
 
-* [Dockstore Integration With Terra](bdc3-guidance/dockstore-example.md)
+* [Dockstore Integration With Terra](workflow-tools/dockstore-example.md)
 
 ## Platform Orientation
 
@@ -24,7 +24,7 @@
 * [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
 
-## Gen3 Documentation
+## Finding Data / Data Search Tools <a id="data_search"></a>
 
-* [Discovering Data](gen3-documentation/discovering-data.md)
+* [Discovering Data Using Gen3](data_search/gen3-discovering-data.md)
 
