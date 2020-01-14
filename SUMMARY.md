@@ -6,6 +6,10 @@
 
 * [BDCatalyst-GWAS-Gen3-Dockstore-Terra](gwas-terra-tutorial/bdcatalyst-gwas-gen3-dockstore-terra.md)
 
+## Finding Data / Data Search Tools <a id="data_search"></a>
+
+* [Discovering Data Using Gen3](data_search/gen3-discovering-data.md)
+
 ## Workflow Tools
 
 * [Dockstore Integration With Terra](workflow-tools/dockstore-example.md)
@@ -23,8 +27,4 @@
 * [Common Markdown](bdc3-guidance/common-markdown.md)
 * [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
-
-## Finding Data / Data Search Tools <a id="data_search"></a>
-
-* [Discovering Data Using Gen3](data_search/gen3-discovering-data.md)
 
