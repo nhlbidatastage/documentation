@@ -13,6 +13,10 @@
 * [Dockstore Integration With Terra](bdc3-guidance/dockstore-example.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
 
+## Workflow Tools
+
+* [Untitled](workflow-tools/untitled.md)
+
 ## Platform Orientation
 
 * [Get Access](platform-orientation/get-access.md)
