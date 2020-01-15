@@ -22,12 +22,7 @@ After clicking on the [Exploration](https://internalstaging.datastage.io/explore
 
 ![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%283%29.png)
 
-On the left side, a panel of data facets allows users to leverage the DCC harmonized variables to create a custom cohort in the "Data" tab. When the facets are applied, the display will be updated with the new filtering that has been applied. If no facets have been selected, then it will display all available data. At this time, a user can filter based on three categories of information:  
- 
-
-`Medical History`: contains information that would be standard to collect information from medical records for the subject.  
-`Diagnosis`: contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.  
-`Subject`: contains demographic information about the subject as well as information about the study that the subject was enrolled in.
+On the left side, a panel of data facets allows users to leverage the DCC harmonized variables to create a custom cohort in the "Data" tab. When the facets are applied, the display will be updated with the new filtering that has been applied. If no facets have been selected, then it will display all available data. At this time, a user can filter based on three categories of information:
 
 * `Medical History`: contains information that would be standard to collect information from medical records for the subject.
 * `Diagnosis`: contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.
