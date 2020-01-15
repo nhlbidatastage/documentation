@@ -20,5 +20,25 @@ After clicking on the [Exploration](https://internalstaging.datastage.io/explore
 
 
 
-Using these facets that are located on the left side panel, a user can leverage the DCC harmonized variables to create a custom cohort in the "Cases" tab. At this time, a user can filter based on three categories of information from `Medical History`, `Diagnosis`, and `subject`. 
+### Data Tab
+
+On the left side, a panel of data facets allows users to leverage the DCC harmonized variables to create a custom cohort in the "Data" tab. When the facets are applied, the display will be updated with the new filtering that has been applied. If no facets have been selected, then it will display all available data. At this time, a user can filter based on three categories of information:  
+   
+`Medical History`: contains information that would be standard to collect information from medical records for the subject.  
+`Diagnosis`: contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.  
+`Subject`: contains demographic information about the subject as well as information about the study that the subject was enrolled in.
+
+### Files Tab
+
+![The Files Tab page.](../.gitbook/assets/image%20%281%29.png)
+
+While similar to the Data tab, the Files tab will only show files based on the facets chosen on the left side panel. At this time, files can be filtered based on the project, data type and data format. Each time a facet selection is made, the visuals and table will update to reflect the applied filters.
+
+On the Files tab, once a group of files have been filtered for, a user can choose to either download a manifest of the files to use with the [gen3-client](https://gen3.org/resources/user/gen3-client/), export the files to a gen3 workspace, or view the file page by clicking the link in the file table under the GUID column.
+
+### File Page
+
+![An example File page.](../.gitbook/assets/image%20%282%29.png)
+
+A File page will display the details about a file, such as the data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a download button to download the single file via the browser. For files that are 5Gb or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/) to download the file.
 
