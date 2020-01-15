@@ -6,7 +6,7 @@ description: How to login to the Gen3 BioData Catalyst site and view available d
 
 ## Login to Gen3 BioData Catalyst
 
-To view the data that is available to the user on [Gen3 BioData Catalyst \(BDC\)](https://gen3.datastage.io/), please start by going to the [login page](https://gen3.datastage.io/login). At this time, the BDC offers two forms of login, one using a Google account and the other using an NIH login. The NIH login is based on your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do) and access is granted through [dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi). Please make sure to use the correct login method that contains access to your available projects.
+To view the data that is available to the user on Gen3 BioData Catalyst \(BDC\), please start by going to the login page. At this time, the BDC offers two forms of login, one using a Google account and the other using an NIH login. The NIH login is based on your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do) and access is granted through [dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi). Please make sure to use the correct login method that contains access to your available projects.
 
 ![Login page for BDC.](../.gitbook/assets/image.png)
 
