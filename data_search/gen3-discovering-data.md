@@ -18,9 +18,9 @@ Once the user has successfully logged in, the user name will appear in the upper
 
 After clicking on the [Exploration](https://internalstaging.datastage.io/explorer) option in the upper right hand toolbar, the user will see a page with summary statistics and facets on the left side.
 
-
-
 ### Data Tab
+
+![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%283%29.png)
 
 On the left side, a panel of data facets allows users to leverage the DCC harmonized variables to create a custom cohort in the "Data" tab. When the facets are applied, the display will be updated with the new filtering that has been applied. If no facets have been selected, then it will display all available data. At this time, a user can filter based on three categories of information:  
    
