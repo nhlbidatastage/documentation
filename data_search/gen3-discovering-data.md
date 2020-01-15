@@ -23,10 +23,32 @@ After clicking on the [Exploration](https://internalstaging.datastage.io/explore
 ![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%283%29.png)
 
 On the left side, a panel of data facets allows users to leverage the DCC harmonized variables to create a custom cohort in the "Data" tab. When the facets are applied, the display will be updated with the new filtering that has been applied. If no facets have been selected, then it will display all available data. At this time, a user can filter based on three categories of information:  
-   
+ 
+
 `Medical History`: contains information that would be standard to collect information from medical records for the subject.  
 `Diagnosis`: contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.  
 `Subject`: contains demographic information about the subject as well as information about the study that the subject was enrolled in.
+
+* `Medical History`: contains information that would be standard to collect information from medical records for the subject.
+* `Diagnosis`: contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.
+* `Subject`: contains demographic information about the subject as well as information about the study that the subject was enrolled in.
+
+When a cohort has been selected, the user will have two options for obtaining the data: downloading and exporting.
+
+#### Download
+
+The drop down menu for `Download Manifest` will display two options:
+
+* `Download All Clinical` : This will download a files with selected clinical data in a `JSON` formatted file.
+* `Download Manifest` : This will download a list of GUIDs for use with the [gen3-client](https://gen3.org/resources/user/gen3-client/).
+
+#### Export
+
+The options for export are as follows:
+
+* `Export All to Terra` :  This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of the selected cohort's clinical data and file GUIDs to the Terra system.......
+* `Export to PFB` : This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of the selected cohort's clinical data and file GUIDs to your local machine.
+* `Export to Workspaces` : This button will initiate a manifest export to the user's workspace and make the cases associated data files available in the workspace under the `/data` directory.
 
 ### Files Tab
 
