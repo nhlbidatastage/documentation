@@ -34,6 +34,8 @@ When a cohort has been selected, the user will have two options for obtaining th
 
 The drop down menu for `Download Manifest` will display two options:
 
+![Download drop menu](../.gitbook/assets/image%20%284%29.png)
+
 * `Download All Clinical` : This will download a files with selected clinical data in a `JSON` formatted file.
 * `Download Manifest` : This will download a list of GUIDs for use with the [gen3-client](https://gen3.org/resources/user/gen3-client/).
 
