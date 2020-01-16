@@ -61,8 +61,8 @@ The options for export are as follows:
 
 ![Export button options](../.gitbook/assets/image%20%284%29.png)
 
-* `Export All to Terra` :  This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of the selected cohort's clinical data and file GUIDs to the Terra system.
-* `Export to PFB` : This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of the selected cohort's clinical data and file GUIDs to your local machine.
+* `Export All to Terra` :  This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of all clinical data and file GUIDs for the selected cohort to the Terra system.
+* `Export to PFB` : This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of all clinical data and file GUIDs for the selected cohort to your local machine.
 * `Export to Workspaces` : This button will initiate a manifest export to the user's workspace and make the cases associated data files available in the workspace under the `/data` directory.
 
 ### Files Tab
