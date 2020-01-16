@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Documentation](README.md)
+* [Tutorials](https://test.com)
 
 ## GWAS Terra Tutorial
 
