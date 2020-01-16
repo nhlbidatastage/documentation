@@ -8,7 +8,7 @@ description: How to login to the Gen3 BioData Catalyst site and view available d
 
 To view the data that is available to the user on Gen3 BioData Catalyst \(BDC\), please start by going to the login page. At this time, the BDC offers two forms of login, one using a Google account and the other using an NIH login. The NIH login is based on your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do) and access is granted through [dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi). Please make sure to use the correct login method that contains access to your available projects.
 
-![Login page for BDC.](../.gitbook/assets/image.png)
+![Login page for BDC.](../.gitbook/assets/image%20%285%29.png)
 
 Once the user has successfully logged in, the user name will appear in the upper right hand corner above the Gen3 Common's tiles.
 
@@ -20,7 +20,7 @@ After clicking on the Exploration option in the upper right hand toolbar, the us
 
 ### Data Tab
 
-![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%283%29.png)
+![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%284%29.png)
 
 The left side panel of data facets allows users to leverage the DCC harmonized variables to create a custom cohort in the "Data" tab. When the facets are selected, the display will be updated with the new applied filter. If no facets have been selected, then it will display all available data. At this time, a user can filter based on three categories of information:
 
@@ -34,7 +34,7 @@ When a cohort has been selected, the user will have two options for obtaining th
 
 The drop down menu for `Download Manifest` will display two options:
 
-![Download drop menu](../.gitbook/assets/image%20%284%29.png)
+![Download drop menu](../.gitbook/assets/image.png)
 
 * `Download All Clinical` : This will download a files with selected clinical data in a `JSON` formatted file.
 * `Download Manifest` : This will download a list of GUIDs for use with the [gen3-client](https://gen3.org/resources/user/gen3-client/).
@@ -42,6 +42,8 @@ The drop down menu for `Download Manifest` will display two options:
 #### Export
 
 The options for export are as follows:
+
+![Export button options](../.gitbook/assets/image%20%283%29.png)
 
 * `Export All to Terra` :  This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of the selected cohort's clinical data and file GUIDs to the Terra system.......
 * `Export to PFB` : This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of the selected cohort's clinical data and file GUIDs to your local machine.
