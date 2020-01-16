@@ -51,12 +51,12 @@ The options for export are as follows:
 
 While similar to the Data tab, the Files tab will only show files based on the facets chosen on the left side panel. At this time, files can be filtered based on the project, data type and data format. Each time a facet selection is made, the visuals and table will update to reflect the applied filters.
 
-On the Files tab, once a group of files have been filtered for, a user can choose to either download a manifest of the files to use with the [gen3-client](https://gen3.org/resources/user/gen3-client/), export the files to a gen3 workspace, or view the file page by clicking the link in the file table under the GUID column.
-
 The Files tab will also contain files that are either case independent or project level. This is important for files that are part of the `Unharmonized Clinical Data` Data Type files. Of this Data Type there are two Data Formats that are available:
 
 * TAR : These files files contain a directory of TSV files that are direct downloads of unharmonized clinical data from dbGaP.
 * AVRO: These files are the same unharmonized clinical data from dbGaP, but in a PFB format.
+
+On the Files tab, once a group of files have been filtered for, a user can choose to either download a manifest of the files to use with the [gen3-client](https://gen3.org/resources/user/gen3-client/), export the files to a gen3 workspace, or view the file page by clicking the link in the file table under the GUID column.
 
 ### File Page
 
