@@ -8,7 +8,7 @@ description: How to login to the Gen3 BioData Catalyst site and view available d
 
 To view the data that is available to the user on Gen3 BioData Catalyst \(BDC\), please start by going to the login page. At this time, the BDC offers two forms of login, one using a Google account and the other using an NIH login. The NIH login is based on your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do) and access is granted through [dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi). Please make sure to use the correct login method that contains access to your available projects.
 
-![Login page for BDC.](../.gitbook/assets/image%20%289%29.png)
+![Login page for BDC.](../.gitbook/assets/image%20%2810%29.png)
 
 Once the user has successfully logged in, the user name will appear in the upper right hand corner above the Gen3 Common's tiles.
 
@@ -30,19 +30,19 @@ The left side panel of data facets allows users to leverage the DCC harmonized v
 
 #### Data Access
 
-![Data access panel](../.gitbook/assets/image%20%288%29.png)
+![Data access panel](../.gitbook/assets/image%20%289%29.png)
 
 Data access is by default to show only data that the user has access to. By selecting the `Data without Access` option, it will display projects that also exist within the commons that the user does not have access to. The display will also continue to show summary statistics as long as there are no values within a property that falls below 50 subjects.
 
-![The variable of Race is hidden as the number of values are below 50 participants.](../.gitbook/assets/image%20%287%29.png)
+![The variable of Race is hidden as the number of values are below 50 participants.](../.gitbook/assets/image%20%288%29.png)
 
 The same is true for the facets found on the left side panel. The option to select this facet is disabled and the exact number is hidden.
 
-![The value of subjects is hidden for this property as the value is below 50.](../.gitbook/assets/image%20%2810%29.png)
+![The value of subjects is hidden for this property as the value is below 50.](../.gitbook/assets/image%20%2811%29.png)
 
 When using the `All Data` option a user will see both sets that are and are not available. This will result in some of the facets being locked as they are not available even thoguh they are visible.
 
-![A locked project with other projects a user has access to.](../.gitbook/assets/image%20%2811%29.png)
+![A locked project with other projects a user has access to.](../.gitbook/assets/image%20%2812%29.png)
 
 When a cohort has been selected, the user will have two options for obtaining the data: downloading and exporting.
 
