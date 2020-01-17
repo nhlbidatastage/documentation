@@ -15,7 +15,7 @@
 
 ## Community Tools <a id="community_tools"></a>
 
-* [Dockstore Integration With Terra](workflow-tools/dockstore-example.md)
+* [Dockstore Integration With Terra](community_tools/dockstore-example.md)
 * [HeLx](community_tools/helx.md)
 
 ## Platform Orientation

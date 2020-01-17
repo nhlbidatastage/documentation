@@ -10,9 +10,9 @@ To view the data that is available to the user on Gen3 BioData Catalyst \(BDC\),
 
 ![Login page for BDC.](../.gitbook/assets/image%20%2810%29.png)
 
-Once the user has successfully logged in, the user name will appear in the upper right hand corner above the Gen3 Common's tiles.
+Once the user has successfully logged in, the user name will appear in the upper right hand corner above the Gen3 Common's tiles. The user will also see a display with general statistics about the number of subjects, studies, aliquots and files that are located within this common. 
 
-![The user name will appear where the green rectangle is placed.](../.gitbook/assets/screenshot_2020-01-10-https-internalstaging-datastage-io.png)
+![The front page upon successful login, with the user name in the upper corner, blacked out in this example.](../.gitbook/assets/screenshot_2020-01-17-https-gen3-datastage-io.png)
 
 ## Using Exploration
 
