@@ -31,4 +31,5 @@
 * [Common Markdown](bdc3-guidance/common-markdown.md)
 * [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
+* [DataSTAGE \| Glossary](untitled.md)
 
