@@ -3,10 +3,6 @@
 * [Documentation](README.md)
 * [Tutorials](https://test.com)
 
-## GWAS Terra Tutorial
-
-* [BDCatalyst-GWAS-Gen3-Dockstore-Terra](gwas-terra-tutorial/bdcatalyst-gwas-gen3-dockstore-terra.md)
-
 ## Finding Data / Data Search Tools <a id="data_search"></a>
 
 * [Discovering Data Using Gen3](data_search/gen3-discovering-data.md)
