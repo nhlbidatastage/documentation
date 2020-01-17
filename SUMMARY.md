@@ -3,9 +3,9 @@
 * [Documentation](README.md)
 * [Tutorials](https://test.com)
 
-## Finding Data / Data Search Tools <a id="data_search"></a>
+## Explore available data <a id="explore_data"></a>
 
-* [Discovering Data Using Gen3](data_search/gen3-discovering-data.md)
+* [Discovering Data Using Gen3](explore_data/gen3-discovering-data.md)
 
 ## Workflow Tools
 
@@ -24,4 +24,8 @@
 * [Common Markdown](bdc3-guidance/common-markdown.md)
 * [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
+
+## Analyze data
+
+* [Untitled](analyze-data/untitled.md)
 
