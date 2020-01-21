@@ -32,9 +32,10 @@
   * [Recommended Practices](bdc3-guidance/creating-documentation/good-practices.md)
   * [Accessibility](bdc3-guidance/creating-documentation/accessibility.md)
   * [Inclusive Language](bdc3-guidance/creating-documentation/inclusive-language.md)
+  * [Consistent Terminology](bdc3-guidance/creating-documentation/consistent-terminology.md)
 * [Markdown Overview](bdc3-guidance/markdown-overview/README.md)
   * [GitBook Markdown](bdc3-guidance/markdown-overview/gitbook-markdown.md)
   * [Common Markdown](bdc3-guidance/markdown-overview/common-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
-* [DataSTAGE \| Glossary](untitled.md)
+* [BioData Catalyst Glossary](untitled.md)
 

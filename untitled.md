@@ -1,4 +1,4 @@
-# DataSTAGE \| Glossary
+# BioData Catalyst Glossary
 
 * **Agile Development**
 
