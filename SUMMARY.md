@@ -37,5 +37,5 @@
   * [GitBook Markdown](bdc3-guidance/markdown-overview/gitbook-markdown.md)
   * [Common Markdown](bdc3-guidance/markdown-overview/common-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
-* [BioData Catalyst Glossary](untitled.md)
+* [BioData Catalyst Glossary](bdc_glossary.md)
 

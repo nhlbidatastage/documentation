@@ -14,7 +14,7 @@ description: >-
 
 {% page-ref page="inclusive-language.md" %}
 
-{% page-ref page="../../untitled.md" %}
+{% page-ref page="../../bdc\_glossary.md" %}
 
 
 
