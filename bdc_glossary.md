@@ -1,3 +1,9 @@
+---
+description: >-
+  Glossary of terms used in the context of the BioData Catalyst Consortium and
+  platform.
+---
+
 # BioData Catalyst Glossary
 
 * **Agile Development**
