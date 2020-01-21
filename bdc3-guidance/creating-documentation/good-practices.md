@@ -1,9 +1,6 @@
-# Good Practices
+# Recommended Practices
 
-
-
-Recommendations for Your Documentation from the Dockstore Example  
-
+## Recommendations for Your Documentation from the Dockstore Example 
 
 * **Use descriptive, clear headings for sections.** For example, update “Terra” to “Dockstore Integration with Terra”. Reason: When users are searching documentation, clear headers like this will be more informative. 
 * **Use title case for headings.** For example, see “Dockstore Integration with Terra”. When in doubt, use a tool like [https://titlecaseconverter.com/](https://titlecaseconverter.com/). Reason: To use a common/standard approach to facilitate readability. 

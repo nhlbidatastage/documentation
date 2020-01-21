@@ -29,7 +29,7 @@
 ## BDC3 Guidance
 
 * [Creating Documentation](bdc3-guidance/creating-documentation/README.md)
-  * [Good Practices](bdc3-guidance/creating-documentation/good-practices.md)
+  * [Recommended Practices](bdc3-guidance/creating-documentation/good-practices.md)
   * [Accessibility](bdc3-guidance/creating-documentation/accessibility.md)
   * [Inclusive Language](bdc3-guidance/creating-documentation/inclusive-language.md)
 * [Markdown Overview](bdc3-guidance/markdown-overview/README.md)
