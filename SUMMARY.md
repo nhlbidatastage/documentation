@@ -28,8 +28,9 @@
 
 ## BDC3 Guidance
 
-* [Common Markdown](bdc3-guidance/common-markdown.md)
-* [GitBook Markdown](bdc3-guidance/gitbook-markdown.md)
+* [Markdown Overview](bdc3-guidance/markdown-overview/README.md)
+  * [GitBook Markdown](bdc3-guidance/markdown-overview/gitbook-markdown.md)
+  * [Common Markdown](bdc3-guidance/markdown-overview/common-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
 * [DataSTAGE \| Glossary](untitled.md)
 
