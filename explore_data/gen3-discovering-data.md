@@ -30,6 +30,8 @@ The left side panel of data facets allows users to leverage the DCC harmonized v
 * `Diagnosis`: contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.
 * `Subject`: contains demographic information about the subject as well as information about the study that the subject was enrolled in.
 
+> NOTE: The facet filters are based only on the harmonized data that is submitted within the BDC Data Dictionary.
+
 #### Data Access
 
 ![Data access panel](../.gitbook/assets/image%20%289%29.png)
