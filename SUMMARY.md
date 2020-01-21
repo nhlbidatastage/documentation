@@ -12,6 +12,7 @@
 
 * [Seven Bridges](analyze-data/untitled.md)
 * [Terra](analyze-data/terra.md)
+* [Dockstore](analyze-data/dockstore.md)
 
 ## Community Tools <a id="community_tools"></a>
 
