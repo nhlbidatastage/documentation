@@ -78,6 +78,8 @@ The Files tab will also contain files that are either case independent or projec
 * TAR : These files files contain a directory of TSV files that are direct downloads of unharmonized clinical data from dbGaP.
 * AVRO: These files are the same unharmonized clinical data from dbGaP, but in a PFB format.
 
+> NOTE: The harmonized clinical data comes from the [Data Coordinating Center \(DCC\)](https://www.nhlbiwgs.org/group/dcc) and is a hand selected subset of the data from dbGaP that has been reprocessed for compatibility across all studies. The unharmonized clinical data contains all data from the dbGaP study, but it is not cross compatible between all projects.
+
 On the Files tab, once a group of files have been filtered for, a user can choose to either download a manifest of the files to use with the [gen3-client](https://gen3.org/resources/user/gen3-client/), export the files to a gen3 workspace, or view the file page by clicking the link in the file table under the GUID column.
 
 ### File Page
