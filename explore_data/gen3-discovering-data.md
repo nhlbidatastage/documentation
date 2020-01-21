@@ -42,7 +42,7 @@ The same is true for the facets found on the left side panel. The option to sele
 
 ![The value of subjects is hidden for this property as the value is below 50.](../.gitbook/assets/image%20%2811%29.png)
 
-When using the `All Data` option a user will see both sets that are and are not available. This will result in some of the facets being locked as they are not available even thoguh they are visible.
+When using the `All Data` option a user will see both sets that are and are not available. This will result in some of the facets being locked as they are not available even though they are visible.
 
 ![A locked project with other projects a user has access to.](../.gitbook/assets/image%20%2812%29.png)
 
