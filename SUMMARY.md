@@ -21,11 +21,15 @@
 
 ## Platform Orientation
 
-* [Get Access](platform-orientation/get-access.md)
-* [Data Access](platform-orientation/data-access.md)
-* [Analysis & Tools Available](platform-orientation/analysis-and-tools-available.md)
-* [Documentation Available](platform-orientation/documentation-available.md)
-* [Help Available](platform-orientation/help-available.md)
+* [System Access](platform-orientation/system-access/README.md)
+  * [Get Access](platform-orientation/system-access/get-access.md)
+  * [Check Access](platform-orientation/system-access/check-access.md)
+  * [Data Access](platform-orientation/system-access/data-access.md)
+* [Data](platform-orientation/data/README.md)
+  * [Data Search](platform-orientation/data/data-search.md)
+* [Analysis & Tools](platform-orientation/analysis-and-tools-available.md)
+* [Available Documentation](platform-orientation/documentation-available.md)
+* [Help Options](platform-orientation/help-available.md)
 
 ## BDC3 Guidance
 
