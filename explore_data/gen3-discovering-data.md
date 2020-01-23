@@ -10,9 +10,9 @@ To view the data that is available to the user on Gen3 BioData Catalyst \(BDC\),
 
 ![Login page for BDC.](../.gitbook/assets/image%20%2810%29.png)
 
-Once the user has successfully logged in, the user name will appear in the upper right hand corner above the Gen3 Common's tiles. The user will also see a display with general statistics about the number of subjects, studies, aliquots and files that are located within this common. 
+Once the user has successfully logged in, the user name will appear in the upper right hand corner. The user will also see a display with general statistics about the number of subjects, studies, aliquots and files that are available within the BioData Catalyst platform. 
 
-> NOTE: These numbers may not reflect the actual number compared to dbGaP records as the structure of these projects have been broken up between TOPMed and Parent studies plus the consent groups within studies.
+> NOTE: These numbers may not reflect the actual number compared to dbGaP records as the structure of these projects has been broken up between TOPMed and Parent studies plus the consent groups within studies.
 
 ![The front page upon a successful login, with the user name in the upper corner, blacked out in this example.](../.gitbook/assets/screenshot_2020-01-17-https-gen3-datastage-io.png)
 
