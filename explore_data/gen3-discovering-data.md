@@ -10,25 +10,25 @@ To view the data that is available to the user on Gen3 BioData Catalyst \(BDC\),
 
 ![Login page for BDC.](../.gitbook/assets/image%20%2810%29.png)
 
-Once the user has successfully logged in, the user name will appear in the upper right hand corner. The user will also see a display with general statistics about the number of subjects, studies, aliquots and files that are available within the BioData Catalyst platform. 
+Once you has successfully logged in, your username will appear in the upper right hand corner. You will also see a display with general statistics about the number of subjects, studies, aliquots and files that are available within the BioData Catalyst platform. 
 
-> NOTE: These numbers may not reflect the actual number compared to dbGaP records as the structure of these projects has been broken up between TOPMed and Parent studies plus the consent groups within studies.
+> NOTE: These numbers may differ from those displayed in the dbGaP records as the structure of these projects has been broken up between TOPMed and Parent studies plus the consent groups within studies.
 
 ![The front page upon a successful login, with the user name in the upper corner, blacked out in this example.](../.gitbook/assets/screenshot_2020-01-17-https-gen3-datastage-io.png)
 
 ## Using Exploration
 
-After clicking on the Exploration option in the upper right hand toolbar, the user will see a page with summary statistics and facets on the left side.
+After clicking on the Exploration option in the upper right hand toolbar, you will see a page with summary statistics and facets on the left-hand side of the page.
 
 ### Data Tab
 
 ![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%286%29.png)
 
-The left side panel of data facets allows users to leverage the DCC harmonized variables to create a custom cohort in the "Data" tab. When the facets are selected, the display will be updated with the new applied filter. If no facets have been selected, then it will display all available data. At this time, a user can filter based on three categories of information:
+In the left-side panel of data facets and under the "Data" tab, users can leverage the DCC harmonized variables to create custom cohorts. When the facets are selected, the display will update with the new applied filter. If no facets have been selected, all of the user-accessible data will be displayed. At this time, a user can filter based on three categories of information:
 
-* `Medical History`: contains information that would be standard to collect information from medical records for the subject.
-* `Diagnosis`: contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.
-* `Subject`: contains demographic information about the subject as well as information about the study that the subject was enrolled in.
+* `Medical History`: Contains information that would be standard to collect information from medical records for the subject.
+* `Diagnosis`: Contains data from the investigation, analysis and recognition of the presence and nature of the disease, condition, or injury from expressed signs and symptoms.
+* `Subject`: Contains demographic information about the subject as well as information about the study that the subject was enrolled in.
 
 > NOTE: The facet filters are based only on the harmonized data that is submitted within the BDC Data Dictionary. This means for TOPMed studies that do not contain these harmonizred clinical data, they will be filtered out of the cohort when selecting one of these facets.
 
