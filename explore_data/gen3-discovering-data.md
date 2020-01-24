@@ -1,16 +1,18 @@
 ---
-description: How to login to the Gen3 BioData Catalyst site and view available data.
+description: >-
+  How to login to the NHLBI BioData Catalyst Gen3 website and view available
+  genomic and phenotypic data.
 ---
 
 # Discovering Data Using Gen3
 
-## Login to Gen3 BioData Catalyst
+## Login to NHLBI BioData Catalyst Gen3
 
-To view the data that is available to the user on Gen3 BioData Catalyst \(BDC\), please start by going to the login page. At this time, the BDC offers two forms of login, one using a Google account and the other using an NIH login. The NIH login is based on your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do) and access is granted through [dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi). Please make sure to use the correct login method that contains access to your available projects.
+In order to navigate and access data available on the Gen3 platform, please start by visiting the login page. BioData Catalyst offers two forms of login, using either a Google account or an NIH login. The NIH login is based on your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do) and access is granted through [dbGaP](https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi). Please make sure to use the correct login method that contains access to your available projects.
 
-![Login page for BDC.](../.gitbook/assets/image%20%2810%29.png)
+![Login page for the Gen3 portal.](../.gitbook/assets/image%20%2810%29.png)
 
-Once you has successfully logged in, your username will appear in the upper right hand corner. You will also see a display with general statistics about the number of subjects, studies, aliquots and files that are available within the BioData Catalyst platform. 
+Once you has successfully logged in, your username will appear in the upper right hand corner of the page. You will also see a display with aggregate statistics including the number of subjects, studies, aliquots and files  available within the BioData Catalyst platform. 
 
 > NOTE: These numbers may differ from those displayed in the dbGaP records as the structure of these projects has been broken up between TOPMed and Parent studies plus the consent groups within studies.
 
