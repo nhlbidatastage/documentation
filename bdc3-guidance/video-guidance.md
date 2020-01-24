@@ -16,4 +16,5 @@
 
 **Create meaningful labels/tags for the video** and make sure it can be seen on the main BioData Catalyst YouTube account/channel **\#BioDataCatalyst**.
 
-_See [Presentation Tips From Nancy Duarte’s Slide:ology](https://www.huffpost.com/entry/presentation-tips-slideology_b_2278955)_
+_See_ [_Presentation Tips From Nancy Duarte’s Slide:ology_](https://www.huffpost.com/entry/presentation-tips-slideology_b_2278955)
+

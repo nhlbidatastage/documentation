@@ -2,9 +2,9 @@
 
 ## Title and Summary
 
-GitBook creates a SUMMARY.md file in the root of the repository. The title of the Markdown page is listed in the SUMMARY.md page. 
+GitBook creates a SUMMARY.md file in the root of the repository. The title of the Markdown page is listed in the SUMMARY.md page.
 
-## Common Markdown 
+## Common Markdown
 
 _See Common Markdown guidance_
 
@@ -38,8 +38,6 @@ You can include a link to downloadable file by adding it to your repository and 
 
 This will get rendered like this:
 
-{% file src=".gitbook/assets/sample-downloadable-file.txt" %}
-
 ## Code Samples
 
 Standard Markdown [fenced code blocks](https://help.github.com/en/articles/creating-and-highlighting-code-blocks), delimited in triple backticks, work just fine. They get styled like this:
@@ -58,15 +56,12 @@ But you can also use an extended syntax that lets you show example code associat
 ```python
 print('Here is a nice Python code block.')
 ```
-{% endcode-tabs-item %}
-{% code-tabs-item title="myfile.js" %}
-```js
+
+```javascript
 console.log('Here is some JavaScript.');
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-```
 
+```text
 This gets rendered as:
 
 {% tabs %}
@@ -74,14 +69,10 @@ This gets rendered as:
 ```python
 print('Here is a nice Python code block.')
 ```
-{% endtab %}
 
-{% tab title="myfile.js" %}
 ```javascript
 console.log('Here is some JavaScript.');
 ```
-{% endtab %}
-{% endtabs %}
 
 We do _not_ recommend using the “tabs” feature, however, since it can be confusing if people don’t realize that there are different pieces of code associated with the different tabs.
 
@@ -139,8 +130,6 @@ You can also write a page reference that is called out fairly aggressively like 
 
 This gets rendered as:
 
-{% page-ref page="./" %}
-
 Once again, the file path is relative to the current Markdown file’s location in the Git repository.
 
 ## Web API Method Styling
@@ -190,7 +179,7 @@ Method description.
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
