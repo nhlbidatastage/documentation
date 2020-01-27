@@ -10,7 +10,7 @@ description: >-
 
 In order to navigate and access data available on the Gen3 platform, please start by visiting the login page. You will need an eRA Commons account as well as access permissions through the [Database of Genotypes and Phenotypes \(dbGaP\)](https://www.ncbi.nlm.nih.gov/gap/). If you are a researcher, please login using your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do). BioData Catalyst consortia developers can login using their Google accounts.  Please make sure to use the correct login method that contains access to your available projects.
 
-![Login page for the Gen3 portal.](../.gitbook/assets/image%20%2813%29.png)
+![Login page for the Gen3 portal.](../.gitbook/assets/image%20%2814%29.png)
 
 Once logged in, your username will appear in the upper right-hand corner of the page. You will also see a display with aggregate statistics for the total number of subjects, studies, aliquots and files  available within the BioData Catalyst platform. 
 
@@ -38,14 +38,14 @@ The Exploration tab located in the upper right-hand section of the toolbar allow
 
 ### Data Accessibility
 
-![Data access panel in the Exploration page. ](../.gitbook/assets/image%20%2812%29.png)
+![Data access panel in the Exploration page. ](../.gitbook/assets/image%20%2813%29.png)
 
 Users can navigate through data in the Exploration page by selecting any of the three Data Access categories: 
 
 * `Data with Access`: A user can view all of the summary data and associated study information including but not limited to Project ID, file types, and clinical variables, amongst others.
 * `Data without Access`: Users can still search through the available studies but only view summary statistics. Summary information will also be hidden if the select cohort contains fewer than 50 subjects \(example below\). Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/). 
 
-![Example: The variable of Race is hidden once the number of subjects falls below 50.](../.gitbook/assets/image%20%2816%29.png)
+![Example: The variable of Race is hidden once the number of subjects falls below 50.](../.gitbook/assets/image%20%2818%29.png)
 
 * `All Data`: Users can view all of the data available in the BioData Catalyst Gen3 platform, including studies with and without access. As a result, studies not available to a user will be locked as demonstrated below.
 
@@ -53,9 +53,9 @@ Users can navigate through data in the Exploration page by selecting any of the 
 
 By default, all users visiting the Exploration page will be assigned to `Data with Access`.
 
-### Data Tab
+### The Data Tab
 
-![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%289%29.png)
+![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%2810%29.png)
 
 Under the "Data" tab, users can leverage the [DCC harmonized variables](https://chs-nhlbi.org/sites/chs-nhlbi.org/files/page/Stilp_topmed_pheno_harmonization_ccc_portland_2017-03-11.pdf) to create custom cohorts. When facets are selected and/or updated to cover a desired range of values, the display will reflect the information relevant to the new applied filter. If no facets have been selected, all of the data accessible to the user will be displayed. At this time, a user can filter based on three categories of clinical information:
 
@@ -65,7 +65,7 @@ Under the "Data" tab, users can leverage the [DCC harmonized variables](https://
 
 > **NOTE**: The facet filters are exclusive to the DCC harmonized variables submitted within the BioData Catalyst Gen3 Data Dictionary. This means for TOPMed studies that do not contain these harmonized clinical data, they will be filtered out of the cohort when selecting one of these facets.
 
-### Exporting and Downloading Data
+### Exporting/Downloading Data from the Data Tab
 
 When a cohort has been selected, the user will have the option of exporting or downloading the data.
 
@@ -75,9 +75,9 @@ The options for export are as follows:
 
 ![Three options offered for data export.](../.gitbook/assets/image%20%282%29.png)
 
-* `Export All to Terra` :  This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of all clinical data and file GUIDs for the selected cohort to the Terra system.
-* `Export to PFB` : This button will initiate a [PFB](https://github.com/uc-cdis/pypfb) export of all clinical data and file GUIDs for the selected cohort to your local machine.
-* `Export to Workspaces` : This button will initiate a manifest export to the user's workspace and make the cases associated data files available in the workspace under the `/data` directory.
+* `Export All to Terra` :  Initiate a PFB export of all clinical data and file GUIDs for the selected cohort to [BioData Catalyst powered by Terra](https://datastage.terra.bio/).
+* `Export to PFB` : Initiate a PFB export of all clinical data and file GUIDs for the selected cohort to your local storage.
+* `Export to Workspaces` : Export a manifest to the user's workspace and make the case-associated data files available in the workspace under the `/data` directory.
 
 #### Download
 
@@ -88,26 +88,36 @@ The `Download`drop-down menu will display two options:
 * `Download All Clinical` : Download files with selected clinical data in a `JSON` formatted file.
 * `Download Manifest` : Download a list of Global Unique Identifiers \(GUIDs\) for use with the [gen3-client](https://gen3.org/resources/user/gen3-client/).
 
-### Files Tab
+### The Files Tab
 
-![The Files Tab page.](../.gitbook/assets/image%20%284%29.png)
+![The Files Tab page.](../.gitbook/assets/image%20%285%29.png)
 
 The Files tab displays study files from the facets chosen on the left-side panel \(Project ID, Data Type, and Data Format\). Each time a facet selection is made, the data summary and displays will update to reflect the applied filters.
 
-#### Unharmonized clinical data
+#### Locating Unharmonized Clinical Data
 
 The Files tab also contains files that are either case-independent or project-level. This is important for files that are part of the `Unharmonized Clinical Data` category under the Data Type field. Unharmonized clinical files are made available in two distinct data formats: 
 
 * `TAR` : Contain a directory of TSV files that are direct downloads of unharmonized clinical data from dbGaP
-* `AVRO`: These files are the same as the unharmonized clinical data from dbGaP, but in a Portable Format for Bioinformatics \(PFB\)
+* `AVRO`: These files are the same as the unharmonized clinical data from dbGaP, but in a [Portable Format for Bioinformatics \(PFB\)](https://github.com/uc-cdis/pypfb)
 
-> **NOTE**: The harmonized clinical data comes from the [Data Coordinating Center \(DCC\)](https://www.nhlbiwgs.org/group/dcc) and is a hand selected subset of the data from dbGaP that has been reprocessed for compatibility across all studies. The unharmonized clinical data contains all data from the dbGaP study, but it is not cross compatible between all projects.
+> **NOTE**: The [DCC Harmonized Variables](https://www.nhlbiwgs.org/sites/default/files/pheno_harmonization_guidelines.pdf) are a selected subset of clinical data that have been transformed for compatibility across the dbGaP studies. The unharmonized clinical data contains all data from dbGaP studies, but it is not cross-compatible across all projects.
 
-On the Files tab, once a group of files have been filtered for, a user can choose to either download a manifest of the files to use with the [gen3-client](https://gen3.org/resources/user/gen3-client/), export the files to a gen3 workspace, or view the file page by clicking the link in the file table under the GUID column.
+### Exporting/Downloading Data from the Files Tab
 
-### File Page
+Once the user has selected a cohort, there are three options for accessing the files: 
 
-![An example File page.](../.gitbook/assets/image%20%286%29.png)
+![Two options offered for file download or export. ](../.gitbook/assets/image%20%284%29.png)
 
-A File page will display the details about a file, such as the data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a download button to download the single file via the browser. For files that are 5Gb or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/) to download the file.
+* `Download Manifest`: Download the file manifest using the [gen3-client](https://gen3.org/resources/user/gen3-client/) 
+* `Export to Workspace`: The files can be exported to a Gen3 workspace
+* `GUID Download File Page`:  Users can download files by first clicking on the link\(s\) under the GUIDs column, followed by the Download button in the file information pages \(see below\).
+
+![Files can be downloaded by first clicking on the link\(s\) located under the GUID column.](../.gitbook/assets/image%20%2817%29.png)
+
+### File Information Page
+
+![An example file information page with the Download button. ](../.gitbook/assets/image%20%287%29.png)
+
+The file information page will display  details such as data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a button to download the  file via the browser. For files that are 5GB or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/).
 
