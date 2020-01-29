@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Documentation](README.md)
-* [Tutorials](https://test.com)
+* [Tutorials](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/)
 
 ## Explore available data <a id="explore_data"></a>
 
