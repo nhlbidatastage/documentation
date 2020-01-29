@@ -448,7 +448,7 @@ description: >-
 
 * **Workspace**
 
-  Areas to work on/with data within a platform. Examples: projects within Seven Bridges  
+  Areas to work on/with data within a platform. Examples: projects within Seven Bridges
 
 * **Workstream**
 
