@@ -1,6 +1,6 @@
 ---
 description: >-
-  How to login to the NHLBI BioData Catalyst Gen3 website and view available
+  How to login to the NHLBI BioData Catalyst Gen3 platform and view available
   genomic and phenotypic data.
 ---
 
@@ -31,6 +31,8 @@ A number of clinical variables have been harmonized by the [Data Coordinating Ce
 Unharmonized clinical files contain all of the raw phenotypic information available for the hosted studies. Unlike the DCC Harmonized Variables, these files are available under the "Files" tab in the [Exploration](https://gen3.datastage.io/explorer) page. 
 
 ### Genomic:
+
+The BioData Catalyst Gen3 platform hosts a number of different genomic data including 
 
 ## Using Exploration
 
