@@ -121,3 +121,15 @@ Once the user has selected a cohort, there are three options for accessing the f
 
 The file information page will display  details such as data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a button to download the  file via the browser. For files that are 5GB or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/).
 
+
+
+## Portable Format for Biomedical Data \(PFB\)
+
+What is a PFB?
+
+How do we use PFB?
+
+What benefits do PFB provide over other file formats?
+
+
+
