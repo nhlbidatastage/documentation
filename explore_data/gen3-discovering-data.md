@@ -127,19 +127,11 @@ The file information page will display details such as data format, size, object
 
 ## What is a Portable Format for Biomedical Data \(PFB\)?
 
-
-
 A PFB \(Portable Format for Biomedical Data\) is a new file format that allows the user to transfer not only metadata from the the Data Dictionary, but the Data Dictionary as well. This allows the data to keep the same structure from the original source. This will make transfers of data less error prone and more consistent. For more information and the ability to open and manipulate PFB documents, please visit the [PyPFB github page](https://github.com/uc-cdis/pypfb/) and install the newest version. 
-
-## Portable Format for Biomedical Data \(PFB\)
 
 With the program PyPFB installed, a user will be able to investigate the contents of a PFB file. A typical PFB is made up of three parts:
 
-What is a PFB?
-
 > **NOTE**: The following PFB example is a direct PFB export from the `tutorial-synthetic_data_set_1` found on [Gen3 BioData Catalyst](https://gen3.biodatacatalyst.nhlbi.nih.gov/). Due to the large amount of data stored within PFB files, on small sections are shown with breaks, `...` , occurring in the output.
-
-How do we use PFB?
 
 ### **Schema**
 
