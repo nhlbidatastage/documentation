@@ -123,9 +123,9 @@ Once the user has selected a cohort, there are three options for accessing the f
 
 The file information page will display details such as data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a button to download the file via the browser. For files that are 5GB or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/).
 
-## What is a Portable Format for Biomedical Data \(PFB\)?
+## What is a Portable Format for Bioinformatics \(PFB\)?
 
-A PFB \(Portable Format for Biomedical Data\) is a new file format that allows the user to transfer not only metadata from the the Data Dictionary, but the Data Dictionary as well. This allows the data to keep the same structure from the original source. This will make transfers of data less error prone and more consistent. For more information and the ability to open and manipulate PFB documents, please visit the [PyPFB github page](https://github.com/uc-cdis/pypfb/) and install the newest version. 
+A PFB \(Portable Format for Bioinformatics\) is a new file format that allows the user to transfer not only metadata from the the Data Dictionary, but the Data Dictionary as well. This allows the data to keep the same structure from the original source. This will make transfers of data less error prone and more consistent. For more information and the ability to open and manipulate PFB documents, please visit the [PyPFB github page](https://github.com/uc-cdis/pypfb/) and install the newest version. 
 
 With the program PyPFB installed, a user will be able to investigate the contents of a PFB file. A typical PFB is made up of three parts:
 
