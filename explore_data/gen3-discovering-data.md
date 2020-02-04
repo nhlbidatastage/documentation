@@ -8,13 +8,13 @@ description: >-
 
 ## Login to NHLBI BioData Catalyst Gen3
 
-In order to navigate and access data available on the Gen3 platform, please start by visiting the login page. You will need an eRA Commons account as well as access permissions through the [Database of Genotypes and Phenotypes \(dbGaP\)](https://www.ncbi.nlm.nih.gov/gap/). If you are a researcher, please login using your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do). BioData Catalyst consortia developers can login using their Google accounts.  Please make sure to use the correct login method that contains access to your available projects.
+In order to navigate and access data available on the Gen3 platform, please start by visiting the [login page](https://gen3.biodatacatalyst.nhlbi.nih.gov/login). You will need an eRA Commons account as well as access permissions through the [Database of Genotypes and Phenotypes \(dbGaP\)](https://www.ncbi.nlm.nih.gov/gap/). If you are a researcher, please login using your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do). BioData Catalyst consortia developers can login using their Google accounts.  Please make sure to use the correct login method that contains access to your available projects.
 
 ![Login page for the Gen3 portal.](../.gitbook/assets/image%20%2814%29.png)
 
 Once logged in, your username will appear in the upper right-hand corner of the page. You will also see a display with aggregate statistics for the total number of subjects, studies, aliquots and files  available within the BioData Catalyst platform. 
 
-> **NOTE**: These numbers may differ from those displayed in the dbGaP records as the structure of these projects in the Gen3 Commons has been broken up between TOPMed and Parent studies plus the consent groups within each studies. This will cause an inflation of projects and close to a doubling of subjects for studies with both Parent and TOPMed studies.
+> **NOTE**: These numbers may differ from those displayed in the dbGaP records as the structure of these projects in the Gen3 Commons has been broken up between TOPMed and Parent studies plus the consent groups within each studies. This will cause an inflation of projects and a doubling of subjects that appear within both Parent and TOPMed studies.
 
 ![Post login view of the Gen3 front page.](../.gitbook/assets/screenshot_2020-01-17-https-gen3-datastage-io.png)
 
