@@ -140,8 +140,6 @@ What benefits do PFB provide over other file formats?
 A schema is a JSON formatted Data Dictionary containing properties and information about the properties, such as value types. To view the PFB schema, use the following command:  
 `pfb show -i test.avro schema`
 
-
-
 ```text
 ...
   {
