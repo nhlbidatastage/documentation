@@ -28,13 +28,11 @@ A number of clinical variables have been harmonized by the [Data Coordinating Ce
 
 #### Unharmonized clinical data: 
 
-Unharmonized clinical files contain all of the raw phenotypic information available for the hosted studies. Unlike the DCC Harmonized Variables, these files are available under the "Files" tab in the [Exploration](https://gen3.datastage.io/explorer) page. 
+Unharmonized clinical files contain all of the raw phenotypic information available for the hosted studies. Unlike the DCC Harmonized Variables, these files are available under the "[Files](gen3-discovering-data.md#the-files-tab)" tab in the [Exploration](https://gen3.datastage.io/explorer) page. 
 
 ### Genomic
 
 The BioData Catalyst contains the genomic data that are found in the TOPMed portion of dbGaP studies. At this time, this includes CRAM and VCF files with their respective index files. Each of these TOPMed projects will also contain at least one multisample VCF that comprises all subjects within the consent group. These files are available under the "Files" tab in the [Exploration](https://gen3.datastage.io/explorer) page. 
-
-The BioData Catalyst Gen3 platform hosts a number of different genomic data including 
 
 ## Using Exploration
 
@@ -46,7 +44,7 @@ The Exploration page located in the upper right-hand section of the toolbar allo
 
 Users can navigate through data in the Exploration page by selecting any of the three Data Access categories: 
 
-* `Data with Access`: A user can view all of the summary data and associated study information including but not limited to Project ID, file types, and clinical variables.
+* `Data with Access`: A user can view all of the summary data and associated study information for studies the user has access to, including but not limited to Project ID, file types, and clinical variables.
 * `Data without Access`: Users can still search through the available studies but only view summary statistics. Summary information will also be hidden if the select cohort contains fewer than 50 subjects \(example below\). Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/). 
 
 ![Example: The variable of Ethnicity is hidden once the number of subjects falls below 50.](../.gitbook/assets/image%20%2818%29.png)
@@ -59,7 +57,7 @@ By default, all users visiting the Exploration page will be assigned to `Data wi
 
 ### The Data Tab
 
-![Place holder, please remove before Go Live.](../.gitbook/assets/image%20%2810%29.png)
+![Place holder, please remove before Go Live. An example view of the Data tab.](../.gitbook/assets/image%20%2810%29.png)
 
 Under the "Data" tab, users can leverage the [DCC harmonized variables](https://chs-nhlbi.org/sites/chs-nhlbi.org/files/page/Stilp_topmed_pheno_harmonization_ccc_portland_2017-03-11.pdf) to create custom cohorts. When facets are selected and/or updated to cover a desired range of values, the display will reflect the information relevant to the new applied filter. If no facets have been selected, all of the data accessible to the user will be displayed. At this time, a user can filter based on three categories of clinical information:
 
@@ -134,8 +132,6 @@ With the program PyPFB installed, a user will be able to investigate the content
 > **NOTE**: The following PFB example is a direct PFB export from the `tutorial-synthetic_data_set_1` found on [Gen3 BioData Catalyst](https://gen3.biodatacatalyst.nhlbi.nih.gov/). Due to the large amount of data stored within PFB files, on small sections are shown with breaks, `...` , occurring in the output.
 
 ### **Schema**
-
-What benefits do PFB provide over other file formats?
 
 A schema is a JSON formatted Data Dictionary containing properties and information about the properties, such as value types. To view the PFB schema, use the following command:  
 `pfb show -i test.avro schema`
