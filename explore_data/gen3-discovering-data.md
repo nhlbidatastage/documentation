@@ -129,7 +129,7 @@ A PFB \(Portable Format for Bioinformatics\) is a new file format that allows th
 
 With the program PyPFB installed, a user will be able to investigate the contents of a PFB file. A typical PFB is made up of three parts:
 
-> **NOTE**: The following PFB example is a direct PFB export from the `tutorial-synthetic_data_set_1` found on [Gen3 BioData Catalyst](https://gen3.biodatacatalyst.nhlbi.nih.gov/). Due to the large amount of data stored within PFB files, on small sections are shown with breaks, `...` , occurring in the output.
+> **NOTE**: The following PFB example is a direct PFB export from the `tutorial-synthetic_data_set_1` found on [Gen3 BioData Catalyst](https://gen3.biodatacatalyst.nhlbi.nih.gov/). Due to the large amount of data stored within PFB files, only small sections are shown with breaks, `...` , occurring in the output.
 
 ### **Schema**
 
