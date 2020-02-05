@@ -134,7 +134,7 @@ With the program PyPFB installed, a user will be able to investigate the content
 ### **Schema**
 
 A schema is a JSON formatted Data Dictionary containing properties and information about the properties, such as value types. To view the PFB schema, use the following command:  
-`pfb show -i test.avro schema`
+`pfb show -i file.avro schema`
 
 ```text
 ...
@@ -238,12 +238,12 @@ A schema is a JSON formatted Data Dictionary containing properties and informati
 ...
 ```
 
-> **NOTE**: To make these outputs more human readable, the following output was then piped through the program [jq](https://stedolan.github.io/jq/). Example: `pfb show -i test.avro schema | jq`
+> **NOTE**: To make these outputs more human readable, the following output was then piped through the program [jq](https://stedolan.github.io/jq/). Example: `pfb show -i file.avro schema | jq`
 
 ### **Metadata**
 
 The metadata in a PFB contains all information explaining the linkage between nodes and external references for properties. To view the PFB metadata, use the following command:  
-`pfb show -i test.avro metadata`
+`pfb show -i file.avro metadata`
 
 ```text
 ...
@@ -305,7 +305,7 @@ The metadata in a PFB contains all information explaining the linkage between no
 ### **Data**
 
 The data in the PFB are the values for the properties in the format of the Data Dictionary. To view the data within the PFB, use the following command:  
-`pfb show -i test.avro`
+`pfb show -i file.avro`
 
 ```text
 ...
@@ -362,4 +362,7 @@ The data in the PFB are the values for the properties in the format of the Data 
   ]
 }
 ```
+
+To look at  a certain number of entries in the PFB file, the following flag, `-n`, can be used to designate a number. To view the first 10 data entries within the PFB, use the following command:  
+`pfb show -i file.avro -n 10`
 
