@@ -42,4 +42,5 @@
   * [Common Markdown](bdc3-guidance/markdown-overview/common-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
 * [BioData Catalyst Glossary](bdc3-guidance/bdc_glossary.md)
+* [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
 
