@@ -57,7 +57,7 @@ By default, all users visiting the Exploration page will be assigned to `Data wi
 
 ### The Data Tab
 
-![Place holder, please remove before Go Live. An example view of the Data tab.](../.gitbook/assets/image%20%2810%29.png)
+![Place holder, please replace when buttons are active. An example view of the Data tab.](../.gitbook/assets/image%20%2810%29.png)
 
 Under the "Data" tab, users can leverage the [DCC harmonized variables](https://chs-nhlbi.org/sites/chs-nhlbi.org/files/page/Stilp_topmed_pheno_harmonization_ccc_portland_2017-03-11.pdf) to create custom cohorts. When facets are selected and/or updated to cover a desired range of values, the display will reflect the information relevant to the new applied filter. If no facets have been selected, all of the data accessible to the user will be displayed. At this time, a user can filter based on three categories of clinical information:
 
