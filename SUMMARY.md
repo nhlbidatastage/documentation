@@ -28,7 +28,6 @@
 * [Data](platform-orientation/data/README.md)
   * [Data Search](platform-orientation/data/data-search.md)
 * [Analysis & Tools](platform-orientation/analysis-and-tools-available.md)
-* [Available Documentation](platform-orientation/documentation-available.md)
 * [Help Options](platform-orientation/help-available.md)
 
 ## BDC3 Guidance
