@@ -22,7 +22,7 @@ When another node in the path is selected, it will then gray out the other possi
 
 The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the chain. The `Open properties` option, will open the node properties in a new pop-up window.
 
-![A node&apos;s property window.](../../.gitbook/assets/image%20%2821%29.png)
+![A node&apos;s property window.](../../.gitbook/assets/image%20%2822%29.png)
 
 This property view will display all properties in the node and information about each property:
 
@@ -38,7 +38,11 @@ This property view will display all properties in the node and information about
 
 ## Table View
 
-The Table View is similar to the Properties view and nodes are instead displayed grouped by their node category.
+The Table View is similar to the Properties view, and nodes are displayed as a list of entries grouped by their node category.
 
 ![Table View of the Gen3 BioData Catalyst Data Dictionary.](../../.gitbook/assets/image%20%2811%29.png)
+
+Clicking on one of the nodes, will then open the Properties view of the node.
+
+![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2818%29.png)
 
