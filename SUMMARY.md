@@ -6,7 +6,13 @@
 
 ## Explore available data <a id="explore_data"></a>
 
-* [Discovering Data Using Gen3](explore_data/gen3-discovering-data.md)
+* [Discovering Data Using Gen3](explore_data/gen3-discovering-data/README.md)
+  * [Dictionary](explore_data/gen3-discovering-data/dictionary.md)
+  * [Exploration](explore_data/gen3-discovering-data/exploration.md)
+  * [Query](explore_data/gen3-discovering-data/query.md)
+  * [Workspace](explore_data/gen3-discovering-data/workspace.md)
+  * [Profile](explore_data/gen3-discovering-data/profile.md)
+  * [PFB Files](explore_data/gen3-discovering-data/pfb-files.md)
 * [PIC-SURE](explore_data/pic-sure.md)
 
 ## Analyze data
