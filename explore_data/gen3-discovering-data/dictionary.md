@@ -14,7 +14,11 @@ To learn more about the node, a user can click on a node. This will initially hi
 
 ![An example of a node being selected in the interactive graph view.](../../.gitbook/assets/image%20%285%29.png)
 
-When another node in the path is selected, it will then gray out the other possible paths and only highlight the selected path.
+When another node in the path is selected, it will then gray out the other possible paths and only highlight the selected path. It will also change the node path on the left side toolbar.
 
 ![An example of a second node being selected in the path of the first selected node.](../../.gitbook/assets/image%20%2812%29.png)
+
+The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the chain. The `Open properties` option, will open the node properties in a new pop-up window.
+
+![A node&apos;s property window.](../../.gitbook/assets/image%20%2820%29.png)
 
