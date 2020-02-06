@@ -20,5 +20,5 @@ Click the `Download json` button to save the credential file to the local machin
 
 ### Project Access
 
-This portion of the Profile page will list the projects and the methods of access for the data within in the Gen3 BioData Catalyst system. 
+This portion of the Profile page will list the projects and the methods of access for the data within in the Gen3 BioData Catalyst system. If you are not seeing access to a specific study, please check that you have been granted access within [dbGaP](https://www.ncbi.nlm.nih.gov/gap/) first. If access has been granted for over a week, please contact the BioData Catalyst Help Desk: 
 
