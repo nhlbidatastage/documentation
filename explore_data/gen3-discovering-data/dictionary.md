@@ -44,5 +44,5 @@ Clicking on one of the nodes will then open the Properties view of the node.
 
 ## Dictionary Search
 
-
+The Data dictionary also contains a search function that will look through not only the names of the properties but the description as well. When this is done 
 
