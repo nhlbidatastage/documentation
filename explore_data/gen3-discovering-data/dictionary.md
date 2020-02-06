@@ -38,7 +38,7 @@ The Table View is similar to the Properties view, and nodes are displayed as a l
 
 ![Table View of the Gen3 BioData Catalyst Data Dictionary.](../../.gitbook/assets/image%20%2811%29.png)
 
-Clicking on one of the nodes, will then open the Properties view of the node.
+Clicking on one of the nodes will then open the Properties view of the node.
 
 ![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2818%29.png)
 
