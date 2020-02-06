@@ -32,10 +32,6 @@ This property view will display all properties in the node and information about
 * **Description**: This field will display further information about the property.
 * **Terms**: This field can be populated with external resources that have further information about the property.
 
-
-
-
-
 ## Table View
 
 The Table View is similar to the Properties view, and nodes are displayed as a list of entries grouped by their node category.
@@ -45,4 +41,8 @@ The Table View is similar to the Properties view, and nodes are displayed as a l
 Clicking on one of the nodes, will then open the Properties view of the node.
 
 ![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2818%29.png)
+
+## Dictionary Search
+
+
 
