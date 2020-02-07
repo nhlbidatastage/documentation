@@ -24,15 +24,15 @@ Once logged in, your username will appear in the upper right-hand corner of the 
 
 #### DCC Harmonized clinical data:  <a id="dcc-harmonized-clinical-data"></a>
 
-A number of clinical variables have been harmonized by the [Data Coordinating Center \(DCC\)](https://www.nhlbiwgs.org/group/dcc) in order to facilitate cross-study analysis. Faceted search over the DCC Harmonized Variables is available via the [Exploration](https://gen3.datastage.io/explorer) page, under the "Data" tab.
+A number of clinical variables have been harmonized by the [Data Coordinating Center \(DCC\)](https://www.nhlbiwgs.org/group/dcc) in order to facilitate cross-study analysis. Faceted search over the DCC Harmonized Variables is available via the [Exploration](exploration.md#the-data-tab) page, under the "Data" tab.
 
 #### Unharmonized clinical data:  <a id="unharmonized-clinical-data"></a>
 
-Unharmonized clinical files contain all of the raw phenotypic information available for the hosted studies. Unlike the DCC Harmonized Variables, these files are available under the "[Files](https://app.gitbook.com/@bdcatalyst/s/biodata-catalyst-documentation/~/diff/drafts/-M-L1HmuSHOOxJmXm-Qv/explore_data/gen3-discovering-data#the-files-tab)" tab in the [Exploration](https://gen3.datastage.io/explorer) page.
+Unharmonized clinical files contain all of the raw phenotypic information available for the hosted studies. Unlike the DCC Harmonized Variables, these files are available under the "[Files](https://app.gitbook.com/@bdcatalyst/s/biodata-catalyst-documentation/~/diff/drafts/-M-L1HmuSHOOxJmXm-Qv/explore_data/gen3-discovering-data#the-files-tab)" tab in the [Exploration](exploration.md#the-files-tab) page.
 
 ### Genomic <a id="genomic"></a>
 
-The BioData Catalyst contains the genomic data that are found in the TOPMed portion of dbGaP studies. At this time, this includes CRAM and VCF files with their respective index files. Each of these TOPMed projects will also contain at least one multisample VCF that comprises all subjects within the consent group. These files are available under the "Files" tab in the [Exploration](https://gen3.datastage.io/explorer) page.
+The BioData Catalyst contains the genomic data that are found in the TOPMed portion of dbGaP studies. At this time, this includes CRAM and VCF files with their respective index files. Each of these TOPMed projects will also contain at least one multisample VCF that comprises all subjects within the consent group. These files are available under the "Files" tab in the [Exploration](exploration.md#the-files-tab) page.
 
 ## Gen3 Pages <a id="gen3-pages"></a>
 
