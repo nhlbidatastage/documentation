@@ -51,7 +51,7 @@ The options for export are as follows:
 * `Export to PFB` : Initiate a [PFB](./) export of all clinical data and file GUIDs for the selected cohort to your local storage.
 * `Export to Workspaces` : Export a manifest to the user's workspace and make the case-associated data files available in the workspace under the `/data` directory.
 
-> **NOTE**: PFB export times can take up to 20 minutes, but often will complete in less than 10 minutes.
+> **NOTE**: PFB export times can take up to 60 minutes, but often will complete in less than 10 minutes.
 
 #### Download
 
