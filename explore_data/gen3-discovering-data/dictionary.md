@@ -52,5 +52,5 @@ Clicking on one of these nodes, it will only display the properties that have th
 
 ![The Laboratory Results node with only properties that contain the term &quot;Harmonized&quot;.](../../.gitbook/assets/image%20%2811%29.png)
 
-This 
+This search is then saved for later recovery in the "Last Search" list, with the number of nodes the term was found in.
 
