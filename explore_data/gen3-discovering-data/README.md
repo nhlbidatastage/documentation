@@ -14,7 +14,7 @@ In order to navigate and access data available on the Gen3 platform, please star
 
 Once logged in, your username will appear in the upper right-hand corner of the page. You will also see a display with aggregate statistics for the total number of subjects, studies, aliquots and files available within the BioData Catalyst platform.
 
-> **NOTE**: These numbers may differ from those displayed in the dbGaP records as the structure of these projects in the Gen3 Commons has been broken up between TOPMed and Parent studies plus the consent groups within each studies. This will cause an inflation of projects and a doubling of subjects that appear within both Parent and TOPMed studies.
+> **NOTE**: These numbers may differ from those displayed in the dbGaP records as the structure of these projects in the Gen3 Commons has been broken up between TOPMed and Parent studies plus the consent groups within each studies. This will cause an inflation of projects and a doubling of subjects that appear in both Parent and TOPMed studies.
 
 ![Post login view of the Gen3 BioData Catalyst front page.](../../.gitbook/assets/screenshot_2020-01-17-https-gen3-datastage-io.png)
 
