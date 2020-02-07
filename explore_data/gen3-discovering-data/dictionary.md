@@ -27,7 +27,7 @@ The left side toolbar has two options available, `Open properties` and `Download
 This property view will display all properties in the node and information about each property:
 
 * **Property**: Name of the property
-* **Type**: The type of input for the node. Examples of this are string, integer, boolean and enumerated values, which are displayed as preset strings.
+* **Type**: The type of input for the node. Examples of this are string, integer, Boolean and enumerated values, which are displayed as preset strings.
 * **Required**: This field will display whether the property is required for the submission of the node into the data model.
 * **Description**: This field will display further information about the property.
 * **Terms**: This field can be populated with external resources that have further information about the property.
