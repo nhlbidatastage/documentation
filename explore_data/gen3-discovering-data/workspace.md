@@ -8,7 +8,7 @@ When navigating to the Workspace page, a user will be presented with multiple wo
 
 ![Gen3 BioData Catalyst Workspace Page.](../../.gitbook/assets/image%20%2819%29.png)
 
-Gen3 BioData Catalyst offers two workspace environments, Jupyter Notebooks and R Studio. Of these, we offer 3 virtual machine \(vm\) options: a small Jupyter Notebook VM, a large Jupyter Notebook Power VM, and a R Studio VM. To start one, click the launch button.
+Gen3 BioData Catalyst offers two workspace environments, Jupyter Notebooks and R Studio. Of these, we offer 3 virtual machine \(vm\) options: a small Jupyter Notebook VM, a large Jupyter Notebook Power VM, and a R Studio VM, plus premade workflow workspaces: Autoencoder Demo, CIP Demo and Tensorflow-Pytorch. To start one, click the launch button.
 
 ![The launch screen.](../../.gitbook/assets/image%20%2815%29.png)
 
