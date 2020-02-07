@@ -22,7 +22,7 @@ When another node in the path is selected, it will then gray out the other possi
 
 The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the chain. The `Open properties` option, will open the node properties in a new pop-up window.
 
-![A node&apos;s property window.](../../.gitbook/assets/image%20%2823%29.png)
+![A node&apos;s property window.](../../.gitbook/assets/image%20%2824%29.png)
 
 This property view will display all properties in the node and information about each property:
 
@@ -40,13 +40,13 @@ The Table View is similar to the Properties view, and nodes are displayed as a l
 
 Clicking on one of the nodes will then open the Properties view of the node.
 
-![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2819%29.png)
+![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2820%29.png)
 
 ## Dictionary Search
 
 The Data Dictionary also contains a search function that will look through not only the names of the properties but the description as well. When the search function is used, it will default to the graph model as it will highlight nodes that contain the search term.
 
-![An example search for the term &quot;Harmonized&quot;](../../.gitbook/assets/image%20%2825%29.png)
+![An example search for the term &quot;Harmonized&quot;](../../.gitbook/assets/image%20%2826%29.png)
 
 Clicking on one of these nodes, it will only display the properties that have this keyword present in either the property name or the description.
 
