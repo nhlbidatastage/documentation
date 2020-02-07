@@ -38,11 +38,11 @@ The BioData Catalyst contains the genomic data that are found in the TOPMed port
 
 The BioData Catalyst contains five pages to view data, data structure, or profiles.
 
-* **Dictionary:** The interactive data dictionary, displaying the relationships between clinical and biospecimen data.
-* **Exploration:** The facet filter custom cohort creation tool.
-* **Query:** The GraphQL query tool to navigate the data within the graph model.
-* **Workspace:** The launch page for Gen3 workspaces, including Jupyter Notebooks and RStudio.
-* **Profile:** The information page for each user, displaying access and the location for credential file downloads.
+* \*\*\*\*[**Dictionary**](dictionary.md)**:** The interactive data dictionary, displaying the relationships between clinical and biospecimen data.
+* \*\*\*\*[**Exploration**](exploration.md)**:** The facet filter custom cohort creation tool.
+* \*\*\*\*[**Query**](query.md)**:** The GraphQL query tool to navigate the data within the graph model.
+* \*\*\*\*[**Workspace**](workspace.md)**:** The launch page for Gen3 workspaces, including Jupyter Notebooks and RStudio.
+* \*\*\*\*[**Profile**](profile.md)**:** The information page for each user, displaying access and the location for credential file downloads.
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LwOmaDlbanAQ-7fhd89%2F-M-PyVfe6nb9uTFTslqZ%2F-M-Pz_BYTNBPIU57B-GK%2Fimage.png?alt=media&token=383d80d2-45e4-4753-a062-47074cd14693)
 
