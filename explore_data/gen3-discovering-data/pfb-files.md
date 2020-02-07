@@ -8,7 +8,7 @@ description: >-
 
 ## What is a Portable Format for Bioinformatics \(PFB\)?
 
-A PFB \(Portable Format for Bioinformatics\) is a new file format that allows the user to transfer not only metadata from the the Data Dictionary, but the Data Dictionary as well. This allows the data to keep the same structure from the original source. This will make transfers of data less error prone and more consistent. For more information and the ability to open and manipulate PFB documents, please visit the [PyPFB github page](https://github.com/uc-cdis/pypfb/) and install the newest version. 
+A Portable Format for Bioinformatics \(PFB\) is a new file format that allows the user to transfer not only metadata from the the Data Dictionary, but the Data Dictionary as well. This allows the data to keep the same structure from the original source. This will make transfers of data less error prone and more consistent. For more information and the ability to open and manipulate PFB documents, please visit the [PyPFB github page](https://github.com/uc-cdis/pypfb/) and install the newest version. 
 
 With the program PyPFB installed, a user will be able to investigate the contents of a PFB file. A typical PFB is made up of three parts:
 
