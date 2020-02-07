@@ -26,7 +26,7 @@ The left side toolbar has two options available, `Open properties` and `Download
 
 This property view will display all properties in the node and information about each property:
 
-* **Property**: Name of the property
+* **Property**: Name of the property.
 * **Type**: The type of input for the node. Examples of this are string, integer, Boolean and enumerated values, which are displayed as preset strings.
 * **Required**: This field will display whether the property is required for the submission of the node into the data model.
 * **Description**: This field will display further information about the property.
@@ -44,7 +44,7 @@ Clicking on one of the nodes will then open the Properties view of the node.
 
 ## Dictionary Search
 
-The Data dictionary also contains a search function that will look through not only the names of the properties but the description as well. When this is done in the Graph View, it will highlight nodes that contain the search term.
+The Data Dictionary also contains a search function that will look through not only the names of the properties but the description as well. When the search function is used, it will default to the graph model as it will highlight nodes that contain the search term.
 
 ![An example search for the term &quot;Harmonized&quot;](../../.gitbook/assets/image%20%2825%29.png)
 
