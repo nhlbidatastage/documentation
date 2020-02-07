@@ -8,7 +8,7 @@ description: >-
 
 The Gen3 BioData Catalyst Data Dictionary contains the visualization of the data model for the BioData Catalyst Dictionary. This graph view will display the relationships between nodes, specifically required relationships and node types, which are noted in the legend in the right corner.
 
-![The interactive BioData Catalyst Data Dictionary without anything selected.](../../.gitbook/assets/image%20%2816%29.png)
+![The interactive BioData Catalyst Data Dictionary without anything selected.](../../.gitbook/assets/image%20%2817%29.png)
 
 ## Graph View
 
@@ -18,11 +18,11 @@ To learn more about the node in the Graph View, a user can click on a node. This
 
 When another node in the path is selected, it will then gray out the other possible paths and only highlight the selected path. It will also change the node path on the left side toolbar.
 
-![An example of a second node being selected in the path of the first selected node.](../../.gitbook/assets/image%20%2813%29.png)
+![An example of a second node being selected in the path of the first selected node.](../../.gitbook/assets/image%20%2814%29.png)
 
 The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the chain. The `Open properties` option, will open the node properties in a new pop-up window.
 
-![A node&apos;s property window.](../../.gitbook/assets/image%20%2822%29.png)
+![A node&apos;s property window.](../../.gitbook/assets/image%20%2823%29.png)
 
 This property view will display all properties in the node and information about each property:
 
@@ -36,13 +36,21 @@ This property view will display all properties in the node and information about
 
 The Table View is similar to the Properties view, and nodes are displayed as a list of entries grouped by their node category.
 
-![Table View of the Gen3 BioData Catalyst Data Dictionary.](../../.gitbook/assets/image%20%2811%29.png)
+![Table View of the Gen3 BioData Catalyst Data Dictionary.](../../.gitbook/assets/image%20%2812%29.png)
 
 Clicking on one of the nodes will then open the Properties view of the node.
 
-![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2818%29.png)
+![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2819%29.png)
 
 ## Dictionary Search
 
-The Data dictionary also contains a search function that will look through not only the names of the properties but the description as well. When this is done 
+The Data dictionary also contains a search function that will look through not only the names of the properties but the description as well. When this is done in the Graph View, it will highlight nodes that contain the search term.
+
+![An example search for the term &quot;Harmonized&quot;](../../.gitbook/assets/image%20%2825%29.png)
+
+Clicking on one of these nodes, it will only display the properties that have this keyword present in either the property name or the description.
+
+![The Laboratory Results node with only properties that contain the term &quot;Harmonized&quot;.](../../.gitbook/assets/image%20%2811%29.png)
+
+This 
 
