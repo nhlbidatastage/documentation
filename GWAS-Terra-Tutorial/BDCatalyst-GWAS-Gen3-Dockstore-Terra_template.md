@@ -1,11 +1,20 @@
-# Template for conducting a blood pressure trait GWAS in NHLBI's BioData Catalyst
+# Template Blood Pressure Trait GWAS in NHLBI's BioData Catalyst
 
-This template was created to offer example code and pointers for conducting a single variant, mixed-models GWAS focusing on a blood pressure trait from start to finish using the [NHLBI BioData Catalyst](https://www.nhlbidatastage.org/) ecosystem. Currently, BioData Catalyst's Gen3 hosts the [TOPMed](https://www.nhlbi.nih.gov/science/trans-omics-precision-medicine-topmed-program) program. If you do not already have access to a TOPMed project through dbGAP, this template workspace may not be helpful to you. To apply for access to TOPMed data , you must submit an application for each individual project of interest in [dbGAP](https://www.nhlbiwgs.org/topmed-data-access-scientific-community). 
+This template workspace was created to offer example tools for conducting a single variant, mixed-models GWAS focusing on a blood pressure trait from start to finish using the [NHLBI BioData Catalyst](https://www.nhlbidatastage.org/) ecosystem. We have created a set of documents [to get you started in the the BioData Catalyst system](https://support.terra.bio/hc/en-us/sections/360007757832). If you're ready to conduct an analysis, proceed with this dashboard: 
 
-If you already have access to a TOPMEd project, you should be able to access your data through BioData Catalyst powered by Gen3 and use your data with this template workspace. We focused this template on analyzing a blood pressure trait, but not all TOPMed projects may contain blood pressure data. You will need to carefully consider how to update this analysis for the dataset you bring and how this may affect the scientific accuracy of the question you are asking. 
 
-### TOPMed Metadata
+## Data Model
 
+This template was set up to work with the NHLBI BioData Catalyst Gen3 data model. In this dashboard, you will learn how to import data from the Gen3 platform into this Terra template and conduct an association test using this particular data model.
+
+### TOPMed Data
+
+Currently, BioData Catalyst's Gen3 hosts the [TOPMed](https://www.nhlbi.nih.gov/science/trans-omics-precision-medicine-topmed-program) program, which is controlled access. If you do not already have access to a TOPMed project through dbGAP, this template workspace may not yet be helpful to you. To apply for access to TOPMed data , you must submit an application for each individual project of interest in [dbGAP](https://www.nhlbiwgs.org/topmed-data-access-scientific-community). 
+
+If you already have access to a TOPMEd project and have been onboarded to the BioData Catalyst platform, you should be able to access your data through BioData Catalyst powered by Gen3 and use your data with this template workspace. We focused this template on analyzing a blood pressure trait, but not all TOPMed projects may contain blood pressure data. You will need to carefully consider how to update this analysis for the dataset you bring and how this may affect the scientific accuracy of the question you are asking. 
+
+
+### A note about TOPMed metadata
 Some types of metadata will always be present:  GUID, Case ID, Project Name, Number of Samples, Study, Gender, Age at Index, Race, Ethnicity, Number of Aliquots, SNP Array Files, Unaligned Read Files, Aligned Read Files, Germline Variation Files.
 
 Other metadata depend on the analysis plan submitted when applying for TOPMed access. Examples include BMI, Years Smoked, years smoked greater than 89, hypertension, hypertension medications, diastolic blood pressure, systolic blood pressure, etc.
@@ -14,15 +23,10 @@ The TOPMed Data Coordinating Center (DCC) is currently harmonizing select phenot
 
 
 
-### Data disclaimer
-Because this workspace was created to be used with controlled access data from BioData Catalyst, it should be registered under an [Authorization Domain](https://support.terra.bio/hc/en-us/articles/360026775691-Managing-data-privacy-and-access-with-Authorization-Domains) that limits its access to only researchers with the appropriate approvals. We provide you with instructions below on how to set up an authorization domain. When you copy a workspace with an Authorization Domain, all copies will also be protected under the same Authorization Domain and cannot be shared with external users.  **How you use this controlled access data are held accountable to your own IRB approval and data use restrictions.** 
+## Outline of this template:
 
-
-
-### A brief outline of this tutorial is as follows:
-
-***Part 1: Navigate the BioData Catalyst multi-platform environment***
-Walk through a series of steps to learn how to search and export data from Gen3 and worfklows from Dockstore into a Terra workspace. Each of these cloud-based platforms easily operate with one another for fast and secure research.  The template we have created here can be cloned for you to walk through as suggested, or you can use the basics you learn here to perform your own analysis. 
+***Part 1: Navigate the BioData Catalyst environment***
+Learn how to search and export data from Gen3 and worfklows from Dockstore into a Terra workspace. Each of these cloud-based platforms easily operate with one another for fast and secure research.  The template we have created here can be cloned for you to walk through as suggested, or you can use the basics you learn here to perform your own analysis. 
 
 
 ***Part 2: Explore TOPMed data in an interative Jupyter notebook***
@@ -47,20 +51,15 @@ Finally, we provide an optional notebook **2-GWAS-summarization** for further su
 -----
 
 # Part 1: Navigate the NHLBI BioData Catalyst multi-platform ecosystem
-This ecosystem encompasses multiple platforms that interoperate to allow researchers to discover, access, store, and compute large sets of data generated from biomedical and behavioral research. Data is secure in the cloud, where you can scale analyses easily and cost-efficiently. 
 
-## Link your Terra account with your Gen3 and eRa Commons accounts.
-1. If you have already done this step, you can skip to creating your own workspace. 
-2. Go to the Terra "hamburger" menu at the top left and click to open the menu bar. 
-3. Click on your profile. You can also go directly to this page using this [link](https://app.terra.bio/#profile).
-4. On the right hand side of your profile page under "Identity & External Services", link both NIH and DCP Framework Services by University of Chicago services.
-5. This should show a link expiration deadline for each external service. You will need to relink these services once they expire to continue to access data you import into Terra from Gen3.
+## 1a) Link your Terra account to external services
+Before you're able to access genomic data from Gen3 in the Terra data table,  you need to link your Terra account to external services. Link your profile [by following these instructions](https://support.terra.bio/hc/en-us/articles/360038086332?flash_digest=2f492682b688b21da27c701af68656ac095d5803).
 
-## Create an Authorization Domain to protect your controlled-access data
+## 1b) Create an Authorization Domain to protect your controlled-access data
 
-1. Find instructions on creating an authorization domain [here](https://support.terra.bio/hc/en-us/articles/360026775691-Managing-data-privacy-and-access-with-Authorization-Domains).
+Because this workspace was created to be used with controlled access data, it should be registered under an Authorization Domain that limits its access to only researchers with the appropriate approvals. Learn how to set up an Authorization Domain [here](https://support.terra.bio/hc/en-us/articles/360039415171) before proceeding
 
-## Create your own workspace for computing in the cloud 
+## 1c) Create your own workspace for computing in the cloud 
 1. At the top right corner of this template. Use your mouse to click the circle with three dots. This will open a window where you can click "clone".  Cloning creates a copy of this workspace that you own and can use to work through this tutorial, or use a a template for your own analyses. 
 
 ![](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Terra-clone.png?raw=true)
@@ -70,79 +69,50 @@ This ecosystem encompasses multiple platforms that interoperate to allow researc
 - Billing Project: Select the billing projects available to you. If you are a new user, you can use the [$300 of free credits offered](https://support.terra.bio/hc/en-us/articles/360027940952-Free-credits-FAQs).
 - Authorization Domain: Assign the authorization domain that you generate above to protect your data.
 
-## Find  TOPMed genotype and harmonized phenotype data in Gen3
+## 1d) Export a TOPMed project with blood pressure data from Gen3
 
-1. Log into [Gen3](https://gen3.datastage.io) through the NIH portal using your eRA Commons username and password. 
-2. Once logged in, navigate to the [Gen3 data dictionary](https://gen3.datastage.io) and review what harmonized metadata files are available and how they are linked to one another in the graph structure. This graph structure only represents genomic data and harmonized metadata from the [TOPMed DCC](https://topmedphenotypes.org/). Unharmonized metadata can be found in the Reference File node in the Gen3 graph, but it is not used in this template. 
-3. If you are new to graph models, read through the [Gen3 dictionary documentation](https://gen3.org/resources/user/dictionary/)  to learn more. 
-4. In this example, we will only focus on a small part of the graph. Near the center of the graph, click on the "Subject" box.  The subject refers to a collection of all data related to a specific subject in the context of a specific experiment.
- ![Gen3 TOPMed graph](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Gen3graph.png?raw=true)
-5. Click on one of the blue node boxes below "Subject" that is linked by a single line (for example, "Demographic"). Each of these blue boxes represents clinical data collected for individuals in a study (see the key on the right hand side of the graph). The node "Demographic"  refers to the characterization of the patient by means of segmenting the population (e.g., characterization by age, sex, or race). You can click through other clinical trait nodes to see what metadata are available in the TOPMed graph. This graph represents all metadata in the entire TOPMed project, but metadata  will vary by project due to the analysis plan submitted for each project. 
-![Gen3 demographic graph node example](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Gen3-demographic-node.png?raw=true)
-7. Navigate to the [Gen3 Explorer](https://gen3.datastage.io/explorer) view to see what datasets you currently have and do not have access to. On the left hand side, you can use the [faceted search tool](https://gen3.org/resources/user/access-data/) to narrow your results to specific projects. 
-8. First, under "Files" and "Access", select "Data with Access" to filter through projects that you currently have access to.
-9. Next, under "Filters", you can select a specific type of metadata you are interested in. This will only show the TOPMed projects that contain that metadata type. If you don't see a specific type of metadata you are interested in. You can go back and select "Data without Access". This will let you use the faceted search to find which TOPMed projects you may want to request access to for your study. You will not be able to export these data until you are granted access through the dbGAP application process.
-![Gen3 faceted search filters](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Gen3-faceted-search.png?raw=true)
-10. For this template, select "Data with Access", then below select the "Diagnosis" tab and under "BP Diastolic" move the left hand side of the sliding bar from 0 to 35. 
-11. In all of TOPMed, there are 23 studies with diastolic blood pressure metadata. You may see anywhere from 0 to 23, depending on what projects you have received access to. 
-12. Next, click on the "Subject" tab. If you have access to a TOPMed project with blood pressure data, this will list all of the project names. Select only a single cohort.
-14. Once selected, click the button "Export all to Terra".
-![](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Gen3-ExportalltoTerra.png?raw=true)
-8. You should see an "Export in Progress" banner appear. This process generally takes from 30 seconds to several minutes, depending on the size of the files. The metadata files and cloud bucket address links to genomic files are bundled into a PFB format and sent to Terra to import. 
-![Gen 3 export](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Gen3-exportprogress.png?raw=true)
-9. When the data export is ready, a new Terra window appears asking you to select a destination workspace. Select the copy of this workspace that you previously made here or you can create a new workspace to place your files. 
-![Terra import data from Gen3](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Terra-ImportData.png?raw=true)
-
-
-## Find reproducible workflows in [Dockstore](https://dockstore.org) 
-For this tutorial, we have already loaded Dockstore workflows into the workspace and configured their inputs for this specific tutorial. However, we describe how you can easily import workflows into a Terra workspace in case you want to conduct other analyses with the data in this tutorial. 
-
-1. In your Terra workspace, go to the workflows tab. 
-2. Select "Find a Workflow".
-![](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Terra-findworkflows.png?raw=true)
-4. At the bottom left, select the Dockstore icon under "Find additional workflows"..
-5. This will open the search feature in Dockstore where you can browse easily reproducible workflows that have been written in workflow languages with their associated Docker images and json parameter files.
-6. We will find workflows for DataSTAGE projects by clicking the "Organizations" button along the top banner. 
-
-![](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Dockstore.png?raw=true)
-6. Scroll down and click on the DataSTAGE organization. This will display collections of workflows, including the one we use in this tutorial under the collection "Genome Wide Association Study".
-
-![](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Dockstore-GWAS.png?raw=true)
-7. Four workflows will appear. Each one can be exported to Terra by clicking on a single workflow to view its contents, then clicking "Launch with Terra" at the lower right.
-
-
-![](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Dockstore-exportTerra.png?raw=true)
-8. This will generate a new page asking you to "Select the workspace destination". 
-9. Navigate to the workspace you chose and select the workflows tab to check that each workflow was imported successfully.
+1. Start by learning about Gen3's graph-structured data model for NHLBI's BioData Catalyst using this [orientation document](https://support.terra.bio/hc/en-us/articles/360038087312).
+2. Once you better understand the graph, log into [Gen3](https://gen3.datastage.io) through the NIH portal using your eRA Commons username and password. 
+3. Navigate to the [Gen3 Explorer](https://gen3.datastage.io/explorer) view to see what datasets you currently have and do not have access to. On the left hand side, you can use the [faceted search tool](https://gen3.org/resources/user/access-data/) to narrow your results to specific projects. 
+4. First, under "Files" and "Access", select "Data with Access" to filter through projects that you currently have access to.
+5. Next, under "Filters", you can select a specific type of metadata you are interested in studying. Here, select the "Diagnosis" tab and under "BP Diastolic" move the left hand side of the sliding bar from 0 to 35.  This will make your search range 35 - 163. This will only show the TOPMed projects that contain that metadata type. 
+6. In all of TOPMed, there are 23 studies with diastolic blood pressure metadata. You may see anywhere from 0 to 23, depending on what projects you have applied for and received access to. 
+12. Next, click on the "Subject" tab. If you have access to a TOPMed project with blood pressure data, this will list all of the project names. Select only a single project to use in this template. 
+14. Once selected, click the button "Export all to Terra", wait until the Terra window appears, and add your data to your copy of this template workspace. 
 
 -----
-# Conduct a common variant GWAS in Terra
-Now that you have learned how to import data and workflows into a workspace, the next step in this tutorial shows you how to view the data and conduct some initial analyses before performing association tests with the batch workflows. Terra integrates Jupyter notebooks for interactive data analysis.  The next part of this tutorial will walk you through several important data preparation steps for performing a GWAS using a Jupyter notebook.
 
-# Part 2: Explore TOPMed data in a Jupyter Notebook   
+# Part 2: Explore TOPMed data in Jupyter Notebooks   
+## 2a) Copy multi-sample VCFs to your workspace 
+Genomic files in the BioData Catalyst project are hosted in controlled access buckets. Using DRS, you can send your credentials to access these buckets. In order to interact with controlled access multi-sample VCF files in the proceedings notebooks, we first need to copy the VCF to our workspace bucket. The first notebook you will open, **1-vcf-download**, will let you select which VCF to copy to your workspace from the Reference File data table. Because these multi-sample VCFs are very large, this process currently takes a long time. 
 
-For the next step in this tutorial, you will navigate to the notebooks section of workspace and open the **1-GWAS-preliminary-analysis** notebook. This interactive analysis explores the phenotype data and performs several analyses to prepare the data for use in batch association workflows. This notebook will cover the following steps:
+## 2b) Consolidate data tables from Gen3 
+Next, you will use a set of functions to consolidate the graph structure data model into a single consolidated table that you can easily interact with in a notebook. 
 
-1. Use functions that were created to easily reformat TOPMed data in the Gen3 grap format into a single entity that can be loaded as a dataframe in your notebook.
-2. Subset the dataframe to include only our traits of interest and remove any individuals that lack data for these traits.
-3. Visualize phenotype distributions in a series of plots.
-4. Filter genomic data to common variants for statistical power.
-5. Perform a principal component analysis ([PCA](https://en.wikipedia.org/wiki/Principal_component_analysis)) to assess if population stratification is detected in your cohort or not. If it is, it should be accounted for in association testing.
-6. Generate a genetic relatedness matrix ([GRM](https://hail.is/docs/0.2/methods/genetics.html?highlight=pc_rel#hail.methods.genetic_relatedness_matrix)) for downstream use in association testing.
-7. Generate a new "sample_set" data table that holds the derived files we created in the steps above. The files in this data table will be used in the workflows we run in Part 3.     
+1. Review what data tables came into Terra with the project you selected by opening a new window of this workspace and going to the data tab. 
+2. In this template, we have set up our analysis to work with the data tables: "subject", "blood_pressure_test", "demographic", "exposure", "lab_result", "medical_history", "medication", and "sample". Check to see if you have these tables of if you are missing any.
+3. Next, open the  **2-terra_data_util** companion notebook. This companion notebook is available to researchers to manipulate graph-structured TOPMed data from Gen3. 
+4. Read the instructions in the beginning to edit the first few cells in this notebook to match the clinical data tables you imported from Gen3. If your project does not have one of the data tables listed in step 1 above, you will need to remove that data table from the consolidation function in the 0-terra_data_util notebook before proceeding. 
 
-Genetic analyses in this notebook utilize the [Hail software](https://hail.is/). Hail is a framework for distributed computing with a focus on genetics. Particularly relevant for whole genome sequence ([WGS](https://en.wikipedia.org/wiki/Whole_genome_sequencing)) analysis, Hail allows for efficient, nearly boundless computing (in terms of variant and sample size).    
 
-To facilitate the downstream analysis, this notebook is set up to save output data to the workspace bucket and then write the associated metadata and derived genetic data to the data model using the [FireCloud Service Selector (FISS) package](https://github.com/broadinstitute/fiss).     
+## 2c) Prepare your phenotypic and genotypic data for input into association test workflows
+Now that you can interact with the Gen3 structured data more easily, you will use an interactive notebook to explore your phenotypic and environmental data and performs several analyses to prepare the data for use in batch association workflows. 
 
-For more information on using Terra's data table  see this article on ["Linking data in a Google bucket to the workspace data table"](https://support.terra.bio/hc/en-us/articles/360025758392). 
+1. [Learn how to customize your interactive analysis compute](https://support.terra.bio/hc/en-us/articles/360038125912) to work with the data you imported. 
+3. Open the **3-GWAS-preliminary-analysis** notebook and set your runtime configuration. We have given a suggested configuration within the notebook.
+4. Call functions from the 0-terra_data_util notebook to reformat multiple data tables into a single entity that can be loaded as a dataframe in the notebook.
+5. Subset the dataframe to include only your traits of interest and remove any individuals that lack data for these traits.
+6. Visualize phenotype and environmental variable distributions in a series of plots.
+7. Import the multi-sample VCF from the "Reference File" data table using DRS. You can learn more about GA4GH's Data Repository Service [here](https://support.terra.bio/hc/en-us/articles/360039330211).
+8. Filter your VCF to only common variants to increase statistical power. Genetic analyses in this notebook utilize the [Hail software](https://hail.is/). Hail is a framework for distributed computing with a focus on genetics. Particularly relevant for whole genome sequence ([WGS](https://en.wikipedia.org/wiki/Whole_genome_sequencing)) analysis, Hail allows for efficient, nearly boundless computing (in terms of variant and sample size).    
+9. Perform a principal component analysis ([PCA](https://en.wikipedia.org/wiki/Principal_component_analysis)) to assess if population stratification. Genetic stratification can strongly affect association tests and should be accounted for.
+10. Generate a genetic relatedness matrix ([GRM](https://hail.is/docs/0.2/methods/genetics.html?highlight=pc_rel#hail.methods.genetic_relatedness_matrix)) to account for closely related individuals in your association testing workflows.
+11. Generate a new "sample_set" data table that holds the derived files we created in the steps above using the [FireCloud Service Selector (FISS) package](https://github.com/broadinstitute/fiss).  The files in this data table will be used in the workflows we run in Part 3.     
 
-Once you have successfully completed the 
+
 
 ### Time and cost estimate
-You are able to adjust the runtime configuration to fit your computational needs in the Jupyter notebook. We recommend selecting the default environment and selecting the custom profile to use and configure the spark cluster for parallel processing.  Using the suggested profile below and a project with around 1000 samples, running this notebook on this dataset takes about 60 minutes and $1.37 to compute.
-
-![](https://github.com/nhlbidatastage/documentation/blob/master/GWAS-Terra-Tutorial/images/Terra_notebook_configuration.png?raw=true)
+You are able to adjust the runtime configuration to fit your computational needs in the Jupyter notebook. We recommend selecting the default environment and selecting the custom profile to use and configure the spark cluster for parallel processing.  Using the profile suggested profile below and a project with around 1000 samples, running this notebook on this dataset takes about 60 minutes and $11.37 to compute.
  
 
 When working in a notebook that may have compute times over 30 minutes, learn more about Terra's [auto-pause feature](https://support.terra.bio/hc/en-us/articles/360029761352-What-you-need-to-know-about-notebook-auto-pause-) and [how to adjust auto-pause](https://support.terra.bio/hc/en-us/articles/360027570951-Manually-setting-auto-pause-for-notebooks-using-gsutil) for your needs. Please carefully consider how adjusting auto-pause can remove protections that help you from accidentally accumulating cloud costs that you did not need.
@@ -152,7 +122,7 @@ When working in a notebook that may have compute times over 30 minutes, learn mo
 # Part 3: Perform mixed-model association tests using workflows
 In Part 2, we explored the data we imported from Gen3 and performed a few important steps for preparing our data for association testing. We generated a new "sample_set" data table that holds the files we created in the interactive notebook. These files will be used in our batch workflows that will perform the association tests. Below, we describe the four workflows in this workspace and their cost estimates for running on the sample set we create in this tutorial.  
 
-We have already configured input and output parameters for each workflow in the workflows tab. If you clone the workflows in this tutorial to other Terra workspaces, these parameters will come along. 
+The workflows used in this template were imported from [Dockstore](www.dockstore.org) and their parameters were configured to work with Terra's data model.  If you're interested in searching other docker-based workflows, [learn more about how they can easily be launched in Terra](https://support.terra.bio/hc/en-us/articles/360038137292).
 
 
 #### [1-vcfToGds](https://dockstore.org/workflows/github.com/manning-lab/vcfToGds)
@@ -233,7 +203,7 @@ Outputs:
 
 # Part 4: Interactive GWAS summarization in a notebook
 
-The final workflow (4-summaryCSV) outputs two csv files with association results (the top candidates and all associations) as well as a png containing summary figures. The **2-GWAS-summarization** notebook is another resource for viewing results of your analyses and the notebook feature allows you to edit for specific use cases.
+The final workflow (4-summaryCSV) outputs two csv files with association results (the top candidates and all associations) as well as a png containing summary figures. The **4-GWAS-summarization** notebook is another resource for viewing results of your analyses and the notebook feature allows you to edit for specific use cases.
 
 # Bring your own data
 Both the notebook and workflow can be adapted to other genetic datasets. The steps for adapting these tools to another dataset are outlined below:
@@ -262,12 +232,15 @@ You can search [Dockstore](www.dockstore.org) for available workflows and export
 
 ### Authors, contact information, and funding
 
-This workspace is a product of the [Manning Lab](https://manning-lab.github.io/) and [NHLBI's BioData Catalyst](https://www.nhlbidatastage.org/), in collaboration with the [Computational Genomics Platform](https://cgpgenomics.ucsc.edu/) at [UCSC Genomics Institute](https://ucscgenomics.soe.ucsc.edu/) and the [Data Sciences Platform](https://www.broadinstitute.org/data-sciences-platform) at [The Broad Institute](https://www.broadinstitute.org/). Contributing authors include:
+This template was created for the [NHLBI's BioData Catalyst](https://www.nhlbidatastage.org/) project in collaboration with the [Computational Genomics Platform](https://cgpgenomics.ucsc.edu/) at [UCSC Genomics Institute](https://ucscgenomics.soe.ucsc.edu/) and the [Data Sciences Platform](https://www.broadinstitute.org/data-sciences-platform) at [The Broad Institute](https://www.broadinstitute.org/). The association analysis tools were contributed by the [Manning Lab](https://manning-lab.github.io/).
 
+Contributing authors include:
+* [Beth Sheets](mailto:esheets@ucsc.edu) (UC Santa Cruz Genomics Institute)
+* Michael Baumann (Broad Institute, Data Sciences Platform)
+* Brian Hannafious (UC Santa Cruz Genomics Institute)
 * [Tim Majarian](mailto:tmajaria@broadinsitute.org) (Manning Lab)
 * Alisa Manning (Manning Lab)
-* [Beth Sheets](mailto:esheets@ucsc.edu) (UC Santa Cruz Genomics Institute)
-*  Michael Baumann (UC Santa Cruz Genomics Institute)
+
 
 ----
 
@@ -275,8 +248,9 @@ This workspace is a product of the [Manning Lab](https://manning-lab.github.io/)
 
 | Date | Change | Author | 
 | -------  | -------- | -------- |
-| Jan 23, 2020 | Remade as template | Beth
-| Jan 3, 2020 | Updates from BDC F2F | Beth
+| Jan 31, 2020 | Replaced text with new Broad documentation | Beth |
+| Jan 30, 2020 | Template updates | Beth |
+| Jan 3, 2020 | Updates from BDC F2F | Beth |
 | December 3, 2019 | Gen3 updates | Beth |
 | November 22, 2019 | Updates from Alisa | Beth |
 |  October 22, 2019 | User experience edits from Beri | Beth|
