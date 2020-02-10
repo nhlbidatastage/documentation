@@ -1,14 +1,14 @@
 ---
 description: >-
-  An explanation for the interactive Data Dictionary page on the Gen3 BioData
-  Catalyst platform
+  An explanation for the interactive Data Dictionary page on Gen3 BioData
+  Catalyst.
 ---
 
 # Dictionary
 
-The Gen3 BioData Catalyst Dictionary contains the visualization of the BioData Catalyst data model. The default graph model view displays all of the nodes and relationships between nodes. The graph model further specifies the node types and required or optional links between nodes, as highlighted in the legend.
+The Gen3 BioData Catalyst Dictionary contains the visualization of the BioData Catalyst data model. When first navigating to the page, it will default to the graph view, which display the relationships between nodes. It will display whether the links between nodes are required or optional and node types, which are noted in the upper right corner legend.
 
-![The default view of the interactive BioData Catalyst Data Dictionary.](../../.gitbook/assets/image%20%2818%29.png)
+![The interactive BioData Catalyst Data Dictionary without anything selected.](../../.gitbook/assets/image%20%2818%29.png)
 
 ## Graph View
 
