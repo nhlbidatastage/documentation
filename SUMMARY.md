@@ -21,10 +21,10 @@
 * [Terra](analyze-data/terra.md)
 * [Dockstore](analyze-data/dockstore.md)
 
-## Community Tools <a id="community_tools"></a>
+## Community Tools
 
-* [Dockstore Integration With Terra](community_tools/dockstore-example.md)
-* [HeLx](community_tools/helx.md)
+* [Dockstore Integration With Terra](community-tools/dockstore-example.md)
+* [HeLx](community-tools/helx.md)
 
 ## Platform Orientation
 
