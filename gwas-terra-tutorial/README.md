@@ -1,2 +1,0 @@
-# GWAS-Terra-Tutorial
-
