@@ -34,15 +34,15 @@ This property view will display all properties in the node and information about
 
 The Table View is similar to the Properties view, and nodes are displayed as a list of entries grouped by their node category.
 
-![Table View of the Gen3 BioData Catalyst Data Dictionary.](../../.gitbook/assets/image%20%2812%29.png)
+![Table View of the Gen3 Data Dictionary.](../../.gitbook/assets/image%20%2812%29.png)
 
-Clicking on one of the nodes will then open the Properties view of the node.
+Clicking on one of the nodes will open the Properties view of the node.
 
-![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2821%29.png)
+![Opening the Properties in the Table View format](../../.gitbook/assets/image%20%2821%29.png)
 
 ## Dictionary Search
 
-The Dictionary also contains a search function that will look through not only the names of the properties but the description as well. When the search function is used, it will default to the graph model as it will highlight nodes that contain the search term.
+The Dictionary contains a text-based search function that will search through the names of the properties and the descriptions. When the search function is used, it will default to the graph model and highlight nodes that contain the search term.
 
 ![An example search for the term &quot;Harmonized&quot;](../../.gitbook/assets/image%20%2827%29.png)
 
