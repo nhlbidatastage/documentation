@@ -1,36 +1,34 @@
 ---
-description: >-
-  An explanation for the interactive Data Dictionary page on the Gen3 BioData
-  Catalyst platform
+description: The interactive Data Dictionary page on the BioData Catalyst Gen3 platform
 ---
 
 # Dictionary
 
-The Gen3 BioData Catalyst Dictionary contains the visualization of the BioData Catalyst data model. The default graph model view displays all of the nodes and relationships between nodes. The graph model further specifies the node types and required or optional links between nodes, as highlighted in the legend.
+The Dictionary page contains an interactive visual representation of the Gen3 data model. The default graph model view displays all of the nodes and relationships between nodes. The model further specifies the node types and links between nodes, as highlighted in the legend \(top right-hand side of the page\).
 
-![The default view of the interactive BioData Catalyst Data Dictionary.](../../.gitbook/assets/image%20%2818%29.png)
+![The default view of the interactive Gen3 Data Dictionary.](../../.gitbook/assets/image%20%2818%29.png)
 
 ## Graph View
 
-To learn more about a node in the Graph View, a user can click on the node. This will initially highlight the node and all links that connect the selected node to the Program node. A "Data Model Structure" list will also appear on the left side toolbar. This will dsiplay the node path that is required to reach the selected node from the program node.
+Users can click on any of the graph nodes in order to learn more about their respective properties. By clicking on a node,  the graph will highlight the node and all associated links that connect it to the Program node. A "Data Model Structure" list will also appear on the left side toolbar. This will display the node path required to reach the selected node from the program node.
 
-![An example of a node being selected in the interactive graph view.](../../.gitbook/assets/image%20%285%29.png)
+![An example of a node being selected in the interactive graph view](../../.gitbook/assets/image%20%285%29.png)
 
 When a second node in the path is selected, it will then gray out the other possible paths and only highlight the selected path. It will also change the "Data Model Structure" list on the left side toolbar.
 
 ![An example of a second node being selected in the path of the first selected node.](../../.gitbook/assets/image%20%2814%29.png)
 
-The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the "Data Model Structure" list. The `Open properties` option, will open the node properties in a new pop-up window. The `Open properties` button can also be found on the node that was first selected.
+The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the "Data Model Structure" list. The `Open properties` option will open the node properties in a new pop-up window. The `Open properties` button can also be found on the node that was first selected.
 
 ![A node&apos;s property window.](../../.gitbook/assets/image%20%2825%29.png)
 
 This property view will display all properties in the node and information about each property:
 
 * **Property**: Name of the property.
-* **Type**: The type of input for the node. Examples of this are `string`, `integer`, `Boolean` and enumerated values \(`enum`\), which are displayed as preset strings.
-* **Required**: This field will display whether the property is required for the submission of the node into the data model.
-* **Description**: This field will display further information about the property.
-* **Terms**: This field can be populated with external resources that have further information about the property.
+* **Type**: The type of input for the node. Examples of this are `string`, `integer`, `Boolean` and enumerated values \(`enum`\), which are displayed as preset strings
+* **Required**: This field will display whether the property is required for the submission of the node into the data model
+* **Description**: This field will display further information about the property
+* **Terms**: This field can be populated with external resources that have further information about the property
 
 ## Table View
 
