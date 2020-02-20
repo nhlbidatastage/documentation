@@ -6,7 +6,7 @@ description: Workspace on the BioData Catalyst Gen3 platform
 
 When navigating to Workspace, a user will be presented with multiple workspace options.
 
-![Gen3 BioData Catalyst Workspace Page.](../../.gitbook/assets/image%20%2815%29.png)
+![Gen3 BioData Catalyst Workspace Page.](../../.gitbook/assets/image%20%2816%29.png)
 
 The Gen3 platform offers two workspace environments: Jupyter Notebooks and R Studio. At present, we offer six workspaces:
 
@@ -24,13 +24,13 @@ Pre-made workflow workspaces:
 
 To start one, click the launch button.
 
-![The launch screen.](../../.gitbook/assets/image%20%2816%29.png)
+![The launch screen.](../../.gitbook/assets/image%20%2817%29.png)
 
 This action will launch the VM, which can take up to five minutes depending upon the size and complexity of the workspace.
 
-![The initial workspace for Jupyter Notebooks.](../../.gitbook/assets/image%20%2831%29.png)
+![The initial workspace for Jupyter Notebooks.](../../.gitbook/assets/image%20%2833%29.png)
 
-![The initial workspace for R Studio.](../../.gitbook/assets/image%20%2834%29.png)
+![The initial workspace for R Studio.](../../.gitbook/assets/image%20%2836%29.png)
 
 Once the VM is ready, the initial screen for the workspace will appear. For scripts and output that need to be saved when the workspace is terminated, please store those files in the `pd/` directory. 
 
