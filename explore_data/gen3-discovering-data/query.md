@@ -6,7 +6,7 @@ description: An explanation for the Query page on Gen3 BioData Catalyst.
 
 ## Query Page
 
-The Query page can search and return metadata from either the Flat Model or the Graph Model of a commons. Using GraphQL, these searches can be tailored to filter and return only fields of interest for the data sets being queried. These queries can be made immediately after data submission as this queries the model directly.
+The Query page can search and return metadata from either the Flat Model or the Graph Model of a commons. Using GraphQL, these searches can be tailored to filter and return fields of interest for the data sets being queried. These queries can be made immediately after data submission as this queries the model directly.
 
 ![The BioData Catalyst Query Page.](../../.gitbook/assets/image%20%286%29.png)
 
