@@ -1,26 +1,24 @@
 ---
-description: A brief review of the Portable Format for Bioinformatics (PFB) file format
+description: A brief review of the Portable Format for Bioinformatics (PFB) file type
 ---
 
 # PFB Files
 
 ## What is a Portable Format for Bioinformatics \(PFB\)?
 
-A Portable Format for Bioinformatics \(PFB\) allows users to transfer both the metadata from the the Data Dictionary as well as the Data Dictionary itself. This format allows for data transfers while keeping the structure from the original source. Specifically, a PFB consists of 3 parts \(additional details below\):
+A Portable Format for Bioinformatics \(PFB\) allows users to transfer both the metadata from the the Data Dictionary as well as the Data Dictionary itself. As a result, data can be transferred while keeping the structure from the original source. Specifically, a PFB consists of 3 parts \(additional details below\):
 
 * A schema
 * Metadata
 * Data
 
-This structure makes the transfer of data more consistent and less error prone. For more information and the ability to open and manipulate PFB documents, please visit the [PyPFB github page](https://github.com/uc-cdis/pypfb/) and install the newest version. 
-
-With the program PyPFB installed, a user will be able to investigate the contents of a PFB file. A typical PFB is made up of three parts:
+For a more in-depth review and information that includes Python tools for PFB creation and exploration please visit the [PyPFB github page](https://github.com/uc-cdis/pypfb/) and install the newest version. 
 
 > **NOTE**: The following PFB example is a direct PFB export from the `tutorial-synthetic_data_set_1` found on [Gen3 BioData Catalyst](https://gen3.biodatacatalyst.nhlbi.nih.gov/). Due to the large amount of data stored within PFB files, only small sections are shown with breaks, `...` , occurring in the output.
 
 ### **Schema**
 
-A schema is a JSON formatted Data Dictionary containing properties and information about the properties, such as value types. To view the PFB schema, use the following command:  
+A schema is a JSON formatted Data Dictionary containing information about the properties such as value types and descriptions, amongst others. To view the PFB schema, use the following command:  
 `pfb show -i PFB_file.avro schema`
 
 ```text
@@ -125,11 +123,11 @@ A schema is a JSON formatted Data Dictionary containing properties and informati
 ...
 ```
 
-> **NOTE**: To make these outputs more human readable, the following output was then piped through the program [jq](https://stedolan.github.io/jq/). Example: `pfb show -i PFB_file.avro schema | jq`
+> **NOTE**: To make the outputs more human-readable, the above information was then piped through the program [jq](https://stedolan.github.io/jq/). Example: `pfb show -i PFB_file.avro schema | jq`
 
 ### **Metadata**
 
-The metadata in a PFB contains all information explaining the linkage between nodes and external references for properties. To view the PFB metadata, use the following command:  
+The metadata in a PFB contains all of the information explaining the linkage between nodes and external references for each of the properties. To view the PFB metadata, use the following command:  
 `pfb show -i PFB_file.avro metadata`
 
 ```text
