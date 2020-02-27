@@ -248,6 +248,6 @@ The data in the PFB are the values for the properties in the format of the Data 
 }
 ```
 
-To look at  a certain number of entries in the PFB file, the following flag, `-n`, can be used to designate a number. To view the first 10 data entries within the PFB, use the following command:  
+To look at  a certain number of entries in the PFB file, the following flag, `-n`, can be used to designate a number. To view the first ten data entries within the PFB, use the following command:  
 `pfb show -i PFB_file.avro -n 10`
 
