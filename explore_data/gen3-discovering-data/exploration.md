@@ -10,14 +10,14 @@ The Exploration page located in the upper right-hand section of the toolbar allo
 
 ### Data Accessibility
 
-![Data access panel in the Exploration page. ](../../.gitbook/assets/image%20%2827%29.png)
+![Data access panel in the Exploration page. ](../../.gitbook/assets/image%20%2828%29.png)
 
 Users can navigate through data in the Exploration page by selecting any of the three Data Access categories: 
 
 * `Data with Access`: A user can view all of the summary data and associated study information for studies the user has access to, including but not limited to Project ID, file types, and clinical variables.
 * `Data without Access`: Users can still search through the available studies but only view summary statistics. Summary information will also be hidden if the select cohort contains fewer than 50 subjects \(example below\). Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/). 
 
-![Example: The variable of Ethnicity is hidden once the number of subjects falls below 50.](../../.gitbook/assets/image%20%2838%29.png)
+![Example: The variable of Ethnicity is hidden once the number of subjects falls below 50.](../../.gitbook/assets/image%20%2839%29.png)
 
 * `All Data`: Users can view all of the data available in the BioData Catalyst Gen3 platform, including studies with and without access. As a result, studies not available to a user will be locked as demonstrated below.
 
@@ -27,7 +27,7 @@ By default, all users visiting the Exploration page will be assigned to `Data wi
 
 ### The Data Tab
 
-![Exploration page with Data Access displaying the Data with Access.](../../.gitbook/assets/image%20%2819%29.png)
+![Exploration page with Data Access displaying the Data with Access.](../../.gitbook/assets/image%20%2820%29.png)
 
 Under the "Data" tab, users can leverage the [DCC harmonized variables](https://chs-nhlbi.org/sites/chs-nhlbi.org/files/page/Stilp_topmed_pheno_harmonization_ccc_portland_2017-03-11.pdf) to create custom cohorts. When facets are selected and/or updated to cover a desired range of values, the display will reflect the information relevant to the new applied filter. If no facets have been selected, all of the data accessible to the user will be displayed. At this time, a user can filter based on three categories of clinical information:
 
@@ -45,7 +45,7 @@ When a cohort has been selected, the user will have the option of exporting or d
 
 The options for export are as follows:
 
-![Three options offered for data export.](../../.gitbook/assets/image%20%282%29.png)
+![Three options offered for data export.](../../.gitbook/assets/image%20%2818%29.png)
 
 * `Export All to Terra` :  Initiate a [Portable Format for Bioinformatics \(PFB\)](pfb-files.md#what-is-a-portable-format-for-bioinformatics-pfb) export of all clinical data and file GUIDs for the selected cohort to [BioData Catalyst powered by Terra](https://datastage.terra.bio/). At this time the max number of subjects that can be exported to Terra is 14,000.
 * `Export to PFB` : Initiate a [PFB](./) export of all clinical data and file GUIDs for the selected cohort to your local storage.
@@ -78,7 +78,7 @@ Once the user has selected a cohort, there are three options for accessing the f
 * `Export to Workspace`: The files can be exported to a Gen3 workspace.
 * `GUID Download File Page`:  Users can download files by first clicking on the link\(s\) under the GUIDs column, followed by the Download button in the file information pages \(see below\).
 
-![Files can be downloaded by first clicking on the link\(s\) located under the GUID column.](../../.gitbook/assets/image%20%2834%29.png)
+![Files can be downloaded by first clicking on the link\(s\) located under the GUID column.](../../.gitbook/assets/image%20%2835%29.png)
 
 ### File Information Page
 
