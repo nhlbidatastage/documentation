@@ -72,7 +72,7 @@ The Files tab also contains files that are either case-independent or project-le
 
 Once the user has selected a cohort, there are three options for accessing the files: 
 
-![Two options offered for file download or export. ](../../.gitbook/assets/image%20%284%29.png)
+![Two button options offered for file download or export. ](../../.gitbook/assets/image%20%284%29.png)
 
 * `Download Manifest`: Download the file manifest using the [gen3-client](https://gen3.org/resources/user/gen3-client/). 
 * `Export to Workspace`: The files can be exported to a Gen3 workspace.
