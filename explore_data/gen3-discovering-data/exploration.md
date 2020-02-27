@@ -53,15 +53,6 @@ The options for export are as follows:
 
 > **NOTE**: PFB export times can take up to 60 minutes, but often will complete in less than 10 minutes.
 
-#### Download
-
-The `Download`drop-down menu will display two options:
-
-![The download drop-down menu.](../../.gitbook/assets/image%20%281%29.png)
-
-* `Download All Clinical` : Download files with selected clinical data in a `JSON` formatted file.
-* `Download Manifest` : Download a list of Global Unique Identifiers \(GUIDs\) for use with the [gen3-client](https://gen3.org/resources/user/gen3-client/).
-
 ### The Files Tab
 
 ![The Files Tab page.](../../.gitbook/assets/image%20%288%29.png)
