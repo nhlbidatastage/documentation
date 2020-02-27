@@ -6,7 +6,7 @@ description: A brief review of the Portable Format for Bioinformatics (PFB) file
 
 ## What is a Portable Format for Bioinformatics \(PFB\)?
 
-A Portable Format for Bioinformatics \(PFB\) allows users to transfer both the metadata from the the Data Dictionary as well as the Data Dictionary itself. As a result, data can be transferred while keeping the structure from the original source. Specifically, a PFB consists of 3 parts \(additional details below\):
+A Portable Format for Bioinformatics \(PFB\) allows users to transfer both the metadata from the the Data Dictionary as well as the Data Dictionary itself. As a result, data can be transferred while keeping the structure from the original source. Specifically, a PFB consists of three parts \(additional details below\):
 
 * A schema
 * Metadata
