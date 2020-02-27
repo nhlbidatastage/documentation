@@ -17,7 +17,7 @@ Users can navigate through data in the Exploration page by selecting any of the 
 * `Data with Access`: A user can view all of the summary data and associated study information for studies the user has access to, including but not limited to Project ID, file types, and clinical variables.
 * `Data without Access`: Users can still search through the available studies but only view summary statistics. Summary information will also be hidden if the select cohort contains fewer than 50 subjects \(example below\). Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/). 
 
-![Example: The variable of Ethnicity is hidden once the number of subjects falls below 50.](../../.gitbook/assets/image%20%2835%29.png)
+![Example: The variable of Ethnicity is hidden once the number of subjects falls below 50.](../../.gitbook/assets/image%20%2836%29.png)
 
 * `All Data`: Users can view all of the data available in the BioData Catalyst Gen3 platform, including studies with and without access. As a result, studies not available to a user will be locked as demonstrated below.
 
