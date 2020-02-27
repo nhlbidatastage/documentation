@@ -28,9 +28,9 @@ To start one, click the launch button.
 
 This action will launch the VM, which can take up to five minutes depending upon the size and complexity of the workspace.
 
-![The initial workspace for Jupyter Notebooks.](../../.gitbook/assets/image%20%2835%29.png)
+![The initial workspace for Jupyter Notebooks.](../../.gitbook/assets/image%20%2837%29.png)
 
-![The initial workspace for R Studio.](../../.gitbook/assets/image%20%2838%29.png)
+![The initial workspace for R Studio.](../../.gitbook/assets/image%20%2840%29.png)
 
 Once the VM is ready, the initial screen for the workspace will appear. For scripts and output that need to be saved when the workspace is terminated, please store those files in the `pd/` directory. 
 
