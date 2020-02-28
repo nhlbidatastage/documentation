@@ -16,8 +16,8 @@
 
 ## Analyze data
 
-* [Seven Bridges](analyze-data/untitled.md)
-* [Terra](analyze-data/terra.md)
+* [Seven Bridges](https://f4c.readme.io/docs)
+* [Terra](https://support.terra.bio/hc/en-us)
 * [Dockstore](analyze-data/dockstore.md)
 
 ## Community Tools & Integration
