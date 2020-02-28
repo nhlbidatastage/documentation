@@ -27,8 +27,7 @@
 
 ## Platform Orientation
 
-* [System Access](platform-orientation/system-access/README.md)
-  * [Get Access](platform-orientation/system-access/get-access.md)
+* [System Access](platform-orientation/system-access.md)
 
 ## BDC3 Guidance
 
