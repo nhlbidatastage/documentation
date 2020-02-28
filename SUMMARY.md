@@ -24,6 +24,7 @@
 ## Community Tools
 
 * [Dockstore Integration With Terra](community-tools/dockstore-example.md)
+* [Import a Dockstore App With Seven Bridges](https://f4c.readme.io/docs/import-a-dockstore-app)
 * [HeLx](community-tools/helx.md)
 
 ## Platform Orientation
