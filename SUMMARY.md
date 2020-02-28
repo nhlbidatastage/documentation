@@ -13,7 +13,6 @@
   * [Workspace](explore_data/gen3-discovering-data/workspace.md)
   * [Profile](explore_data/gen3-discovering-data/profile.md)
   * [PFB Files](explore_data/gen3-discovering-data/pfb-files.md)
-* [PIC-SURE](explore_data/pic-sure.md)
 
 ## Analyze data
 
@@ -21,9 +20,9 @@
 * [Terra](analyze-data/terra.md)
 * [Dockstore](analyze-data/dockstore.md)
 
-## Community Tools
+## Community Tools & Integration
 
-* [Dockstore Integration With Terra](community-tools/dockstore-example.md)
+* [Dockstore Integration With Terra](community-tools-and-integration/dockstore-example.md)
 * [Import a Dockstore App With Seven Bridges](https://f4c.readme.io/docs/import-a-dockstore-app)
 
 ## Platform Orientation
