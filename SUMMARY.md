@@ -22,7 +22,7 @@
 
 ## Community Tools & Integration
 
-* [Dockstore Integration With Terra](community-tools-and-integration/dockstore-example.md)
+* [Dockstore Integration With Terra](community-tools-and-integration/dockstore-integration-with-terra.md)
 * [Import a Dockstore App With Seven Bridges](https://f4c.readme.io/docs/import-a-dockstore-app)
 
 ## Platform Orientation
@@ -31,10 +31,7 @@
   * [Get Access](platform-orientation/system-access/get-access.md)
   * [Check Access](platform-orientation/system-access/check-access.md)
   * [Data Access](platform-orientation/system-access/data-access.md)
-* [Data](platform-orientation/data/README.md)
-  * [Data Search](platform-orientation/data/data-search.md)
 * [Analysis & Tools](platform-orientation/analysis-and-tools-available.md)
-* [Help Options](platform-orientation/help-available.md)
 
 ## BDC3 Guidance
 
