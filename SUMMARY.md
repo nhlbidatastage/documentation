@@ -30,7 +30,6 @@
 * [System Access](platform-orientation/system-access/README.md)
   * [Get Access](platform-orientation/system-access/get-access.md)
   * [Check Access](platform-orientation/system-access/check-access.md)
-  * [Data Access](platform-orientation/system-access/data-access.md)
 * [Analysis & Tools](platform-orientation/analysis-and-tools-available.md)
 
 ## BDC3 Guidance
