@@ -29,7 +29,6 @@
 
 * [System Access](platform-orientation/system-access/README.md)
   * [Get Access](platform-orientation/system-access/get-access.md)
-  * [Check Access](platform-orientation/system-access/check-access.md)
 
 ## BDC3 Guidance
 
