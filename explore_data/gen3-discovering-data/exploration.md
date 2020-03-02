@@ -27,7 +27,7 @@ By default, all users visiting the Exploration page will be assigned to `Data wi
 
 ### The Data Tab
 
-![Exploration page with Data Access displaying the Data with Access.](../../.gitbook/assets/image%20%2825%29.png)
+![Exploration page with Data Access displaying the Data with Access.](../../.gitbook/assets/data_page.png)
 
 Under the "Data" tab, users can leverage the [DCC harmonized variables](https://chs-nhlbi.org/sites/chs-nhlbi.org/files/page/Stilp_topmed_pheno_harmonization_ccc_portland_2017-03-11.pdf) to create custom cohorts. When facets are selected and/or updated to cover a desired range of values, the display will reflect the information relevant to the new applied filter. If no facets have been selected, all of the data accessible to the user will be displayed. At this time, a user can filter based on three categories of clinical information:
 
@@ -45,7 +45,7 @@ When a cohort has been selected, the user will have the option of exporting or d
 
 The options for export are as follows:
 
-![Three options offered for data export.](../../.gitbook/assets/image%20%2823%29.png)
+![Three options offered for data export.](../../.gitbook/assets/export_options.png)
 
 * `Export All to Terra` :  Initiate a [Portable Format for Bioinformatics \(PFB\)](pfb-files.md#what-is-a-portable-format-for-bioinformatics-pfb) export of all clinical data and file GUIDs for the selected cohort to [BioData Catalyst powered by Terra](https://datastage.terra.bio/). At this time the max number of subjects that can be exported to Terra is 14,000.
 * `Export to PFB` : Initiate a [PFB](./) export of all clinical data and file GUIDs for the selected cohort to your local storage.
