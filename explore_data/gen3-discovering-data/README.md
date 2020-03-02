@@ -28,7 +28,7 @@ A number of clinical variables have been harmonized by the [Data Coordinating Ce
 
 #### Unharmonized clinical data:  <a id="unharmonized-clinical-data"></a>
 
-Unharmonized clinical files are also available on the Gen3 platform and contain all of the raw phenotypic information for the hosted studies. Unlike the DCC Harmonized Variables, these files are located and searchable under the "[Files](https://app.gitbook.com/@bdcatalyst/s/biodata-catalyst-documentation/~/diff/drafts/-M-L1HmuSHOOxJmXm-Qv/explore_data/gen3-discovering-data#the-files-tab)" tab in the [Exploration](exploration.md#the-files-tab) page.
+Unharmonized clinical files are also available on the Gen3 platform and contain all of the raw phenotypic information for the hosted studies. Unlike the DCC Harmonized Variables, these files are located and searchable under the "Files" tab in the [Exploration](exploration.md#the-files-tab) page.
 
 ### Genomic <a id="genomic"></a>
 
