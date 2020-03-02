@@ -36,7 +36,7 @@ The Gen3 platform hosts genomic data provided by the [Trans-Omics for Precision 
 
 ## Gen3 Pages <a id="gen3-pages"></a>
 
-The BioData Catalyst Gen3 platform contains five pages to view the data dictionary, explore and query hosted data, and profile information.
+The BioData Catalyst Gen3 platform contains five pages described below:
 
 * \*\*\*\*[**Dictionary**](dictionary.md)**:** An interactive data dictionary display that details the contents and relationships between clinical and biospecimen data.
 * \*\*\*\*[**Exploration**](exploration.md)**:** The facet filter custom cohort creation tool
