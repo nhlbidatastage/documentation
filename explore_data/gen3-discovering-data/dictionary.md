@@ -44,11 +44,11 @@ Clicking on one of the nodes will open the Properties view of the node.
 
 The Dictionary contains a text-based search function that will search through the names of the properties and the descriptions. When the search function is used, it will default to the graph model and highlight nodes that contain the search term.
 
-![An example search for the term &quot;Harmonized&quot;.](../../.gitbook/assets/image%20%2836%29.png)
+![An example search for the term &quot;Harmonized&quot;.](../../.gitbook/assets/dictionary_search.png)
 
 Clicking on one of these nodes, it will only display the properties that have this keyword present in either the property name or the description.
 
-![The Laboratory Results node with only properties that contain the term &quot;Harmonized&quot;.](../../.gitbook/assets/image%20%2841%29.png)
+![The Laboratory Results node with only properties that contain the term &quot;Harmonized&quot;.](../../.gitbook/assets/dictionary_search_result.png)
 
 This search is then saved in the "Last Search" list, with the number of nodes the term was found in.
 
