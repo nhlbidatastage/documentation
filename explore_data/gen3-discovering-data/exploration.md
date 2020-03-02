@@ -55,7 +55,7 @@ The options for export are as follows:
 
 ### The Files Tab
 
-![The Files Tab page.](../../.gitbook/assets/image%20%2848%29.png)
+![The Files Tab page.](../../.gitbook/assets/files_tab.png)
 
 The Files tab displays study files from the facets chosen on the left-side panel \(Project ID, Data Type, and Data Format\). Each time a facet selection is made, the data summary and displays will update to reflect the applied filters.
 
@@ -72,7 +72,7 @@ The Files tab also contains files that are either case-independent or project-le
 
 Once the user has selected a cohort, there are three options for accessing the files: 
 
-![Two button options offered for file download or export. ](../../.gitbook/assets/image%20%284%29.png)
+![Two button options offered for file download or export. ](../../.gitbook/assets/download_options.png)
 
 * `Download Manifest`: Download the file manifest using the [gen3-client](https://gen3.org/resources/user/gen3-client/). 
 * `Export to Workspace`: The files can be exported to a Gen3 workspace.
@@ -83,6 +83,8 @@ Once the user has selected a cohort, there are three options for accessing the f
 ### File Information Page
 
 ![An example file information page with the Download button. ](../../.gitbook/assets/image%20%287%29.png)
+
+![An example file information page with the Download button. ](../../.gitbook/assets/file_information_page.png)
 
 The file information page will display details such as data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a button to download the file via the browser. For files that are 5GB or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/).
 
