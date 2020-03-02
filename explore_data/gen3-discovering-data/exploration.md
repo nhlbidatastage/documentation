@@ -10,18 +10,18 @@ The Exploration page located in the upper right-hand section of the toolbar allo
 
 ### Data Accessibility
 
-![Data access panel in the Exploration page. ](../../.gitbook/assets/image%20%2833%29.png)
+![Data access panel in the Exploration page. ](../../.gitbook/assets/data_access.png)
 
 Users can navigate through data in the Exploration page by selecting any of the three Data Access categories: 
 
 * `Data with Access`: A user can view all of the summary data and associated study information for studies the user has access to, including but not limited to Project ID, file types, and clinical variables.
 * `Data without Access`: Users can still search through the available studies but only view summary statistics. Summary information will also be hidden if the select cohort contains fewer than 50 subjects \(example below\). Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/). 
 
-![Example: The variable of Ethnicity is hidden once the number of subjects falls below 50.](../../.gitbook/assets/image%20%2849%29.png)
+![Example: The variable of Ethnicity is hidden once the number of subjects falls below 50.](../../.gitbook/assets/ethnicity_data_access.png)
 
 * `All Data`: Users can view all of the data available in the BioData Catalyst Gen3 platform, including studies with and without access. As a result, studies not available to a user will be locked as demonstrated below.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LwOmaDlbanAQ-7fhd89%2F-Lyjh7yZAx0phhN3j_yk%2F-LyjiMBhmdrRF1BFFoZe%2Fimage.png?alt=media&token=c09ee728-403c-407a-9991-0ba9078fe614)
+![](../../.gitbook/assets/restricted_data_set_access.png)
 
 By default, all users visiting the Exploration page will be assigned to `Data with Access`.
 
