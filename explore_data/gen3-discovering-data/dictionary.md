@@ -6,21 +6,21 @@ description: The interactive Data Dictionary page on the BioData Catalyst Gen3 p
 
 The Dictionary page contains an interactive visual representation of the Gen3 data model. The default graph model view displays all of the nodes and relationships between nodes. The model further specifies the node types and links between nodes, as highlighted in the legend \(top right-hand side of the page\).
 
-![The default view of the interactive Gen3 Data Dictionary.](../../.gitbook/assets/image%20%2824%29.png)
+![The default view of the interactive Gen3 Data Dictionary.](../../.gitbook/assets/image%20%2844%29.png)
 
 ## Graph View
 
 Users can click on any of the graph nodes in order to learn more about their respective properties. By clicking on a node,  the graph will highlight the node and all associated links that connect it to the Program node. A "Data Model Structure" list will also appear on the left side toolbar. This will display the node path required to reach the selected node from the program node.
 
-![An example of a node being selected in the interactive graph view](../../.gitbook/assets/image%20%285%29.png)
+![An example of a node being selected in the interactive graph view.](../../.gitbook/assets/image%20%2811%29.png)
 
 When a second node in the path is selected, it will then gray out the other possible paths and only highlight the selected path. It will also change the "Data Model Structure" list on the left side toolbar.
 
-![An example of a second node being selected in the path of the first selected node.](../../.gitbook/assets/image%20%2817%29.png)
+![An example of a second node being selected in the path of the first selected node.](../../.gitbook/assets/image%20%2840%29.png)
 
 The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the "Data Model Structure" list. The `Open properties` option will open the node properties in a new pop-up window. The `Open properties` button can also be found on the node that was first selected.
 
-![A node&apos;s property window.](../../.gitbook/assets/image%20%2831%29.png)
+![A node&apos;s property window.](../../.gitbook/assets/image%20%2820%29.png)
 
 This property view will display all properties in the node and information about each property:
 
@@ -34,21 +34,21 @@ This property view will display all properties in the node and information about
 
 The Table View is similar to the Properties view, and nodes are displayed as a list of entries grouped by their node category.
 
-![Table View of the Gen3 Data Dictionary.](../../.gitbook/assets/image%20%2815%29.png)
+![Table View of the Gen3 Data Dictionary.](../../.gitbook/assets/image%20%2813%29.png)
 
 Clicking on one of the nodes will open the Properties view of the node.
 
-![Opening the Properties in the Table View format](../../.gitbook/assets/image%20%2835%29.png)
+![Opening the Properties in the Table View format.](../../.gitbook/assets/image%20%2810%29.png)
 
 ## Dictionary Search
 
 The Dictionary contains a text-based search function that will search through the names of the properties and the descriptions. When the search function is used, it will default to the graph model and highlight nodes that contain the search term.
 
-![An example search for the term &quot;Harmonized&quot;](../../.gitbook/assets/image%20%2833%29.png)
+![An example search for the term &quot;Harmonized&quot;.](../../.gitbook/assets/image%20%2836%29.png)
 
 Clicking on one of these nodes, it will only display the properties that have this keyword present in either the property name or the description.
 
-![The Laboratory Results node with only properties that contain the term &quot;Harmonized&quot;.](../../.gitbook/assets/image%20%2814%29.png)
+![The Laboratory Results node with only properties that contain the term &quot;Harmonized&quot;.](../../.gitbook/assets/image%20%2841%29.png)
 
 This search is then saved in the "Last Search" list, with the number of nodes the term was found in.
 
