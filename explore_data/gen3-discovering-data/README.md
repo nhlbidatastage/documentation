@@ -44,5 +44,5 @@ The BioData Catalyst Gen3 platform contains five pages to view the data dictiona
 * \*\*\*\*[**Workspace**](workspace.md)**:** The launch page for Gen3 workspaces that includes Jupyter Notebooks and RStudio
 * \*\*\*\*[**Profile**](profile.md)**:** The information page for each user, displaying access and the location for credential file downloads
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LwOmaDlbanAQ-7fhd89%2F-M-PyVfe6nb9uTFTslqZ%2F-M-Pz_BYTNBPIU57B-GK%2Fimage.png?alt=media&token=383d80d2-45e4-4753-a062-47074cd14693)
+![The BioData Catalyst Gen3 Pages.](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LwOmaDlbanAQ-7fhd89%2F-M-PyVfe6nb9uTFTslqZ%2F-M-Pz_BYTNBPIU57B-GK%2Fimage.png?alt=media&token=383d80d2-45e4-4753-a062-47074cd14693)
 
