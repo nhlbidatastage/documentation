@@ -38,3 +38,7 @@
 * [Video Guide](bdc3-guidance/video-guidance.md)
 * [BioData Catalyst Glossary](bdc3-guidance/bdc_glossary.md)
 
+## BioData Catalyst Release Notes
+
+* [Untitled](biodata-catalyst-release-notes/untitled.md)
+
