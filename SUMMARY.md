@@ -40,5 +40,5 @@
 
 ## BioData Catalyst Release Notes
 
-* [Untitled](biodata-catalyst-release-notes/untitled.md)
+* [Draft Release Template](biodata-catalyst-release-notes/untitled.md)
 
