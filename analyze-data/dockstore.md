@@ -4,7 +4,7 @@
 
 There’s more than one cloud computing solution out there. Using the NHLBI BioData Catalyst platform, you can launch both WDL and CWL workflows. On WDL workflows, you will be using Terra. For more information on how Dockstore integration with Terra works, [see here](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/community-tools/dockstore-example). On CWL workflows, that same button will take you to Seven Bridges.
 
-![launch with BDC button](https://github.com/aofarrel/tutorials/blob/master/launchwith-cropped.png?raw=true)
+![Image showing the results of the NHLBI BioData Cataylst button on Dockstore. If it's a WDL, it launches with Terra. If it's a CWL, it launches with Seven Bridges](https://github.com/aofarrel/tutorials/blob/master/launchwith-cropped.png?raw=true)
 
 That’s not the only option you have, though. The buttons you see will depend on the language of the workflow.
 
