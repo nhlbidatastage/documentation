@@ -16,5 +16,5 @@ These two programs can be further identified by the following Project name. All 
 
 ## Parent and TOPMed Study Contents.
 
-
+The most notable difference in these two Program types are the type of data available. 
 
