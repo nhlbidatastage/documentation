@@ -4,7 +4,7 @@ description: >-
   on Gen3's BioData Catalyst.
 ---
 
-# Parent Study Versus TOPMed Study
+# Parent and TOPMed Studies
 
 ## How to Distinguish Between Parent and TOPMed Studies on Gen3 BioData Catalyst.
 
