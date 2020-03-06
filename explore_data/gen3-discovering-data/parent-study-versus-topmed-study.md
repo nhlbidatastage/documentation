@@ -16,5 +16,11 @@ These two Programs can be further identified by the following Project name. All 
 
 ## Parent and TOPMed Study Contents.
 
-The most notable difference in these two Program types are the type of data available. 
+The most notable difference in these two Program types are the type of data available. The following is what you can expect to find in the two Programs:
+
+* TOPMed
+  * Genomic data: This includes files like CRAM, VCFs and Cohort Level VCFs.
+  * Phenotypic data: TOPMed studies that do not have a Parent counter part study, there will be phenotypic data for the patients. The phenotypic data in the graph is only 
+* Parent
+  * Phenotypic data: 
 
