@@ -14,7 +14,7 @@ The two different study types, Parent and TOPMed, have been separated on Gen3 by
 
 These two programs can be further identified by the following Project name. All Parent studies will also end in an `_` \(underscore\) to further differentiate them within the Gen3 BioData Catalyst system.
 
-## Differences in Parent and TOPMed Studies.
+## Parent and TOPMed Study Contents.
 
 
 
