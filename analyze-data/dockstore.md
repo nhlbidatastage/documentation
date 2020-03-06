@@ -4,16 +4,16 @@
 
 There’s more than one cloud computing solution out there. Using the NHLBI BioData Catalyst platform, you can launch both WDL and CWL workflows. On WDL workflows, you will be using Terra. For more information on how Dockstore integration with Terra works, [see here](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/community-tools/dockstore-example). On CWL workflows, that same button will take you to Seven Bridges.
 
-![Image showing the results of the NHLBI BioData Cataylst button on Dockstore. If it's a WDL, it launches with Terra. If it's a CWL, it launches with Seven Bridges](https://github.com/aofarrel/tutorials/blob/master/launchwith-cropped.png?raw=true)
+![Image showing the results of the NHLBI BioData Cataylst button on Dockstore. If it&apos;s a WDL, it launches with Terra. If it&apos;s a CWL, it launches with Seven Bridges](https://github.com/aofarrel/tutorials/blob/master/launchwith-cropped.png?raw=true)
 
 That’s not the only option you have, though. The buttons you see will depend on the language of the workflow.
 
-#### CWL Workflows <a id="CWL-Workflows"></a>
+## CWL Workflows <a id="CWL-Workflows"></a>
 
 * NHLBI BioData Catalyst
 * [CGL powered by Seven Bridges](https://docs.cancergenomicscloud.org/docs/run-dockstore-apps-on-the-cgc)
 
-#### WDL Workflows <a id="WDL-Workflows"></a>
+## WDL Workflows <a id="WDL-Workflows"></a>
 
 * NHLBI BioData Catalyst
 * [Terra](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/community_tools/dockstore-example)

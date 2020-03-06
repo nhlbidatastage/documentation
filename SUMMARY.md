@@ -13,6 +13,7 @@
   * [Workspace](explore_data/gen3-discovering-data/workspace.md)
   * [Profile](explore_data/gen3-discovering-data/profile.md)
   * [PFB Files](explore_data/gen3-discovering-data/pfb-files.md)
+  * [Parent Study Versus TOPMed Study](explore_data/gen3-discovering-data/parent-study-versus-topmed-study.md)
 
 ## Analyze data
 
