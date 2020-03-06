@@ -20,7 +20,7 @@ The most notable difference in these two Program types are the type of data avai
 
 * TOPMed
   * Genomic data: This includes files like CRAM, VCFs and Cohort Level VCFs.
-  * Phenotypic data: TOPMed studies that do not have a Parent counter part study, there will be phenotypic data for the patients. The phenotypic data in the graph is only 
+  * Phenotypic data: TOPMed studies that do not have a Parent counter part study, there will be phenotypic data for the patients. The phenotypic data in the graph is only DCC harmonized variables, but raw data for the project can be found `reference_file` node.
 * Parent
   * Phenotypic data: 
 
