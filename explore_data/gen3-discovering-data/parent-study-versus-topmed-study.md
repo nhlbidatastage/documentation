@@ -8,7 +8,7 @@ description: >-
 
 ## How to Distinguish Between Parent and TOPMed Studies on Gen3 BioData Catalyst.
 
-The two different study types, Parent and TOPMed, have been separated on Gen3 by Program. This is the most notable and easily visible mechanism to differentiate the two different studies.
+The two different study types, Parent and TOPMed, have been separated on Gen3 by Program. This division by Program is most visible mechanism to differentiate the two different studies.
 
 ![A list of studies with Parent studies, underlined in blue, and TOPMed studies, underlined in red.](../../.gitbook/assets/parent_topmed_studies2.png)
 
