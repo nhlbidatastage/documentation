@@ -10,7 +10,7 @@ description: >-
 
 The two different study types, Parent and TOPMed, have been separated on Gen3 by Program. This is the most notable and easily visible mechanism to differentiate the two different studies.
 
-![A list of studies with Parent studies, underline in blue, and TOPMed studies, underline in red.](../../.gitbook/assets/parent_topmed_studies2.png)
+![A list of studies with Parent studies, underlined in blue, and TOPMed studies, underlined in red.](../../.gitbook/assets/parent_topmed_studies2.png)
 
 
 
