@@ -23,4 +23,5 @@ The most notable difference in these two Program types are the type of data avai
   * Phenotypic data: TOPMed studies, which do not have a Parent counter part study, will have phenotypic data for the patients. The phenotypic data in the graph is only DCC harmonized variables, but raw phenotypic data from dbGaP can be found in the `reference_file` node in the tar files that share this common naming scheme: `RootStudyConsentSet_phs######.<study_shorthand>.v#.p#.c#.<consent_codes>.tar.gz`.
 * Parent
   * Phenotypic data: Like with TOPMed studies, any phenotypic data found within the Graph Model, will only be DCC harmonized variables. For the raw phenotypic data from dbGaP, again, it can be found in the `reference_file` node in the tar files that share this common naming scheme: `RootStudyConsentSet_phs######.<study_shorthand>.v#.p#.c#.<consent_codes>.tar.gz`.
+  * DICOM: At this time, only two projects with DICOM imagining files are available: `parent-COPDGene_HMB_` and `parent-COPDGENE_DS-CS_`. These files can be found in the `imaging_file` node and are files that have the extension `.dcm`.
 
