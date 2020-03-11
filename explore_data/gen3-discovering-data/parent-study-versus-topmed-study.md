@@ -1,27 +1,30 @@
 ---
 description: >-
-  This page will explain the difference between Parent and TOPMed studies found
-  on Gen3's BioData Catalyst.
+  Overview of Parent and TOPMed studies hosted on the BioData Catalyst Gen3
+  platform
 ---
 
 # Parent and TOPMed Studies
 
-## Distinguishing Between Parent and TOPMed Studies on Gen3 BioData Catalyst
+## Distinguishing Between Parent and TOPMed Studies
 
-The two different study types, Parent and TOPMed, have been separated on Gen3 by Program. This division by Program is most visible mechanism to differentiate the two different studies.
+The Parent and TOPMed study types have been separated on Gen3 by their Program designation. An example of this division by Program is presented below.
 
-![A list of studies with Parent studies, underlined in blue, and TOPMed studies, underlined in red.](../../.gitbook/assets/parent_topmed_studies2.png)
+![A list of Parent \(underlined in blue\) and TOPMed studies \(underlined in red\)](../../.gitbook/assets/parent_topmed_studies2.png)
 
-These two Programs can be further identified by the following Project name. All Parent studies will also end in an `_` \(underscore\) to further differentiate them within the Gen3 BioData Catalyst system.
+The Program types can be further identified by the `_` \(underscore\) at the end of all Parent studies.
 
 ## Parent and TOPMed Study Contents
 
-The most notable difference in these two Program types are the type of data available. The following is what you can expect to find in the two Programs:
+The most notable difference between both Program categories is the type of hosted data for each
+
+ **Programs:**
 
 * TOPMed
-  * Genomic data: This includes files like CRAM, VCFs and Cohort Level VCFs.
-  * Phenotypic data: TOPMed studies, which do not have a Parent counter part study, will have phenotypic data for the patients. The phenotypic data in the graph is only DCC harmonized variables, but raw phenotypic data from dbGaP can be found in the `reference_file` node in the tar files that share this common naming scheme: `RootStudyConsentSet_phs######.<study_shorthand>.v#.p#.c#.<consent_codes>.tar.gz`.
+  * _Genomic data_: Available data can include CRAM, VCFs and Cohort-level VCF files
+  * _Phenotypic data_: TOPMed studies without an associated Parent study will include phenotypic data in the data graph by way of DCC harmonized variables. Additionally, raw phenotypic data from dbGaP can be found in the `reference_file` as tar files that share this common naming scheme: `RootStudyConsentSet_phs######.<study_shorthand>.v#.p#.c#.<consent_codes>.tar.gz`
 * Parent
-  * Phenotypic data: Like with TOPMed studies, any phenotypic data found within the Graph Model, will only be DCC harmonized variables. For the raw phenotypic data from dbGaP, again, it can be found in the `reference_file` node in the tar files that share this common naming scheme: `RootStudyConsentSet_phs######.<study_shorthand>.v#.p#.c#.<consent_codes>.tar.gz`.
-  * DICOM: At this time, only two projects with DICOM imagining files are available: `parent-COPDGene_HMB_` and `parent-COPDGENE_DS-CS_`. These files can be found in the `imaging_file` node and are files that have the extension `.dcm`.
+  * _Genomic data_: None
+  * _Phenotypic data_: Like with TOPMed studies, any phenotypic data found within the Graph Model, will only be DCC harmonized variables. For the raw phenotypic data from dbGaP, again, it can be found in the `reference_file` node in the tar files that share this common naming scheme: `RootStudyConsentSet_phs######.<study_shorthand>.v#.p#.c#.<consent_codes>.tar.gz`
+  * _Image Files - DICOM_: At this time, only two projects with DICOM imagining files are available: `parent-COPDGene_HMB_` and `parent-COPDGENE_DS-CS_`. These files can be found in the `imaging_file` node and are files that have the extension `.dcm`
 
