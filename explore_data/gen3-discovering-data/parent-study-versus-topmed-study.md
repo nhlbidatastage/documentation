@@ -14,6 +14,10 @@ The Parent and TOPMed study types have been separated on Gen3 by their Program d
 
 The Program types can be further identified by the `_` \(underscore\) at the end of all Parent studies.
 
+## Relationship Between Parent and TOPMed Studies
+
+There are three different relationships Parent and TOPMed studies can have. The first two relationships are simple: Parent only and TOPMed only. This means that the Parent study does not have a TOPMed counter part study and vice versa. In these situations,  
+
 ## Parent and TOPMed Study Contents
 
 The most notable difference between both Program categories is the type of hosted data for each
