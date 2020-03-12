@@ -1,15 +1,15 @@
-# YYYY-MM-DD Draft Release Notes Template
+# YYYY-MM-DD Draft Release Notes Workflow and Template
 
 **Release Notes Workflow:**
 
 1. Jira issue triggers BDC3 User Services to create YYYY-MM-DD Release Note page with overview statement on BDC3's GitBook
 2. Platforms/services POCs with BDC3 GitBook write access \(see User Services for write access\) use template provided below to add their release notes to the page
-3. 
+
 **FOR BDC3 USER SERVICES:**
 
 **Release Note Page Name** - YYYY-MM-DD + Release Note
 
-**Overview** - BDC3 User Services will include this overview statement at the beginning of the release note: "Release notes are provided by platforms and services in the BioData Catalyst ecosystem on a periodic basis to help our user community stay up-to-date on what has changed in the system. Platform and service release notes include include summaries, improvements, and fixes. Release notes for YYYY-MM-DD are available below:"
+**Overview** - BDC3 User Services will include this overview statement at the beginning of the release note: "Release notes are provided by platforms and services in the BioData Catalyst ecosystem on a periodic basis to help our user community stay up-to-date on what has changed in the system. Platform and service release notes include summaries, improvements, and fixes. Release notes for YYYY-MM-DD are available below:"
 
 **FOR PLATFORMS/SERVICES:**
 

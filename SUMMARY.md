@@ -42,5 +42,5 @@
 
 ## BioData Catalyst Release Notes
 
-* [YYYY-MM-DD Draft Release Notes Template](biodata-catalyst-release-notes/draft-release-notes.md)
+* [YYYY-MM-DD Draft Release Notes Workflow and Template](biodata-catalyst-release-notes/draft-release-notes.md)
 
