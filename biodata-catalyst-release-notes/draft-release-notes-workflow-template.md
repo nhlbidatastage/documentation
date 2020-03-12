@@ -2,7 +2,7 @@
 
 **Release Notes Workflow:**
 
-1. Jira issue triggers BDC3 User Services to create YYYY-MM-DD Release Note page with overview statement on BDC3's GitBook
+1. Jira issue triggers BDC3 User Services to create YYYY-MM-DD Release Notes page with overview statement on BDC3's GitBook
 2. Platforms/services POCs with BDC3 GitBook write access \(see User Services for write access\) use template provided below to add their release note to the page
 
 **FOR BDC3 USER SERVICES:**
