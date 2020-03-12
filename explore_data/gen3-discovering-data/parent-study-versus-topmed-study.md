@@ -16,7 +16,7 @@ The Program types can be further identified by the `_` \(underscore\) at the end
 
 ## Relationship Between Parent and TOPMed Studies
 
-There are three different relationships Parent and TOPMed studies can have. The first two relationships are simple: Parent only and TOPMed only. This means that the Parent study does not have a TOPMed counter part study and vice versa. In these situations,  
+There are three different relationships Parent and TOPMed studies can have. The first two relationships are simple: Parent only and TOPMed only. This means that the Parent study does not have a TOPMed counter part study and vice versa. For the studies that are only Parent or only TOPMed
 
 ## Parent and TOPMed Study Contents
 
