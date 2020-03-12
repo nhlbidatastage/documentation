@@ -1,47 +1,45 @@
-# Draft Release Template
+# YYYY-MM-DD Draft Release Notes Template
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Release_notes):
+**Release Notes Workflow:**
 
-There is no standard format for release notes that is followed throughout different organizations. Organizations normally adopt their own formatting styles based on the requirement and type of the information to be circulated. The content of release notes also vary according to the release type. For products that are at testing stage and that are newly released, the content is usually more descriptive compared to release notes for bug fixes and feature enhancements, which are usually brief. Release notes may include the following sections:
+1. Jira issue triggers BDC3 User Services to create YYYY-MM-DD Release Note page with overview statement on BDC3's GitBook
+2. Platforms/services POCs with BDC3 GitBook write access \(see User Services for write access\) use template provided below to add their release notes to the page
+3. 
+**FOR BDC3 USER SERVICES:**
 
-Header – Document Name \(i.e. Release Notes\), product name, release number, release date, note date, note version, etc. 
+**Release Note Page Name** - YYYY-MM-DD + Release Note
 
-Overview - A brief overview of the product and changes, in the absence of other formal documentation. 
+**Overview** - BDC3 User Services will include this overview statement at the beginning of the release note: "Release notes are provided by platforms and services in the BioData Catalyst ecosystem on a periodic basis to help our user community stay up-to-date on what has changed in the system. Platform and service release notes include include summaries, improvements, and fixes. Release notes for YYYY-MM-DD are available below:"
 
-Purpose - A brief overview of the purpose of the release note with a listing of what is new in this release, including bug fixes and new features. 
+**FOR PLATFORMS/SERVICES:**
 
-Issue Summary - A short description of the bug or the enhancement in the release. 
+* **Brief Heading -** Short, descriptive one sentence heading describing the main topic\(s\) of the release note
+* **Platform/Author -** Required, platform/service name; Optional, team member author name
+* **Brief, High Level Summary -** 1-3 sentence summary of what’s new \(the highlights\) for the platform/service
+* **Improvements -** Bulleted list, brief statements on high level improvements \(new features\) to the platform/service
+* **Fixes -** Bulleted list, brief statements on high level issues/bugs that have been resolved
+* **Optional** - Link to platform/service release notes for further information
 
-Steps to Reproduce - The steps that were followed when the bug was encountered. 
+**EXAMPLE PLATFORM/SERVICE RELEASE NOTE:** 
 
-Resolution - A short description of the modification/enhancement that was made to fix the bug. 
+**Brief Heading -** Bulk moving of files and folders via API
 
-End-User Impact - What different actions are needed by the end-users of the application. This should include whether other functionality is impacted by these changes. Support Impacts - Changes required in the daily process of administering the software. 
+**Platform/Author -** Seven Bridges \(Marko Marinkovic\)
 
-Notes - Notes about software or hardware installation, upgrades and product documentation \(including documentation updates\) 
+**Summary -** Moving files or folders in bulk from one project location to another is now available via the API. Bulk move is aimed at optimizing your API usage and the number of calls required to organize files and folders within projects.
 
-Disclaimers - Company and standard product related messages. e.g.; freeware, anti-piracy, duplication etc.. See also Disclaimer. 
+**Improvements -**
 
-Contact - Support contact information.
+* [Move multiple files or folders](https://docs.sevenbridges.com/reference#move-multiple-files-or-folders)
+* [Get details of a move job](https://docs.sevenbridges.com/reference#get-details-of-a-move-job)
 
-Other Tips:
+**Fixes -**
 
-* Use Plain English
-* Keep it brief
-* Provide relevant links
-* Allow for users to ask questions/provide feedback \(via forum\)
+* SnpEff and Samtools toolkits versions updated to Common Workflow Language 1.0 \(CWL 1.0\)
 
-Questions:
+**Release Note Link -**
 
-* Use BDC's Helpdesk for releases or combination w/ documentation?
-
-
-
-**Examples:**
-
-{% embed url="https://docs.dockstore.org/en/develop/news/2020-01-27-Dockstore-1.8.0.html" caption="Dockstore Release Notes" %}
-
-{% embed url="https://f4c.readme.io/blog" caption="Seven Bridges Release Notes" %}
+\*\*\*\*[**https://sb-biodatacatalyst.readme.io/blog/release-note-december-17-2019**](https://sb-biodatacatalyst.readme.io/blog/release-note-december-17-2019)
 
 
 
