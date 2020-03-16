@@ -37,9 +37,9 @@ Under the "Data" tab, users can leverage the [DCC harmonized variables](https://
 
 > **NOTE**: The facet filters are based on the [DCC Harmonized Variables](https://www.nhlbiwgs.org/sites/default/files/pheno_harmonization_guidelines.pdf), which are a selected subset of clinical data that have been transformed for compatibility across the dbGaP studies. TOPMed studies that do not contain harmonized clinical data at this time will be filtered out when a facet is chosen, unless the `no data` option is also selected for certain facets.
 
-### Exporting/Downloading Data from the Data Tab
+### Exporting Data from the Data Tab
 
-When a cohort has been selected, the user will have the option of exporting or downloading the data.
+After a cohort has been selected, the user will have 3 different option for exporting the data
 
 #### Export
 
