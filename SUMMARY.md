@@ -6,7 +6,8 @@
 
 ## Explore available data <a id="explore_data"></a>
 
-* [PIC-SURE for BioData Catalyst User Guide](explore_data/pic-sure-for-biodata-catalyst-user-guide.md)
+* [PIC-SURE for BioData Catalyst User Guide](explore_data/pic-sure-for-biodata-catalyst-user-guide/README.md)
+  * [PIC-SURE 2nd Heading](explore_data/pic-sure-for-biodata-catalyst-user-guide/pic-sure-2nd-heading.md)
 * [Discovering Data Using Gen3](explore_data/gen3-discovering-data/README.md)
   * [Dictionary](explore_data/gen3-discovering-data/dictionary.md)
   * [Exploration](explore_data/gen3-discovering-data/exploration.md)
