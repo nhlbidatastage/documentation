@@ -4,13 +4,13 @@ description: The interactive Data Dictionary page on the BioData Catalyst Gen3 p
 
 # Dictionary
 
-The Dictionary page contains an interactive visual representation of the Gen3 data model. The default graph model view displays all of the nodes and relationships between nodes. The model further specifies the node types and links between nodes, as highlighted in the legend \(top right-hand side of the page\).
+The Dictionary page contains an interactive visual representation of the Gen3 data model. The default graph model view, as seen below, displays all of the nodes and relationships between nodes in a hierarchical structure. The model further specifies the node types and links between nodes, as highlighted in the legend \(top right-hand side of the Data Dictionary page\).
 
 ![The default view of the interactive Gen3 Data Dictionary.](../../.gitbook/assets/dictionary.png)
 
 ## Graph View
 
-Users can click on any of the graph nodes in order to learn more about their respective properties. By clicking on a node,  the graph will highlight the node and all associated links that connect it to the Program node. A "Data Model Structure" list will also appear on the left side toolbar. This will display the node path required to reach the selected node from the program node.
+Users can click on any of the graph nodes in order to learn more about their respective properties. By clicking on a node,  the graph will highlight that specific node and all associated links that connect it to the Program node. A "Data Model Structure" list will also appear on the left side toolbar. This will display the node path required to reach the selected node from the Program node.
 
 ![An example of a node being selected in the interactive graph view.](../../.gitbook/assets/dictionary_first_select.png)
 
