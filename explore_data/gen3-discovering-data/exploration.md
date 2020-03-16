@@ -82,9 +82,9 @@ Once the user has selected a cohort, there are three options for accessing the f
 
 ### File Information Page
 
+A user can visit the File Information Page after clicking on any of the available GUID link\(s\) in the Files tab page. The page will display details such as data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a button to download the file via the browser \(see below\). For files that are 5GB or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/).
+
 ![An example file information page with the Download button. ](../../.gitbook/assets/image%20%287%29.png)
 
 ![An example file information page with the Download button. ](../../.gitbook/assets/file_information_page.png)
-
-The file information page will display details such as data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a button to download the file via the browser. For files that are 5GB or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/).
 
