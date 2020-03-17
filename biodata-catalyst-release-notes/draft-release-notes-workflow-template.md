@@ -18,7 +18,7 @@
 * **Brief, High Level Summary -** 1-3 sentence summary of what’s new \(the highlights\) for the platform/service
 * **Improvements -** Bulleted list, brief statements on high level improvements \(new features\) to the platform/service
 * **Fixes -** Bulleted list, brief statements on high level issues/bugs that have been resolved
-* **Optional** - Link to platform/service release notes for further information
+* **Optional** - Link to platform/service release note for further information
 
 **EXAMPLE PLATFORM/SERVICE RELEASE NOTE:** 
 
