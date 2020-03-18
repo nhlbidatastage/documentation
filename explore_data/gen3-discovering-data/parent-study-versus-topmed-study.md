@@ -18,7 +18,7 @@ The Program types can be further identified by the `_` \(underscore\) at the end
 
 There are three different relationships that Parent and TOPMed studies can have. The first two relationships are simple: Parent only and TOPMed only. This means that the Parent study does not have a TOPMed counter part study and vice versa. For Parent only studies, this usually means that there are no genomic data, such as WXS \(whole exome sequencing\) or WGS \(whole genome sequencing\), located within the study; only phenotypic data. For TOPMed only studies, these studies will contain both genomic data, WXS or WGS, and phenotypic data.
 
-The final relationship and the most common, is a Parent study with a counterpart TOPMed study. The Parent study will contain the phenotypic data, while the TOPMEd study will contain the genomic data. In the Gen3 system, these studies have been linked together, under the Parent form of the study, based on the participant ids found in dbGaP. This allows our system to produce useful information that combines both phenotypic and genomic data.
+The final relationship and the most common, is a Parent study with a counterpart TOPMed study. The Parent study will contain the phenotypic data, while the TOPMEd study will contain the genomic data. In the Gen3 system, these studies have been linked together, under the Parent form of the study, based on the participant ids found in dbGaP. This allows our system to produce useful information as it combines both phenotypic and genomic data.
 
 ## Parent and TOPMed Study Contents
 
