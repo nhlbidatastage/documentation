@@ -22,7 +22,7 @@ The final relationship and the most common, is a Parent study with a counterpart
 
 ## Parent and TOPMed Study Contents
 
-The most notable difference between both Program categories is the type of hosted data for each
+The most notable difference between both Program categories is the type of hosted data for each.
 
  **Programs:**
 
