@@ -24,11 +24,11 @@ Once logged in, your username will appear in the upper right-hand corner of the 
 
 #### DCC Harmonized clinical data:  <a id="dcc-harmonized-clinical-data"></a>
 
-A number of clinical variables have been harmonized by the [Data Coordinating Center \(DCC\)](https://www.nhlbiwgs.org/group/dcc) in order to facilitate cross-study analysis. Faceted search over the DCC Harmonized Variables is available via the [Exploration](exploration.md#the-data-tab) page, under the "Data" tab.
+A number of clinical variables have been harmonized by the [Data Coordinating Center \(DCC\)](https://www.nhlbiwgs.org/group/dcc) in order to facilitate cross-study analysis. Faceted search over the DCC Harmonized Variables is available via the [Exploration](exploration.md) page, under the "Data" tab.
 
 #### Unharmonized clinical data:  <a id="unharmonized-clinical-data"></a>
 
-Unharmonized clinical files are also available on the Gen3 platform and contain all of the raw phenotypic information for the hosted studies. Unlike the DCC Harmonized Variables, these files are located and searchable under the "Files" tab in the [Exploration](exploration.md#the-files-tab) page.
+Unharmonized clinical files are also available on the Gen3 platform and contain all of the raw phenotypic information for the hosted studies. Unlike the DCC Harmonized Variables, these files are located and searchable under the "[Files](exploration.md#the-files-tab)" tab in the [Exploration](exploration.md) page.
 
 ### Genomic <a id="genomic"></a>
 
