@@ -35,7 +35,7 @@ Under the "Data" tab, users can leverage the [DCC harmonized variables](https://
 * `Diagnosis`: Data from the investigation, analysis and recognition of the presence and nature of disease, condition, or injury from expressed signs and symptoms; also, the scientific determination of any kind; the concise results of such an investigation.
 * `Subject`: The collection of all data related to a specific subject in the context of a specific experiment.
 
-> **NOTE**: The facet filters are based on the [DCC Harmonized Variables](https://www.nhlbiwgs.org/sites/default/files/pheno_harmonization_guidelines.pdf), which are a selected subset of clinical data that have been transformed for compatibility across the dbGaP studies. TOPMed studies that do not contain harmonized clinical data at this time will be filtered out when a facet is chosen, unless the `no data` option is also selected for certain facets.
+> **NOTE**: The facet filters are based on the DCC Harmonized Variables, which are a selected subset of clinical data that have been transformed for compatibility across the dbGaP studies. TOPMed studies that do not contain harmonized clinical data at this time will be filtered out when a facet is chosen, unless the `no data` option is also selected for certain facets.
 
 ### Exporting Data from the Data Tab
 
@@ -47,7 +47,7 @@ The options for export are as follows:
 
 ![Three options offered for data export.](../../.gitbook/assets/export_options.png)
 
-* `Export All to Terra` :  Initiate a [Portable Format for Bioinformatics \(PFB\)](pfb-files.md#what-is-a-portable-format-for-bioinformatics-pfb) export of all clinical data and file GUIDs for the selected cohort to [BioData Catalyst powered by Terra](https://datastage.terra.bio/). At this time the max number of subjects that can be exported to Terra is 14,000.
+* `Export All to Terra` :  Initiate a [Portable Format for Bioinformatics \(PFB\)](pfb-files.md#what-is-a-portable-format-for-bioinformatics-pfb) export of all clinical data and file GUIDs for the selected cohort to [BioData Catalyst powered by Terra](https://terra.biodatacatalyst.nhlbi.nih.gov/). At this time the max number of subjects that can be exported to Terra is 14,000.
 * `Export to PFB` : Initiate a [PFB](./) export of all clinical data and file GUIDs for the selected cohort to your local storage.
 * `Export to Workspaces` : Export a manifest to the user's workspace and make the case-associated data files available in the workspace under the `/data` directory.
 
@@ -83,8 +83,6 @@ Once the user has selected a cohort, there are three options for accessing the f
 ### File Information Page
 
 A user can visit the File Information Page after clicking on any of the available GUID link\(s\) in the Files tab page. The page will display details such as data format, size, object\_id, the last time it was updated and the md5sum. The page also contains a button to download the file via the browser \(see below\). For files that are 5GB or more, we suggest using the [gen3-client](https://gen3.org/resources/user/gen3-client/).
-
-![An example file information page with the Download button. ](../../.gitbook/assets/image%20%287%29.png)
 
 ![An example file information page with the Download button. ](../../.gitbook/assets/file_information_page.png)
 
