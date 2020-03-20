@@ -20,7 +20,7 @@ When a second node in the path is selected, it will then gray out the other poss
 
 The left side toolbar has two options available, `Open properties` and `Download templates`. The `Download templates` option will download the submission files for all the nodes in the "Data Model Structure" list. The `Open properties` option will open the node properties in a new pop-up window. The `Open properties` button can also be found on the node that was first selected.
 
-![A node&apos;s property window.](../../.gitbook/assets/image%20%2820%29.png)
+![A node&apos;s property window](../../.gitbook/assets/image%20%288%29.png)
 
 This property view will display all properties in the node and information about each property:
 

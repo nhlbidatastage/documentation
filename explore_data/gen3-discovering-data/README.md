@@ -10,7 +10,7 @@ description: >-
 
 In order to navigate and access data available on the Gen3 platform, please start by visiting the [login page](https://gen3.biodatacatalyst.nhlbi.nih.gov/login). You will need an eRA Commons account as well as access permissions through the [Database of Genotypes and Phenotypes \(dbGaP\)](https://www.ncbi.nlm.nih.gov/gap/). If you are a researcher, login using your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do). BioData Catalyst consortia developers can login using their Google accounts. Please make sure to use the correct login method that contains access to your available projects.
 
-![Login page for the BioData Catalyst Gen3 portal.](../../.gitbook/assets/bdcat_login.png)
+![Login page for the BioData Catalyst Gen3 portal](../../.gitbook/assets/image%20%2851%29.png)
 
 Once logged in, your username will appear in the upper right-hand corner of the page. You will also see a display with aggregate statistics for the total number of subjects, studies, aliquots and files available within the BioData Catalyst platform.
 
@@ -38,7 +38,7 @@ The Gen3 platform hosts genomic data provided by the [Trans-Omics for Precision 
 
 The BioData Catalyst Gen3 platform contains five pages described below:
 
-* \*\*\*\*[**Dictionary**](dictionary.md)**:** An interactive data dictionary display that details the contents and relationships between clinical and biospecimen data.
+* \*\*\*\*[**Dictionary**](dictionary.md)**:** An interactive data dictionary display that details the contents and relationships between clinical and biospecimen data
 * \*\*\*\*[**Exploration**](exploration.md)**:** The facet filter custom cohort creation tool
 * \*\*\*\*[**Query**](query.md)**:** The GraphQL query tool to retrieve specific data within the graph model
 * \*\*\*\*[**Workspace**](workspace.md)**:** The launch page for Gen3 workspaces that includes Jupyter Notebooks and RStudio

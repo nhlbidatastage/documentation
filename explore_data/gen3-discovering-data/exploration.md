@@ -78,7 +78,7 @@ Once the user has selected a cohort, there are three options for accessing the f
 * `Export to Workspace`: The files can be exported to a Gen3 workspace.
 * `GUID Download File Page`:  Users can download files by first clicking on the link\(s\) under the GUIDs column, followed by the Download button in the file information pages \(see below\).
 
-![Files can be downloaded by first clicking on the link\(s\) located under the GUID column.](../../.gitbook/assets/image%20%2843%29.png)
+![Files can be downloaded by first clicking on the link\(s\) located under the GUID column.](../../.gitbook/assets/image%20%2846%29.png)
 
 ### File Information Page
 
