@@ -19,7 +19,7 @@
 
 ## Analyze data
 
-* [Seven Bridges](https://f4c.readme.io/docs)
+* [Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/projects-on-the-platform)
 * [Terra](https://support.terra.bio/hc/en-us)
 * [Dockstore](analyze-data/dockstore.md)
 
