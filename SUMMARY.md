@@ -4,6 +4,10 @@
 * [Tutorials](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/)
 * [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
 
+## Data Access
+
+* [Untitled](data-access/untitled.md)
+
 ## Explore available data <a id="explore_data"></a>
 
 * [PIC-SURE for BioData Catalyst User Guide](explore_data/pic-sure-for-biodata-catalyst-user-guide/README.md)
@@ -44,8 +48,4 @@
 ## BioData Catalyst Release Notes
 
 * [YYYY-MM-DD Draft Release Notes Workflow and Template](biodata-catalyst-release-notes/draft-release-notes-workflow-template.md)
-
-## Data Access
-
-* [Untitled](data-access/untitled.md)
 
