@@ -11,7 +11,7 @@ That’s not the only option you have, though. The buttons you see will depend o
 ## CWL Workflows <a id="CWL-Workflows"></a>
 
 * NHLBI BioData Catalyst
-* [CGL powered by Seven Bridges](https://docs.cancergenomicscloud.org/docs/run-dockstore-apps-on-the-cgc)
+* [CGC powered by Seven Bridges](https://docs.cancergenomicscloud.org/docs/run-dockstore-apps-on-the-cgc)
 
 ## WDL Workflows <a id="WDL-Workflows"></a>
 
