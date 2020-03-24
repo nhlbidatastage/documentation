@@ -33,6 +33,8 @@
   * [Introduction to Batch Analysis with Workflows](analyze-data/terra-exploratory-draft/introduction-to-batch-analysis-with-workflows.md)
   * [Introduction to Interactive Analysis with Jupyter Notebooks](analyze-data/terra-exploratory-draft/introduction-to-interactive-analysis-with-jupyter-notebooks.md)
   * [Performing Genome Wide Association Study \(GWAS\) Analysis in Terra](analyze-data/terra-exploratory-draft/performing-genome-wide-association-study-gwas-analysis-in-terra.md)
+  * [Controlling Cloud Costs](analyze-data/terra-exploratory-draft/controlling-cloud-costs.md)
+  * [Terra Full Documentation](analyze-data/terra-exploratory-draft/terra-full-documentation.md)
 * [Dockstore](analyze-data/dockstore.md)
 
 ## Community Tools & Integration
