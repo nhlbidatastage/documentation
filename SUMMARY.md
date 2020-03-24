@@ -24,7 +24,6 @@
 ## Analyze data
 
 * [Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/projects-on-the-platform)
-* [Terra](https://support.terra.bio/hc/en-us)
 * [Terra \(draft\)](analyze-data/terra-exploratory-draft/README.md)
   * [Getting Started with Terra](analyze-data/terra-exploratory-draft/getting-started-with-terra.md)
   * [Getting Started with BioData Catalyst Data from Gen3](analyze-data/terra-exploratory-draft/getting-started-with-biodata-catalyst-data-from-gen3.md)
