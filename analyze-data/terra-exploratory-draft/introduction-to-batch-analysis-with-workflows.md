@@ -1,0 +1,18 @@
+# Introduction to Batch Analysis with Workflows
+
+Terra workflows perform batch processing jobs defined in the Workflow Description Language \(WDL\) on the Cromwell workflow engine.
+
+Many WDL workflows are conveniently available from the Dockstore tool and workflow repository.
+
+* \*\*\*\*[**Importing a Dockstore workflow into Terra**](https://support.terra.bio/hc/en-us/articles/360038137292)\*\*\*\*
+
+Additional useful documents include:
+
+* [**Configure a workflow to process your data**](https://support.terra.bio/hc/en-us/articles/360026521831-Configure-a-workflow-to-process-your-data)\*\*\*\*
+* \*\*\*\*[**Understanding Data in the Cloud**](https://support.terra.bio/hc/en-us/articles/360034335332-Understanding-Data-in-the-Cloud)\*\*\*\*
+* [**Get started running workflows**](https://support.terra.bio/hc/en-us/articles/360036379771) ****See CRAM-to-BAM example.
+
+\*\*\*\*
+
+\*\*\*\*
+
