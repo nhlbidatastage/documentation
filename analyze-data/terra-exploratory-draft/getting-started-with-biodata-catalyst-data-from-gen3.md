@@ -1,6 +1,6 @@
 # Getting Started with BioData Catalyst Data from Gen3
 
-BioData Catalyst powered by Gen3 provides data for many projects and supports conveniently search across the vast set of subjects  to identify the best available cohort for research analysis. These searchers are based on harmonized phenotypic variables, and the searches may be performed both within and across studies.
+BioData Catalyst powered by Gen3 provides data for many projects and conveniently supports search across the vast set of subjects to identify the best available cohort for research analysis. Searches are based on harmonized phenotypic variables and  may be performed both within and across studies.
 
 When a desired cohort has been identified, it may be conveniently "handed-off" to Terra for analysis.
 
@@ -16,13 +16,13 @@ This page provides necessary information for all researchers using BioData Catal
 
 ### Finding and Selecting Data Using Gen3
 
-* See the section titled: [**Discovering Data in Gen3**](https://app.gitbook.com/@bdcatalyst/s/biodata-catalyst-documentation/~/drafts/-M39fTUqRhL3MLSamYXC/explore_data/gen3-discovering-data)\*\*\*\*
+* See the section titled: [**Discovering Data Using Gen3**](../../explore_data/gen3-discovering-data/)\*\*\*\*
 
 ### Linking Terra to External Servers
 
 * [**Linking Terra to External Servers**](https://support.terra.bio/hc/en-us/articles/360038086332)\*\*\*\*
 
-### **Understanding and using Gen3 data in Terra**
+### **Understanding and Using Gen3 Data in Terra**
 
 The important topic of working with the Gen3 fine-grained graph data model in Terra is addressed by the following resources:
 
