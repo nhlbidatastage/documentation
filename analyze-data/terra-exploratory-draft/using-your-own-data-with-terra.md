@@ -29,8 +29,7 @@ The ways in which a researcher may import metadata to the Terra Data tables are 
 
 * \*\*\*\*[**How to import metadata to a workspace data table**](https://support.terra.bio/hc/en-us/articles/360036954991-How-to-import-metadata-to-a-workspace-data-table)\*\*\*\*
 * [**Managing data with table**s](https://support.terra.bio/hc/en-us/articles/360025758392)
-
-\(Coming "soon"\) Tutorial on accessing/using dbGaP unharmonized metadata from Gen3
+* _Tutorial on accessing/using dbGaP unharmonized metadata from Gen3 \(coming soon\)_
 
 ### Featured Workspace
 
