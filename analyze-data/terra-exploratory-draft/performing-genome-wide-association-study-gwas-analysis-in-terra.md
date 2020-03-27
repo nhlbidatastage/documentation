@@ -4,6 +4,8 @@ Terra provides powerful support for performing Genome Wide Association Study \(G
 
 ### Featured Workspace
 
+This workspace was created to walk users through a GWAS with training data that includes synthetic phenotypic data \(modeled after traits available in TOPMed\) paired with 1000 Genomes data. This tutorial aims to familiarize users with the Gen3 data model so that they can become empowered to use this data model with any existing tutorials available in Terra. 
+
 * [**BioData Catalyst GWAS 1000 Genomes Tutorial**](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial)
 
 ### Template Workspace
