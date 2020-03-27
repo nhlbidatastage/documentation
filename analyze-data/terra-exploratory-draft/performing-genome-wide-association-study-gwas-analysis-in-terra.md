@@ -1,6 +1,6 @@
 # Performing Genome Wide Association Study \(GWAS\) Analysis in Terra
 
-Terra provides powerful support for performing Genome Wide Association Study \(GWAS\) analysis. The following featured and template workspaces include Jupyter notebooks for phenotypic and genomic data preparation \(using Hail\) and workflows \(using GENESIS\) to perform GWAS. We will continue to provide more resources for performing GWAS in BioData Catalyst. 
+Terra provides powerful support for performing Genome Wide Association Study \(GWAS\) analysis. The following featured and template workspaces include Jupyter notebooks for phenotypic and genomic data preparation \(using Hail\) and workflows \(using GENESIS\) to perform GWAS. We will continue to provide more resources for performing more complex GWAS scenarios in BioData Catalyst. 
 
 ### Featured Workspace
 
