@@ -7,6 +7,14 @@ description: >-
 
 # Getting Started with Terra
 
+### Supported Web Browser
+
+Terra is designed and tested and will run best on the Google Chrome web browser.
+
+### BioData Catalyst Powered by Terra URL
+
+[**https://terra.biodatacatalyst.nhlbi.nih.gov/**](https://terra.biodatacatalyst.nhlbi.nih.gov/)\*\*\*\*
+
 ### Logging-in to Terra
 
 * \*\*\*\*[**How to register for a Terra account**](https://support.terra.bio/hc/en-us/articles/360028235911-How-to-register-for-a-Terra-account)\*\*\*\*
