@@ -1,12 +1,18 @@
+---
+description: >-
+  This page provides essential information for all researchers using BioData
+  Catalyst data from Gen3.
+---
+
 # Getting Started with BioData Catalyst Data from Gen3
 
-BioData Catalyst powered by Gen3 provides data for many projects and conveniently supports search across the vast set of subjects to identify the best available cohort for research analysis. Searches are based on harmonized phenotypic variables and  may be performed both within and across studies.
+BioData Catalyst powered by Gen3 provides data for many projects and conveniently supports search across the vast set of subjects to identify the best available cohorts for research analysis. Searches are based on harmonized phenotypic variables and may be performed both within and across projects.
 
-When a desired cohort has been identified, it may be conveniently "handed-off" to Terra for analysis.
+When a desired cohort has been identified in Gen3, the cohort may be conveniently "handed-off" to Terra for analysis.
 
 Optionally, this dataset may be enhanced with additional metadata from dbGaP, or extended to include additional researcher-provided subject data.
 
-This page provides necessary information for all researchers using BioData Catalyst data from Gen3. The resources below include the following information:
+This page provides essential information for all researchers using BioData Catalyst data from Gen3. The resources below include the following information:
 
 * Accessing and selecting subject data in the Gen3 data browser
 * Handing-off selected subject data from Gen3 to Terra
