@@ -18,6 +18,9 @@ description: >-
 
 ### **Setting-up a Billing Account**
 
+Note to BioData Catalyst Fellows:  
+The billing account setup for Fellows is likely to be different than that for other BioData Catalyst users. Instructions for setting up Fellows billing accounts will be provided at the platform-specific onboarding training.
+
 * \*\*\*\*[**Billing overview for BioData Catalyst users**](https://support.terra.bio/hc/en-us/articles/360039016532) ****
 
 ### Navigating in Terra
