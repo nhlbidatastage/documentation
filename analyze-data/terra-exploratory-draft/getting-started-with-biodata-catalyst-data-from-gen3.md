@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page provides essential information for all researchers using BioData
-  Catalyst data from Gen3.
+  This page provides essential information for all researchers using Terra with
+  BioData Catalyst data from Gen3.
 ---
 
 # Getting Started with BioData Catalyst Data from Gen3
@@ -17,16 +17,18 @@ This page provides essential information for all researchers using BioData Catal
 * Accessing and selecting subject data in the Gen3 data browser
 * Handing-off selected subject data from Gen3 to Terra
 * Using the fine-grained Gen3 graph data model within Terra
-* Linking a Terra user account to corresponding Gen3 user account to enable user data access
+* Linking a Terra user account to corresponding Gen3 user account to enable data file access
 * A description of the GA4GH DRS protocol and data identifiers used by Gen3 and Terra
 
 ### Finding and Selecting Data Using Gen3
 
-* [**Discovering Data Using Gen3**](../../explore_data/gen3-discovering-data/) ****This article describes how to login to the Gen3 portal and the way in which user access to data is determined. It then describes the types of data available and provides an overview of the Gen3 data portal.
+[**Discovering Data Using Gen3**](../../explore_data/gen3-discovering-data/)  
+****This article describes how to login to the Gen3 portal and the way in which user access to data is determined. It then describes the types of data available and provides an overview of the Gen3 data portal.
 
 ### Linking Terra and Gen3 User Accounts to Access Data
 
-* [**Linking Terra to External Servers**](https://support.terra.bio/hc/en-us/articles/360038086332) ****This article describes the important topic of linking the Terra user's account to the user's account in Gen3 to enable Terra to access data provided by Gen3.
+[**Linking Terra to External Servers**](https://support.terra.bio/hc/en-us/articles/360038086332)  
+****This article describes the important topic of linking the Terra user's account to the user's account in Gen3 to enable Terra to access data provided by Gen3.
 
 ### **Working with Gen3 Data in Terra**
 
@@ -37,7 +39,8 @@ The important topic of working with the Gen3 fine-grained graph data model in Te
 
 ### Data Access with the GA4GH Data Repository Service \(DRS\)
 
-* \*\*\*\*[**Data Access with the GA4GH Data Repository Service \(DRS\)**](https://broadinstitute.zendesk.com/knowledge/articles/360039330211/en-us?brand_id=360000963592) ****This article presents an overview of the GA4GH Data Repository Service and how it is used by Terra to provide access to GA4GH DRS compliant data repositories, including Gen3. It includes a description of DRS URIs and how those are used to access data from Terra workflows and Jupyter Notebooks.
+\*\*\*\*[**Data Access with the GA4GH Data Repository Service \(DRS\)**](https://broadinstitute.zendesk.com/knowledge/articles/360039330211/en-us?brand_id=360000963592)  
+****This article presents an overview of the GA4GH Data Repository Service and how it is used by Terra to provide access to GA4GH DRS compliant data repositories, including Gen3. It includes a description of DRS URIs and how those are used to access data in Terra workflows and Jupyter Notebooks.
 
 
 
