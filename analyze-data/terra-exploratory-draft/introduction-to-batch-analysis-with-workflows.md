@@ -10,7 +10,8 @@ Additional useful documents include:
 
 * [**Configure a workflow to process your data**](https://support.terra.bio/hc/en-us/articles/360026521831-Configure-a-workflow-to-process-your-data)\*\*\*\*
 * \*\*\*\*[**Understanding Data in the Cloud**](https://support.terra.bio/hc/en-us/articles/360034335332-Understanding-Data-in-the-Cloud)\*\*\*\*
-* [**Get started running workflows**](https://support.terra.bio/hc/en-us/articles/360036379771) ****See CRAM-to-BAM example.
+* [**Get started running workflows**](https://support.terra.bio/hc/en-us/articles/360036379771)
+* [**Terra-Workflows-Quickstart**](https://app.terra.bio/#workspaces/fc-product-demo/Terra-Workflows-Quickstart)\*\*\*\*
 
 \*\*\*\*
 
