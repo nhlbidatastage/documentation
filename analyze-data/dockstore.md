@@ -15,7 +15,7 @@ That’s not the only option you have, though. The buttons you see will depend o
 
 ## WDL Workflows <a id="WDL-Workflows"></a>
 
-* [NHLBI BioData Catalyst](https://docs.dockstore.org/en/develop/launch-with/terra-launch-with.html)
+* NHLBI BioData Catalyst
 * [Terra](https://docs.dockstore.org/en/develop/launch-with/terra-launch-with.html)
 * [DNAstack](https://docs.dockstore.org/en/develop/launch-with/dnastack-launch-with.html)
 * [DNAnexus](https://docs.dockstore.org/en/develop/launch-with/dnanexus-launch-with.html)
