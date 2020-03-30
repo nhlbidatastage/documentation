@@ -21,7 +21,9 @@ Docker and the Workflow Description Language \(WDL\) provide powerful flexible c
     * \*\*\*\*[**Getting Started with WDL** ](https://support.terra.bio/hc/en-us/articles/360037117492-Getting-Started-with-WDL) ****This tutorial provides a gentle introduction to the structure and use of the WDL language. ****
 * \*\*\*\*[**Getting Started with WDL \(Tutorial on Dockstore site\)**](https://docs.dockstore.org/en/develop/getting-started/getting-started-with-wdl.html) ****This is a continuation of the Docker tutorial above. The basics of the WDL language are presented, followed by instructions for creating a WDL for the BAMStats Docker image, testing the WDL, then releasing this on GitHub.
 
-
-
 ### Publishing with Dockstore
+
+* [**Creating a Dockstore Account**](https://docs.dockstore.org/en/develop/getting-started/register-on-dockstore.html) ****Before you can publish your new tool, you need to create a Dockstore account and link the relevant services.
+* \*\*\*\*[**Register Your Tool in Dockstore**](https://docs.dockstore.org/en/develop/getting-started/dockstore-tools.html)\*\*\*\*
+* [**Register Your Workflow in Dockstore**](https://docs.dockstore.org/en/develop/getting-started/dockstore-workflows.html) ****
 
