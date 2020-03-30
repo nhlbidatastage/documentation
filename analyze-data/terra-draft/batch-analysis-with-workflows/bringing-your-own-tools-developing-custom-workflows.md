@@ -16,6 +16,11 @@ Docker and the Workflow Description Language \(WDL\) provide powerful flexible c
 
 ### Workflow Description Language \(WDL\)
 
+* \*\*\*\*[**WDL Documentation**](https://support.terra.bio/hc/en-us/sections/360007274612-WDL-Documentation) ****This set of articles provides broad and deep coverage of the WDL language. 
+  * [**WDL Tutorial**](https://support.terra.bio/hc/en-us/sections/360007347652)**s** This set of tutorials provides practical examples that start simply, then covers more advanced topics including multi-step workflows and scatter-gather. ****
+    * \*\*\*\*[**Getting Started with WDL** ](https://support.terra.bio/hc/en-us/articles/360037117492-Getting-Started-with-WDL) ****This tutorial provides a gentle introduction to the structure and use of the WDL language.  ****
+* \*\*\*\*[**Getting Started with WDL \(Tutorial on Dockstore site\)**](https://docs.dockstore.org/en/develop/getting-started/getting-started-with-wdl.html) ****This is a continuation of the Docker tutorial above. The basics of the WDL language are presented, followed by instructions for creating a WDL for the BAMStats Docker image, testing the WDL, then releasing this on GitHub.
+
 
 
 ### Publishing with Dockstore
