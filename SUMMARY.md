@@ -29,7 +29,7 @@
   * [Getting Started with BioData Catalyst Data from Gen3](analyze-data/terra-exploratory-draft/getting-started-with-biodata-catalyst-data-from-gen3.md)
   * [Using Your Own Data with Terra](analyze-data/terra-exploratory-draft/using-your-own-data-with-terra.md)
   * [Types of Analysis in Terra](analyze-data/terra-exploratory-draft/types-of-analysis-in-terra.md)
-  * [Introduction to Batch Analysis with Workflows](analyze-data/terra-exploratory-draft/introduction-to-batch-analysis-with-workflows.md)
+  * [Batch Analysis with Workflows](analyze-data/terra-exploratory-draft/batch-analysis-with-workflows.md)
   * [Introduction to Interactive Analysis with Jupyter Notebooks](analyze-data/terra-exploratory-draft/introduction-to-interactive-analysis-with-jupyter-notebooks.md)
   * [Performing Genome Wide Association Study \(GWAS\) Analysis in Terra](analyze-data/terra-exploratory-draft/performing-genome-wide-association-study-gwas-analysis-in-terra.md)
   * [Controlling Cloud Costs](analyze-data/terra-exploratory-draft/controlling-cloud-costs.md)
