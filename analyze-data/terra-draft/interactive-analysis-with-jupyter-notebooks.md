@@ -1,3 +1,7 @@
+---
+description: This page describes how to use the interactive analysis features of Terra.
+---
+
 # Interactive Analysis with Jupyter Notebooks
 
 For an introduction to Jupyter Notebooks for those unfamiliar with them, see:

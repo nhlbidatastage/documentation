@@ -1,6 +1,10 @@
+---
+description: This page describes how to use the batch processing features of Terra.
+---
+
 # Batch Analysis with Workflows
 
-Terra workflows perform batch processing jobs defined in the Workflow Description Language \(WDL\) on the Cromwell workflow engine.
+Terra provides highly scalable support for batch analysis using workflows. Workflow jobs are defined in the Workflow Description Language \(WDL\) and run on the Cromwell workflow engine.
 
 ### Workflow Tutorials
 
