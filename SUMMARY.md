@@ -30,7 +30,7 @@
   * [Using Your Own Data with Terra](analyze-data/terra-draft/using-your-own-data-with-terra.md)
   * [Types of Analysis in Terra](analyze-data/terra-draft/types-of-analysis-in-terra.md)
   * [Batch Analysis with Workflows](analyze-data/terra-draft/batch-analysis-with-workflows/README.md)
-    * [Brining Your Own Tools: Developing Custom Workflows](analyze-data/terra-draft/batch-analysis-with-workflows/brining-your-own-tools-developing-custom-workflows.md)
+    * [Bringing Your Own Tools: Developing Custom Workflows](analyze-data/terra-draft/batch-analysis-with-workflows/bringing-your-own-tools-developing-custom-workflows.md)
   * [Interactive Analysis with Jupyter Notebooks](analyze-data/terra-draft/interactive-analysis-with-jupyter-notebooks.md)
   * [Performing Genome Wide Association Study \(GWAS\) Analysis in Terra](analyze-data/terra-draft/performing-genome-wide-association-study-gwas-analysis-in-terra.md)
   * [Controlling Cloud Costs](analyze-data/terra-draft/controlling-cloud-costs.md)
