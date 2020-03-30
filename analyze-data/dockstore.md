@@ -15,12 +15,12 @@ That’s not the only option you have, though. The buttons you see will depend o
 
 ## WDL Workflows <a id="WDL-Workflows"></a>
 
-* NHLBI BioData Catalyst
-* [Terra](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/community_tools/dockstore-example)
+* [NHLBI BioData Catalyst](https://docs.dockstore.org/en/develop/launch-with/terra-launch-with.html)
+* [Terra](https://docs.dockstore.org/en/develop/launch-with/terra-launch-with.html)
 * [DNAstack](https://docs.dockstore.org/en/develop/launch-with/dnastack-launch-with.html)
 * [DNAnexus](https://docs.dockstore.org/en/develop/launch-with/dnanexus-launch-with.html)
 
-In addition to WDL, CWL, and Nextflow workflows, Dockstore also hosts sample JSONs so you can see exactly how to run these workflows. Some of these JSONs even link directly to sample data so you can be assured that your setup, whatever that might be, is fully functional. Bear in mind that if you are running on Terra, sample JSONs that contain URLs that link to Google Storage Buckets will need them in gs:// or drs:// format.
+In addition to WDL, CWL, and Nextflow workflows, Dockstore also hosts sample JSONs so you can see exactly how to run these workflows. Some of these JSONs even link directly to sample data so you can be assured that your setup, whatever that might be, is fully functional. 
 
 Dockstore is searchable, and you can search by both workflow properties–language, author, whether or not has an associated checker workflow, etc. So, for instance, if you only wanted to work in Seven Bridges as that is the platform you are the most familiar with, you can [limit your search to CWL workflows](https://dockstore.org/search?descriptorType=CWL&searchMode=files). You can also search by [an organization’s projects](https://dockstore.org/organizations). In particular, we want to point out two projects we’re passionate about: BioData Catalyst and TOPMed.
 
