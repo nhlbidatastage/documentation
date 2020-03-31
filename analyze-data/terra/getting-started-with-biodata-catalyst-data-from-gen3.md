@@ -39,8 +39,8 @@ The important topic of working with the Gen3 fine-grained graph data model in Te
 
 ### Data Access with the GA4GH Data Repository Service \(DRS\)
 
-\*\*\*\*[**Data Access with the GA4GH Data Repository Service \(DRS\)**](https://broadinstitute.zendesk.com/knowledge/articles/360039330211/en-us?brand_id=360000963592)  
-****This article presents an overview of the GA4GH Data Repository Service and how it is used by Terra to provide access to GA4GH DRS compliant data repositories, including Gen3. It includes a description of DRS URIs and how those are used to access data in Terra workflows and Jupyter Notebooks.
+\*\*\*\*[**Data Access with the GA4GH Data Repository Service \(DRS\)**  
+](https://support.terra.bio/hc/en-us/articles/360039330211)This article presents an overview of the GA4GH Data Repository Service and how it is used by Terra to provide access to GA4GH DRS compliant data repositories, including Gen3. It includes a description of DRS URIs and how those are used to access data in Terra workflows and Jupyter Notebooks.
 
 
 
