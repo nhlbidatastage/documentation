@@ -7,13 +7,10 @@ description: >-
 
 # Getting Started with Terra
 
-### Supported Web Browser
+### Accessing Terra
 
-Terra is designed and tested and will run best on the Google **Chrome** web browser.
-
-### BioData Catalyst Powered by Terra URL
-
-[**https://terra.biodatacatalyst.nhlbi.nih.gov/**](https://terra.biodatacatalyst.nhlbi.nih.gov/)\*\*\*\*
+* **BioData Catalyst Powered by Terra URL:** [**https://terra.biodatacatalyst.nhlbi.nih.gov/**](https://terra.biodatacatalyst.nhlbi.nih.gov/)\*\*\*\*
+* **Web Browser:**  Google **Chrome** is the web browser that Terra is designed for, tested with, and runs best on.
 
 ### Logging-in to Terra
 
