@@ -1,45 +1,39 @@
-# YYYY-MM-DD Draft Release Notes Workflow and Template
+# 2020-04-02 BioData Catalyst Ecosystem Release Notes
 
-**Release Notes Workflow:**
+**Introduction**
 
-1. Jira issue triggers BDC3 User Services to create YYYY-MM-DD Release Notes page with overview statement on BDC3's GitBook
-2. Platforms/services POCs with BDC3 GitBook write access \(see User Services for write access\) use template provided below to add their release notes to the page
+The 2020-04-02 BioData Catalyst release marks a significant milestone in the project with a number of major highlights including:
 
-**FOR BDC3 USER SERVICES:**
+* Ensuring data onboarding to Amazon Web Services \(AWS\) and Google Cloud
+* Sufficient harmonization of clinical and phenotypic metadata to be FAIR
+* Systems integration to search metadata, find data, and analyze it in a workspace environment supporting a variety of different analysis modalities
 
-**Release Note Page Name** - YYYY-MM-DD + Release Notes
+For more in depth information please see the "List of significant new features" below.
 
-**Overview** - BDC3 User Services will include this overview statement at the beginning of the release note: "Release notes are provided by platforms and services in the BioData Catalyst ecosystem on a periodic basis to help our user community stay up-to-date on what has changed in the system. Platform and service release notes include summaries, improvements, and fixes. Release notes for YYYY-MM-DD are available below:"
+#### **List of significant new features**
 
-**FOR PLATFORMS/SERVICES:**
+The following Go Live MVP features in this release support primarily TOPMed researchers ranging in technical skills \(both command-line and GUI\) and with data access approvals:
 
-* **Brief Heading -** Short, descriptive one sentence heading describing the main topic\(s\) of the release note
-* **Platform/Author -** Required, platform/service name; Optional, team member author name
-* **Brief, High Level Summary -** 1-3 sentence summary of what’s new \(the highlights\) for the platform/service
-* **Improvements -** Bulleted list, brief statements on high level improvements \(new features\) to the platform/service
-* **Fixes -** Bulleted list, brief statements on high level issues/bugs that have been resolved
-* **Optional** - Link to platform/service release note for further information
+* **Feature A:** Access the Bio Data Catalyst platform using their eRA Commons ID.
+* **Feature B:** Search for phenotypic data from select cohorts using i2b2/tranSMART.
+* **Feature C:** Browse list of harmonized TOPMed data using phenotype keywords \(a subset of TOPMed variables are harmonized\).
+* **Feature D:** Find and access genomic and reference data files at the “BioData Catalyst powered by Seven Bridges”  \([https://platform.sb.biodatacatalyst.nhlbi.nih.gov/](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/)\) Data Browser and Gen3 Windmill \([https://gen3.biodatacatalyst.nhlbi.nih.gov/](https://gen3.biodatacatalyst.nhlbi.nih.gov/)\) Explorer.
+* **Feature E:** Bring your own phenotype, computed genomic and reference data files to the workspace environments.
+* **Feature F:**  Analyze data \(e.g., phenotype data files\) in association studies using a suite of tools, services, and applications available in the ecosystem.  
+* **Feature G:** Execute GWAS single variant and gene-based rare variant analyses.
+* **Feature H:**  Access documentation for the platform\(s\).
+* **Feature I:**  Track cloud costs across the BD Catalyst platform services.
 
-**EXAMPLE PLATFORM/SERVICE RELEASE NOTE:** 
+**Data Releases**
 
-**Brief Heading -** Bulk moving of files and folders via API
+For information regarding the status of data train releases please consult the Data Release Notes page \(not currently available\).
 
-**Platform/Author -** Seven Bridges \(Marko Marinkovic\)
+#### **For detailed platform release notes please consult the following resources:**
 
-**Summary -** Moving files or folders in bulk from one project location to another is now available via the API. Bulk move is aimed at optimizing your API usage and the number of calls required to organize files and folders within projects.
-
-**Improvements -**
-
-* [Move multiple files or folders](https://docs.sevenbridges.com/reference#move-multiple-files-or-folders)
-* [Get details of a move job](https://docs.sevenbridges.com/reference#get-details-of-a-move-job)
-
-**Fixes -**
-
-* SnpEff and Samtools toolkits versions updated to Common Workflow Language 1.0 \(CWL 1.0\)
-
-**Release Note Link -**
-
-\*\*\*\*[**https://sb-biodatacatalyst.readme.io/blog/release-note-december-17-2019**](https://sb-biodatacatalyst.readme.io/blog/release-note-december-17-2019)
+* Link to Gen3 release notes 
+* Link to Terra release notes
+* Link to Seven Bridges release notes
+* ---
 
 
 

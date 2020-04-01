@@ -57,5 +57,5 @@
 
 ## BioData Catalyst Release Notes
 
-* [YYYY-MM-DD Draft Release Notes Workflow and Template](biodata-catalyst-release-notes/draft-release-notes-workflow-template.md)
+* [2020-04-02 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/draft-release-notes-workflow-template.md)
 
