@@ -34,7 +34,7 @@ For information regarding the status of data train releases please consult the D
 * [Terra release notes](https://support.terra.bio/hc/en-us/categories/360000693572)
 * [Seven Bridges release notes](https://sb-biodatacatalyst.readme.io/blog)
 * PIC-SURE release notes
-* [Dockstore release notes](https://docs.dockstore.org/en/develop/)
+* [Dockstore release notes](https://docs.dockstore.org/en/develop/changelog.html)
 
 
 
