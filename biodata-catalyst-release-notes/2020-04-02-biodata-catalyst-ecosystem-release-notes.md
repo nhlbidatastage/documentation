@@ -30,10 +30,11 @@ For information regarding the status of data train releases please consult the D
 
 #### **For detailed platform release notes please consult the following resources:**
 
-* Link to Gen3 release notes 
-* Link to Terra release notes
-* Link to Seven Bridges release notes
-* ---
+* Gen3 release notes 
+* [Terra release notes](https://support.terra.bio/hc/en-us/categories/360000693572)
+* [Seven Bridges release notes](https://sb-biodatacatalyst.readme.io/blog)
+* PIC-SURE release notes
+* [Dockstore release notes](https://docs.dockstore.org/en/develop/)
 
 
 
