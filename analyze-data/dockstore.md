@@ -1,3 +1,7 @@
+---
+description: Your one-stop shop for bioinformatics workflows
+---
+
 # Dockstore
 
 [Dockstore](https://dockstore.org/) is a repository for Dockerized bioinformatics workflows. \(Not familiar with Docker? [We’ve got docs for that too.](https://docs.dockstore.org/en/develop/getting-started/getting-started-with-docker.html)\) The beauty of Dockerized workflows is that they come packaged with all of their requirements, meaning you spend less time searching the web for obscure installation errors and more time doing research. What makes Dockstore different from websites such as [Dockerhub](https://hub.docker.com/) is that Dockstore workflows can be exported to cloud platforms directly, making it great for those who may not have access to their own computational cluster. Plus, Dockstore is specifically for bioinformatics workflows, meaning you spend less time wading through packages which aren’t relevant to your needs.
@@ -27,4 +31,6 @@ Dockstore is searchable, and you can search by both workflow properties–langua
 BioData Catalyst is an NHLBI project to build upon existing bioinformatics tools so that they work together in a way benefiting researchers. You can find more information on [their hub on Dockstore](https://dockstore.org/organizations/bdcatalyst).
 
 TOPMed provides whole genome data for researchers along with phenotypic data and other omnics, with a focus on heart, lung, blood, and sleep disorders. You can find their collection on Dockstore [right here](https://dockstore.org/organizations/topmed), containing tools such as the workflows they used when aligning this data. If you are looking for more information on how to access the data itself, [check out our documentation on Gen3](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data), which is where the controlled access data is hosted.
+
+Any further questions? [Please check out Dockstore's external documentation](https://docs.dockstore.org/en/develop/).
 
