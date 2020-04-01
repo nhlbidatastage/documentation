@@ -54,6 +54,7 @@
   * [Common Markdown](bdc3-guidance/markdown-overview/common-markdown.md)
 * [Video Guide](bdc3-guidance/video-guidance.md)
 * [BioData Catalyst Glossary](bdc3-guidance/bdc_glossary.md)
+* [BioData Catalyst Ecosystem Release Notes Workflow & Template](bdc3-guidance/biodata-catalyst-ecosystem-release-notes-workflow-and-template.md)
 
 ## BioData Catalyst Release Notes
 
