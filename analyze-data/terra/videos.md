@@ -1,8 +1,14 @@
 ---
-description: Videos about Terra
+description: >-
+  Videos showing Terra in action to accelerate learning to use Terra
+  effectively.
 ---
 
 # Videos
+
+
+
+Note: The features shown in these videos are the same as in BioData Catalyst powered by Terra, yet these videos were developed for a broad Terra user community and display the general Terra \(green\) branding/appearance.
 
 ### Introductory Vidoeos
 
