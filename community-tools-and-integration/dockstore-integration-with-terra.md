@@ -1,2 +1,0 @@
-# Dockstore Integration With Terra
-
