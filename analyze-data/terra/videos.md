@@ -8,7 +8,7 @@ description: >-
 
 
 
-Note: The features shown in these videos are the same as in BioData Catalyst powered by Terra, yet these videos were developed for a broad Terra user community and display the general Terra \(green\) branding/appearance.
+Note: These videos were developed for a broad Terra user community and display the general Terra \(green\) branding/appearance. The features shown in these videos are the same as those in BioData Catalyst powered by Terra.
 
 ### Introductory Vidoeos
 
