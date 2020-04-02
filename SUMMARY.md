@@ -34,6 +34,7 @@
   * [Interactive Analysis with Jupyter Notebooks](analyze-data/terra/interactive-analysis-with-jupyter-notebooks.md)
   * [Performing Genome Wide Association Study \(GWAS\) Analysis in Terra](analyze-data/terra/performing-genome-wide-association-study-gwas-analysis-in-terra.md)
   * [Controlling Cloud Costs](analyze-data/terra/controlling-cloud-costs.md)
+  * [Videos](analyze-data/terra/videos.md)
   * [Full Online Documentation for Terra](analyze-data/terra/terra-full-documentation.md)
 * [Dockstore](analyze-data/dockstore.md)
 
