@@ -39,6 +39,7 @@
 
 ## Community Tools & Integration
 
+* [Dockstore Integration With Terra](community-tools-and-integration/dockstore-integration-with-terra.md)
 * [Import a Dockstore App With Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/import-a-dockstore-app)
 
 ## BDC3 Guidance
