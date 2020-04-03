@@ -4,7 +4,7 @@ description: How to use Dockstore workflows in our cloud partner platforms
 
 # Launch workflows with BioData Catalyst
 
-Using the NHLBI BioData Catalyst ecosystem, you can launch workflows from Dockstore in both of our partner analysis platforms, Terra and SevenBridges. It is important to know that these platforms use two different workflow languages: Terra uses WDL, while SevenBridges runs CWL. 
+Using the NHLBI BioData Catalyst ecosystem, you can launch workflows from Dockstore in both of our partner analysis platforms, Terra and SevenBridges. It is important to know that these platforms use different workflow languages: Terra uses WDL, while SevenBridges runs CWL. 
 
 For all WDL and CWL workflows in Dockstore, when you open that workflow, you will see the option to "Launch with NHLBI BioData Catalyst": 
 
