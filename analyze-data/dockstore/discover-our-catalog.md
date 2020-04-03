@@ -2,7 +2,7 @@
 
 ## How to search our catalog
 
-Dockstore now offers faceted search, which allows for flexible querying of tools and workflows. Tabs are used to split up the results between tools and workflows. You can search for basic terms/phrases, filter using facets \(like CWL vs WDL\), and also use advanced search queries. Learn more[ here](https://docs.dockstore.org/en/develop/end-user-topics/faceted-search.html).
+Dockstore offers faceted search, which allows for flexible querying of tools and workflows. Tabs are used to split up the results between tools and workflows. You can search for basic terms/phrases, filter using facets \(like CWL vs WDL\), and also use advanced search queries. Learn more[ here](https://docs.dockstore.org/en/develop/end-user-topics/faceted-search.html).
 
 ## Organizations
 
