@@ -13,7 +13,7 @@ We plan on expanding the Dockstore in several ways over the coming months. Pleas
 
 ## Building a community
 
-To help Dockstore grow, we encourage users to publish their tools and workflows on Dockstore so that it can be used by the scientific community.  Here is how to get started:
+To help Dockstore grow, we encourage users to publish their tools and workflows on Dockstore so that they can be used by the greater scientific community.  Here is how to get started:
 
 [Create a Dockstore account](https://docs.dockstore.org/en/develop/getting-started/register-on-dockstore.html)
 
