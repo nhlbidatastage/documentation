@@ -8,7 +8,7 @@ description: Technologies for reproducible analysis in the cloud
 
 Docker is a fantastic tool for creating light-weight containers to run your tools. It gives you a fast, VM-like environment for Linux where you can automatically install dependencies, make configurations, and setup your tool exactly the way you want, just as you would on a “normal” Linux host. You can then quickly and easily share these Docker images with the world using registries like Quay.io \(indexed by Dockstore\), Docker Hub, and GitLab. 
 
-[Learn how to create a Docker ](https://docs.dockstore.org/en/develop/getting-started/getting-started-with-docker.html)
+[Learn how to create a Docker image ](https://docs.dockstore.org/en/develop/getting-started/getting-started-with-docker.html)
 
 ## Introduction to Workflow Languages
 
