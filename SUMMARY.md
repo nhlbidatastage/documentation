@@ -38,7 +38,11 @@
   * [Videos](analyze-data/terra/videos.md)
   * [Frequently Asked Questions](analyze-data/terra/frequently-asked-questions.md)
   * [Full Online Documentation for Terra](analyze-data/terra/terra-full-documentation.md)
-* [Dockstore](analyze-data/dockstore.md)
+* [Dockstore](analyze-data/dockstore/README.md)
+  * [Launch workflows with BioData Catalyst](analyze-data/dockstore/launch-workflows-with-biodata-catalyst.md)
+  * [Discover our catalog](analyze-data/dockstore/discover-our-catalog.md)
+  * [Intro to Docker, WDL, CWL](analyze-data/dockstore/intro-to-docker-wdl-cwl.md)
+  * [Contribute to the community](analyze-data/dockstore/contribute-to-the-community.md)
 
 ## Community Tools & Integration
 
