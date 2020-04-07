@@ -2,11 +2,11 @@
 
 Terra provides powerful support for performing Genome Wide Association Study \(GWAS\) analysis. The following featured and template workspaces include Jupyter notebooks for phenotypic and genomic data preparation \(using Hail\) and workflows \(using GENESIS\) to perform GWAS. We will continue to provide more resources for performing more complex GWAS scenarios in BioData Catalyst. 
 
-### Featured Workspace
+### Tutorial Workspace
 
-Coming Soon: This workspace was created to walk users through a GWAS with training data that includes synthetic phenotypic data \(modeled after traits available in TOPMed\) paired with 1000 Genomes open access data. This tutorial aims to familiarize users with the Gen3 data model so that they can become empowered to use this data model with any [existing tutorials ](https://app.terra.bio/#library/showcase)available in Terra. 
+This workspace was created to walk users through a GWAS with training data that includes synthetic phenotypic data \(modeled after traits available in TOPMed\) paired with 1000 Genomes open access data. This tutorial aims to familiarize users with the Gen3 data model so that they can become empowered to use this data model with any [existing tutorials ](https://app.terra.bio/#library/showcase)available in Terra. 
 
-* [**BioData Catalyst GWAS 1000 Genomes Tutorial**](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial)
+* [**BioData Catalyst GWAS Tutorial**](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial)
 
 ### Template Workspace
 
