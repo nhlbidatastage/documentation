@@ -4,6 +4,10 @@
 * [Tutorials](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/)
 * [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
 
+## Community Conduct
+
+* [Statement of Conduct](community-conduct/statement-of-conduct.md)
+
 ## Data Access
 
 * [How to check what data you have access to on BioData Catalyst](data-access/untitled.md)
@@ -66,8 +70,4 @@
 ## BioData Catalyst Release Notes
 
 * [2020-04-02 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2020-04-02-biodata-catalyst-ecosystem-release-notes.md)
-
-## Community Conduct
-
-* [Statement of Conduct](community-conduct/statement-of-conduct.md)
 
