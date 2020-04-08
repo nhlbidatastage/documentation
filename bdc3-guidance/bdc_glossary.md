@@ -84,6 +84,7 @@ description: >-
    The Coordinating Center will facilitate this process by developing reporting templates \(see example in PM Plan, Financial Management\) for distribution to the teams. The BioData Catalyst teams will complete these templates and send them directly to NHLBI.  
    Each team is responsible for tracking their finances based upon the award conditions and for providing status updates as requested to NHLBI.
 
+* **CRAM File** Compressed columnar file format for storing biological sequences aligned to a reference sequence. Designed to be an efficient reference-based alternative to the Sequence Alignment Map \(SAM\) and Binary Alignment Map \(BAM\) file formats. It optionally uses a genomic reference to describe differences between the aligned sequence fragments and the reference sequence, reducing storage costs. Additionally each column in the SAM format is separated into its own blocks, improving compression ratio. CRAM files typically vary from 30 to 60% smaller than BAM, depending on the data held within them _\(from Wikipedia\)_.
 * **CSOC Alpha**
 
   Common Services Operations Center \(CSOC\): operates cloud, commons, compliance and security services that enable the operation of data commons; has ATO and hosts production system.
@@ -92,14 +93,15 @@ description: >-
 
   Development/testing; Real data in pilot \(not production\) that can be accessed by users
 
-* **CWL**
+* **Common Workflow Language \(CWL\)**
 
-  Common Workflow Language. A simple scripting language for describing computational workflows for performing sequential operations on data.
+  Simple scripting language for describing computational workflows for performing sequential operations on data. CWL is a way to describe command line tools and connect them together to create workflows. CWL is well suited for describing large-scale workflows in cluster, cloud and high performance computing environments where tasks are scheduled in parallel across many nodes.
 
 * **DAC**
 
   Data Access Committee: reviews all requests for access to human studies datasets
 
+* **DAR** Data Access Request
 * **Data Access**
 
   A process that involves authorization to access different data repositories; part of a User Narrative for the December 2020 release goal A Work Stream PM Plan constraint: NHLBI, as the project sponsor, will identify a process to enable data access by the BioData Catalyst team members and for research users
@@ -108,11 +110,12 @@ description: >-
 
   Provides tools, applications, and workflows to enable computing large scale data sets in secure workspaces.
 
+* **Data Repository Service \(DRS\)**  Generic interface \(API\) to data repositories so data consumers, including workflow systems, can access data in a single, standardized way regardless of where it’s stored or how it’s managed. The primary functionality of DRS is to map a logical ID to a means for physically retrieving the data represented by the ID \(from GA4GH\).
 * **Data Steward**
 
   Members of the TOPMed and COPDGene communities who are working with BioData Catalyst teams.
 
-* **dBGaP**
+* **dbGaP**
 
   Database of Genotypes and Phenotypes
 
@@ -188,7 +191,7 @@ description: >-
 
 * **FAIR**
 
-  Findable Accessible Interoperable Reusable .
+  Findable Accessible Interoperable Reusable.
 
 * **Feature**
 
@@ -332,6 +335,7 @@ description: >-
 
   Program Officer
 
+* **Portable Format for Biomedical Data \(PFB\)** Avro-based serialization format with specific schema to import, export and evolve biomedical data. Specifies metadata and data in one file. Metadata includes data dictionary, ontology references and relations between nodes. Supports versioning, back- and forward compatibility. A binary format.
 * **Portfolio for Jira**
 
   Software-as-a-Service project management tool, used to track, roadmap, and visualize various project metrics.
@@ -352,6 +356,7 @@ description: >-
 
   Responsible, Accountable, Consulted and Informed; tool that can be used for identifying roles and responsibilities during an organizational change process; BioData Catalyst RACI
 
+* **Researcher Auth Service \(RAS\)**  Will be a service provided by NIH's Center for Information Technology to facilitate access to NIH’s open and controlled data assets and repositories in a consistent and user-friendly manner. The RAS initiative is advancing data infrastructure and ecosystem goals defined in the NIH Strategic Plan for Data Science.
 * **RFC**
 
   Request for Comment: A process that documents and enables effective interactions between stakeholders to support shared decision making.
@@ -446,6 +451,7 @@ description: >-
 
   A sequence of processes, usually computational in this context, through which a user may analyze data.
 
+* **Workflow Description Language \(WDL\)** Way to specify data processing workflows with a human-readable and writeable syntax. Define complex analysis tasks, chain them together in workflows, and parallelize their execution.
 * **Workspace**
 
   Areas to work on/with data within a platform. Examples: projects within Seven Bridges
