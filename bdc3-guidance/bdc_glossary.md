@@ -431,9 +431,9 @@ description: >-
 
    \*Finest level of PM Monitoring
 
-* **VCF**
+* **Variant Call Format \(VCF\)** 
 
-  Variant Call Format, See http://www.internationalgenome.org/wiki/Analysis/vcf4.0/
+  File format for storing gene sequence variations. The format has been developed with the advent of large-scale genotyping and DNA sequencing projects, such as the 1000 Genomes Project. Existing formats for genetic data such as General feature format \(GFF\) stored all of the genetic data, much of which is redundant because it will be shared across the genomes. By using the variant call format only the variations need to be stored along with a reference genome. There is also a Genomic VCF \(gVCF\) extended format, which includes additional information about "blocks" that match the reference and their qualities \(_from Wikipedia_\). See http://www.internationalgenome.org/wiki/Analysis/vcf4.0/.
 
 * **VDS**
 
