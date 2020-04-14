@@ -53,19 +53,9 @@
 * [Dockstore Integration With Terra](community-tools-and-integration/dockstore-integration-with-terra.md)
 * [Import a Dockstore App With Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/import-a-dockstore-app)
 
-## BDC3 Guidance
+## BioData Catalyst Glossary
 
-* [Creating Documentation](bdc3-guidance/creating-documentation/README.md)
-  * [Recommended Practices](bdc3-guidance/creating-documentation/good-practices.md)
-  * [Accessibility](bdc3-guidance/creating-documentation/accessibility.md)
-  * [Inclusive Language](bdc3-guidance/creating-documentation/inclusive-language.md)
-  * [Consistent Terminology](bdc3-guidance/creating-documentation/consistent-terminology.md)
-* [Markdown Overview](bdc3-guidance/markdown-overview/README.md)
-  * [GitBook Markdown](bdc3-guidance/markdown-overview/gitbook-markdown.md)
-  * [Common Markdown](bdc3-guidance/markdown-overview/common-markdown.md)
-* [Video Guide](bdc3-guidance/video-guidance.md)
-* [BioData Catalyst Glossary](bdc3-guidance/bdc_glossary.md)
-* [BioData Catalyst Ecosystem Release Notes Workflow & Template](bdc3-guidance/biodata-catalyst-ecosystem-release-notes-workflow-and-template.md)
+* [BioData Catalyst Glossary](biodata-catalyst-glossary/bdc_glossary.md)
 
 ## BioData Catalyst Release Notes
 
