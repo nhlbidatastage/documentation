@@ -64,4 +64,5 @@
 ## BioData Catalyst Presentations
 
 * [Untitled](biodata-catalyst-presentations/untitled.md)
+* [Consortium Guidance](https://bdcatalyst.gitbook.io/biodata-catalyst-consortium-guidance/)
 
