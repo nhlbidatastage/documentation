@@ -2,6 +2,7 @@
 
 * [Documentation](README.md)
 * [Tutorials](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/)
+* [Consortium Guidance](https://bdcatalyst.gitbook.io/biodata-catalyst-consortium-guidance/)
 * [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
 
 ## Community Conduct
@@ -64,5 +65,4 @@
 ## BioData Catalyst Presentations
 
 * [Untitled](biodata-catalyst-presentations/untitled.md)
-* [Consortium Guidance](https://bdcatalyst.gitbook.io/biodata-catalyst-consortium-guidance/)
 
