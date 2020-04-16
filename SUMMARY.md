@@ -64,5 +64,3 @@
 
 ## BioData Catalyst Presentations
 
-* [Untitled](biodata-catalyst-presentations/untitled.md)
-
