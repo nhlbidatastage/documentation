@@ -12,11 +12,9 @@ Note: These videos were developed for a broad Terra user community and display t
 
 ### Introductory Videos
 
-_Coming  very soon ...!_
-
-*  __**Introduction to Terra \(3:15\)** This video presents an overview of the Terra user interface and introduces Terra's analysis capabilities.
-* **Introduction to Data Tables \(5:26\)** This video presents Terra data tables, including how to populate data tables and modify existing data tables.
-* **Workspaces in Terra \(9:45\)** This video presents the use of Terra Workspaces to organize data and analysis tools and to analyze and visualize data.
+*  __[**Introduction to Terra \(3:09\)**](https://www.youtube.com/watch?v=3rH86vcAqK8) ****This video presents an overview of the Terra user interface and introduces Terra's analysis capabilities.
+* \*\*\*\*[**Introduction to using Workspaces in Terra \(9:52\)**](https://www.youtube.com/watch?v=ONc1Wf7rEuw) ****This video presents the use of Terra Workspaces to organize data and analysis tools and to analyze and visualize data.
+* \*\*\*\*[**Introduction to Data Tables \(5:25\)**](https://www.youtube.com/watch?v=IeLywroCNNA) ****This video presents Terra data tables, including how to populate data tables and modify existing data tables.
 
 ### Workshops
 
