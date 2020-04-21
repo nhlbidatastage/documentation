@@ -8,6 +8,7 @@
 ## Community Conduct
 
 * [Statement of Conduct](community-conduct/statement-of-conduct.md)
+* [Who We Are](community-conduct/who-we-are.md)
 
 ## Data Access
 
