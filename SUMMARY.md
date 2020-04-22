@@ -5,7 +5,7 @@
 * [Consortium Guidance](https://bdcatalyst.gitbook.io/biodata-catalyst-consortium-guidance/)
 * [Help Desk](https://bdcatalyst.freshdesk.com/support/home)
 
-## Community Conduct
+## Community <a id="community-conduct"></a>
 
 * [Statement of Conduct](community-conduct/statement-of-conduct.md)
 * [Who We Are](community-conduct/who-we-are.md)
