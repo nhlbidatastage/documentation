@@ -63,5 +63,3 @@
 
 * [2020-04-02 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2020-04-02-biodata-catalyst-ecosystem-release-notes.md)
 
-## BioData Catalyst Presentations
-
