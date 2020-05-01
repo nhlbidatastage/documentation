@@ -1,6 +1,4 @@
-# PIC-SURE 2nd Heading
-
-## **Authorization and Access**
+# Authorization and Access
 
 To obtain access to PIC-SURE on BioData Catalyst:
 

@@ -14,7 +14,11 @@
 ## Explore available data <a id="explore_data"></a>
 
 * [PIC-SURE for BioData Catalyst User Guide](explore_data/pic-sure-for-biodata-catalyst-user-guide/README.md)
-  * [PIC-SURE 2nd Heading](explore_data/pic-sure-for-biodata-catalyst-user-guide/pic-sure-2nd-heading.md)
+  * [Authorization and Access](explore_data/pic-sure-for-biodata-catalyst-user-guide/pic-sure-2nd-heading.md)
+  * [Available Data](explore_data/pic-sure-for-biodata-catalyst-user-guide/available-data.md)
+  * [Harmonized Data](explore_data/pic-sure-for-biodata-catalyst-user-guide/harmonized-data.md)
+  * [What can I access?](explore_data/pic-sure-for-biodata-catalyst-user-guide/what-can-i-access.md)
+  * [Search](explore_data/pic-sure-for-biodata-catalyst-user-guide/search.md)
 * [Discovering Data Using Gen3](explore_data/gen3-discovering-data/README.md)
   * [Dictionary](explore_data/gen3-discovering-data/dictionary.md)
   * [Exploration](explore_data/gen3-discovering-data/exploration.md)
