@@ -1,4 +1,4 @@
-# What can I access?
+# What Can I Access?
 
 Check the data you have access to by going to the following BioData Catalyst Website: [https://biodatacatalyst.nhlbi.nih.gov/resources/data](https://biodatacatalyst.nhlbi.nih.gov/resources/data).
 

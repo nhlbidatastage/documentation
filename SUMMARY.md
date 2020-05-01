@@ -17,7 +17,7 @@
   * [Authorization and Access](explore_data/pic-sure-for-biodata-catalyst-user-guide/pic-sure-2nd-heading.md)
   * [Available Data](explore_data/pic-sure-for-biodata-catalyst-user-guide/available-data.md)
   * [Harmonized Data](explore_data/pic-sure-for-biodata-catalyst-user-guide/harmonized-data.md)
-  * [What can I access?](explore_data/pic-sure-for-biodata-catalyst-user-guide/what-can-i-access.md)
+  * [What Can I Access?](explore_data/pic-sure-for-biodata-catalyst-user-guide/what-can-i-access.md)
   * [Search](explore_data/pic-sure-for-biodata-catalyst-user-guide/search.md)
   * [Data Analysis Using the PIC-SURE API](explore_data/pic-sure-for-biodata-catalyst-user-guide/data-analysis-using-the-pic-sure-api.md)
 * [Discovering Data Using Gen3](explore_data/gen3-discovering-data/README.md)
