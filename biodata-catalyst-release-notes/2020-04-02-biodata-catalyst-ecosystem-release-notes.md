@@ -1,6 +1,6 @@
 # 2020-04-02 BioData Catalyst Ecosystem Release Notes
 
-**Introduction**
+### **Introduction**
 
 The 2020-04-02 release marks the first significant release for the NHLBI BioData Catalyst ecosystem. This release offers an integrated system of [platforms and services](https://biodatacatalyst.nhlbi.nih.gov/resources/services) for researchers to search metadata of hosted datasets, find data files, and analyze data files in workspace environments which support a variety of different analysis modalities. 
 
@@ -8,12 +8,12 @@ The hosted data for this release includes TOPMed multi-sample VCF data for ~55,0
 
 For more in depth information please see the "List of significant new features" below.
 
-#### **List of significant new features**
+### **List of significant new features**
 
 The following features in this release support primarily TOPMed researchers ranging in technical skills \(both command-line and GUI\) and with approval for the controlled TOPMed studies in dbGaP:
 
 * **System login and data access:** Researchers can log into the BioData Catalyst platforms using their eRA Commons ID. Approvals for TOPMed studies in dbGaP are recognized by the platforms. 
-* **Search TOPMed phenotypic data:** Create cohorts on PIC-SURE by searching and selecting phenotypic variables of interest and then export cohorts to Seven Bridges or Terra for use in analysis workspaces. Users can also browse the list of harmonized TOPMed phenotype variables created by the TOPMed Data Coordinating Center.  
+* **Search TOPMed phenotypic data:** Create cohorts on PIC-SURE by searching and selecting phenotypic variables of interest from dbGaP and then export cohorts to Seven Bridges or Terra for use in analysis workspaces. Users can also explore the TOPMed phenotype variables harmonized by the TOPMed Data Coordinating Center.  
 * **Find and access TOPMed genomics files, raw phenotype data files, and reference data files:** Use the Explorer feature on Gen3 and the Data Browser feature on Seven Bridges.  
 * **Bring your own data:** Use one of several options to upload/import data files to the workspace environments.
 * **Run analyses at Scale:** Analyze thousands of samples at once using batch processing capabilities in secure workspaces. Ability to run computation on Google Cloud and Amazon Web Services. Utilize visual user interface, Jupyterlab Notebooks and Jupyter Notebooks, RStudio, API, and command line.
@@ -22,7 +22,8 @@ The following features in this release support primarily TOPMed researchers rang
 * **Documentation:** Access documentation for each of the platforms.
 * **Track cloud costs:** Track cloud storage and compute costs on Seven Bridges and Terra.
 
-**Data Releases**
+**Data Releases**  
+
 
 | **Hosted TOPMed study accessions with genomic data from Freeze 5b** |  |  |
 | :--- | :--- | :--- |
