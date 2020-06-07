@@ -14,6 +14,10 @@ description: >-
 
   A small group of users who are more willing to tolerate working in a system that isn’t as fully developed, providing detailed feedback & maybe some back & forth discussions
 
+* **\[Amazon\] EFS**
+
+  \[Amazon\] Elastic File System a simple, scalable, elastic file system for Linux-based workloads for use with AWS Cloud services and on-premises resources.
+
 * **Ambassadors**
 
   A small group of experts that represent the personas featured within the priority User Narratives. For their time and help, Ambassadors will receive early access to the BioData Catalyst platform, free compute time, monetary fee for time, and relevant travel expenses will be covered.
@@ -321,7 +325,7 @@ description: >-
 
 * **Platform**
 
-  A piece of the BioData Catalyst ecosystem. Examples: Terra, Gen3, Seven Bridges, etc.  
+  A piece of the BioData Catalyst ecosystem. Examples: Terra, Gen3, Seven Bridges, etc.
 
 * **PM**
 
@@ -409,6 +413,10 @@ description: >-
 
   A diversified group of experts brought together to investigate, solve, build, or recommend possible solutions to unique situations or problems. Populated with mature experts who know what's at stake, what needs to be done, and how to work well with others; their strengths are diversity of knowledge, a single focus or purpose, cross-functional communications, decision-making sovereignty, and organizational agility.
 
+* **Tool Registry Service \(TRS\)**
+
+  The GA4GH Cloud Work Stream has released a standard API for exchanging tools and workflows to analyze, read, and manipulate genomic data. The Tool Registry Service \(TRS\) API is one of a series of technical standards from the Cloud Work Stream that together allow genomics researchers to bring algorithms to datasets in disparate cloud environments, rather than moving data around.
+
 * **TOPMed**
 
   Trans-Omics for Precision Medicine. One of the primary data sets of the DCPPC.
@@ -459,8 +467,4 @@ description: >-
 * **Workstream**
 
   A collection of related features; orthogonal to a User Narrative
-
-* **\[Amazon\] EFS**
-
-  \[Amazon\] Elastic File System a simple, scalable, elastic file system for Linux-based workloads for use with AWS Cloud services and on-premises resources.
 
