@@ -1,9 +1,5 @@
 # How to check what data you have access to on BioData Catalyst
 
-
-
-#### \*\*\*\*
-
 To check your access to data on BioData Catalyst:
 
 **Through the public website:**
