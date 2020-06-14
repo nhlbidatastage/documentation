@@ -9,7 +9,7 @@
 
 ## Data Access
 
-* [How to check what data you have access to on BioData Catalyst](data-access/untitled.md)
+* [How to check what data you have access to on BioData Catalyst](data-access/check-my-access-to-data.md)
 
 ## Explore available data <a id="explore_data"></a>
 
