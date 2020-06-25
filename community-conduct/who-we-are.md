@@ -4,7 +4,7 @@
   
 Though the primary goal of the BioData Catalyst project is to build a data science ecosystem, at its core, this is a people-centric endeavor. BioData Catalyst is also building a _**community of practice**_ working collaboratively to solve technical and scientific challenges in biomedical science.
 
-**Principle Investigators \(PIs\):**
+**Principal Investigators \(PIs\):**
 
 * **Stan Ahalt**, PI RENCI \(Coordination Center\)
 * **Rebecca Boyles**, Co-PI RTI \(Coordination Center\)
