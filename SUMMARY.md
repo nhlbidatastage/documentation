@@ -40,6 +40,7 @@
   * [Batch Analysis with Workflows](analyze-data/terra/batch-analysis-with-workflows/README.md)
     * [Bringing Your Own Tools: Developing Custom Workflows](analyze-data/terra/batch-analysis-with-workflows/bringing-your-own-tools-developing-custom-workflows.md)
   * [Interactive Analysis with Jupyter Notebooks](analyze-data/terra/interactive-analysis-with-jupyter-notebooks.md)
+  * [Code Library for BioData Catalyst](analyze-data/terra/code-library-for-biodata-catalyst.md)
   * [Controlling Cloud Costs](analyze-data/terra/controlling-cloud-costs.md)
   * [Performing Genome Wide Association Study \(GWAS\) Analysis in Terra](analyze-data/terra/performing-genome-wide-association-study-gwas-analysis-in-terra.md)
   * [Tutorials](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/tutorials/terra-tutorials)
