@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Documentation](README.md)
+* [Overview](overview.md)
 
 ## Community <a id="community-conduct"></a>
 
