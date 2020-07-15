@@ -26,7 +26,7 @@ This notebook may be a good starting place for many analyses. For example, it is
 
 ## Data Repository Service \(DRS\) Tooling
 
-The Python package [terra-notebook-utils](https://github.com/DataBiosphere/terra-notebook-utils) provides tools for accessing genomic data via DRS in Jupyter notebooks or the terminal in Terra. It is available in the latest Jupyter notebook default environment on Terra.  
+The Python package [terra-notebook-utils](https://github.com/DataBiosphere/terra-notebook-utils) provides tools for accessing genomic data via DRS in Jupyter notebooks or the terminal in Terra. It is available in the latest Jupyter notebook default environment on Terra.  You can learn more about DRS on Terra [here](https://support.terra.bio/hc/en-us/articles/360039330211-Data-Access-with-the-GA4GH-Data-Repository-Service-DRS-#h_4a56bae9-f008-4fc8-b81c-f5c595a31e77). 
 
 terra-notebook-utils exposes a Python API, as well as wrappers to execute some functionality on the command line interface \(CLI\). The Python API is best explored with Pythons great `help` function. For instance, issuing the follow commands into a Python interpreter or Jupyter notebook will produce help and usage for the `drs` module.
 
