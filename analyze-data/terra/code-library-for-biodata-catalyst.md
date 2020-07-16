@@ -8,13 +8,13 @@ description: >-
 
 #### Author: Beth Sheets \(UC Santa Cruz, Genomics Institute\)
 
-The [BioData Catalyst Collection workspace](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection) on Terra is a continually evolving and expanding source of example code that demonstrates tools relevant to conducting research in the ecosystem. The examples are primarily written as Jupyter notebooks that employ Python or R tooling. 
+The [BioData Catalyst Collection](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection) workspace on Terra is a continually evolving and expanding source of example code that demonstrates tools relevant to conducting research in the ecosystem. The examples are primarily written as Jupyter notebooks that employ Python or R tooling. 
+
+Some of the early code in the library pertains to how to interact with data.  Interacting with data in BioData Catalyst introduces two new concepts that may take some time to learn: how to work with the [Gen3 graph-based data model](https://support.terra.bio/hc/en-us/articles/360038087312-Understanding-and-using-Gen3-data-in-Terra) and how to access genomic data through the [GA4GH Data Repository Service \(DRS\)](https://support.terra.bio/hc/en-us/articles/360039330211-Data-Access-with-the-GA4GH-Data-Repository-Service-DRS-#h_4a56bae9-f008-4fc8-b81c-f5c595a31e77). 
 
 Below, we highlight relevant tools that are introduced in the BioData Catalyst Collection. 
 
 ## Terra Data Table Tooling
-
-Before using this this tool, we suggest you review the documentation [Getting Started with Gen3 data in Terra](https://support.terra.bio/hc/en-us/articles/360038087312). 
 
 The Jupyter notebook [terra\_data\_table\_util](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/terra_data_table_util.ipynb) provides functions that consolidate multiple Gen3 graph-structured data tables in Terra to create a single consolidated table that is easier to use. The content of the combined table produced is configurable.
 
@@ -25,8 +25,6 @@ Additionally, convenience functions are provided for working with Terra data tab
 This notebook may be a good starting place for many analyses. For example, it is showcased in our Genome Wide Association Analysis tutorial. 
 
 ## Data Repository Service \(DRS\) Tooling
-
-Genomic data in BioData Catalyst is accessed through the Data Repository Service \(DRS\). Before using this tooling we suggest you review this [documentation](https://support.terra.bio/hc/en-us/articles/360039330211).
 
 The Python package [terra-notebook-utils](https://github.com/DataBiosphere/terra-notebook-utils) provides tools for accessing genomic data via DRS in Jupyter notebooks or the terminal in Terra. It is available in the latest Jupyter notebook default environment on Terra.  You can learn more about DRS on Terra [here](https://support.terra.bio/hc/en-us/articles/360039330211-Data-Access-with-the-GA4GH-Data-Repository-Service-DRS-#h_4a56bae9-f008-4fc8-b81c-f5c595a31e77). 
 
