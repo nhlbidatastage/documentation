@@ -24,7 +24,7 @@ Additionally, convenience functions are provided for working with Terra data tab
 
 This notebook may be a good starting place for many analyses. For example, it is showcased in our [Genome Wide Association Analysis tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial). 
 
-## Data Repository Service \(DRS\) Tooling
+## Data Repository Service \(DRS\) with Jupyter Notebooks Tooling
 
 Genomic data in BioData Catalyst is accessed through the Data Repository Service \(DRS\). Before using this tooling we suggest you review this [documentation](https://support.terra.bio/hc/en-us/articles/360039330211).
 
