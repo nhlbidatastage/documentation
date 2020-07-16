@@ -1,6 +1,12 @@
-# Performing Genome Wide Association Study \(GWAS\) Analysis in Terra
+# Performing Genome Wide Association Studies \(GWAS\) in Terra
 
-Terra provides powerful support for performing Genome Wide Association Study \(GWAS\) analysis. The following featured and template workspaces include Jupyter notebooks for phenotypic and genomic data preparation \(using Hail\) and workflows \(using GENESIS\) to perform GWAS. We will continue to provide more resources for performing more complex GWAS scenarios in BioData Catalyst. 
+#### Author: Beth Sheets \(UC Santa Cruz, Genomics Institute\)
+
+Terra provides powerful support for performing Genome Wide Association Studies \(GWAS\). The following featured and template workspaces include Jupyter notebooks for phenotypic and genomic data preparation \(using Hail\) and workflows \(using GENESIS\) to perform single or aggregate variant association tests using mixed models. We will continue to provide more resources for performing more complex GWAS scenarios in BioData Catalyst. 
+
+####  Kinship Matrices
+
+These workspaces cover how to generate Genetic Related Matrices using Hail for input into a GWAS. Users with access to kinship matrices from the TOPMed DCC may wish to exclude these steps and instead import these files using the[ bring your own data instructions](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra/using-your-own-data-with-terra). 
 
 ### Tutorial Workspace
 

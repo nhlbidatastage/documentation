@@ -43,7 +43,7 @@
   * [Interactive Analysis with Jupyter Notebooks](analyze-data/terra/interactive-analysis-with-jupyter-notebooks.md)
   * [Code Library for BioData Catalyst](analyze-data/terra/code-library-for-biodata-catalyst.md)
   * [Controlling Cloud Costs](analyze-data/terra/controlling-cloud-costs.md)
-  * [Performing Genome Wide Association Study \(GWAS\) Analysis in Terra](analyze-data/terra/performing-genome-wide-association-study-gwas-analysis-in-terra.md)
+  * [Performing Genome Wide Association Studies \(GWAS\) in Terra](analyze-data/terra/performing-genome-wide-association-study-gwas-analysis-in-terra.md)
   * [Tutorials](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/tutorials/terra-tutorials)
   * [Videos](analyze-data/terra/videos.md)
   * [Frequently Asked Questions](analyze-data/terra/frequently-asked-questions.md)
