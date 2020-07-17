@@ -22,7 +22,7 @@ The default behavior is to produce a table keyed by subject id, with one row per
 
 Additionally, convenience functions are provided for working with Terra data tables, including uploading, downloading, modification and deletion.  
 
-This notebook may be a good starting place for many analyses. For example, it is showcased in our [Genome Wide Association Analysis tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial). 
+This notebook may be a good starting place for many analyses. For example, it is showcased in our [Genome Wide Association Study tutorial](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20GWAS%201000%20Genomes%20Tutorial). 
 
 ## Data Repository Service \(DRS\) with Jupyter Notebooks Tooling
 
