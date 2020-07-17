@@ -43,9 +43,9 @@ terra-notebook-utils will continue to grow as more popular bioinformatics functi
 
 ## VCF Tooling
 
-TOPMed multi-sample VCF files indexed by BioData Catalyst have been jointly called for each "Freeze", or release of genomic data. These files are accessible in the "Reference File" node of the [Gen3 graph](https://gen3.biodatacatalyst.nhlbi.nih.gov/DD). 
+TOPMed multi-sample VCF files indexed by BioData Catalyst have been jointly-called for each "Freeze", or release of genomic data. These files are accessible in the "Reference File" node of the [Gen3 graph](https://gen3.biodatacatalyst.nhlbi.nih.gov/DD). 
 
-TOPMed researchers not part of the TOPMed Consortium receive jointly called VCFs subsetted by project and consent code. If users have access to multiple projects and consent codes, they may wish to merge these VCFs to form a synthetic cohort. The [Merge & Subsample VCFs notebook ](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/VCF%20Merge%20and%20Subsample%20Tutorial.ipynb)demonstrates tooling to merge and subsample jointly called VCFs.
+TOPMed researchers not part of the TOPMed Consortium receive jointly-called VCFs subsetted by project and consent code. If users have access to multiple projects and consent codes, they may wish to merge these VCFs to form a synthetic cohort. The [Merge & Subsample VCFs notebook ](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/VCF%20Merge%20and%20Subsample%20Tutorial.ipynb)demonstrates tooling to merge and subsample jointly called VCFs.
 
 Additionally, you may want to first use the [Head VCF notebook](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/head-vcf-gz.ipynb) to learn more about the VCF files you want to combine. 
 
