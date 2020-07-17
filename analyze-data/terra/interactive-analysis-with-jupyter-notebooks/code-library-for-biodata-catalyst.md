@@ -18,7 +18,7 @@ Before using this this tool, we suggest you review the documentation [Getting St
 
 The Jupyter notebook [terra\_data\_table\_util](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/terra_data_table_util.ipynb) provides functions that consolidate Gen3 graph-structured data into a single Terra data table. The content of the consolidated table is configurable.
 
-The default behavior is to produce a table keyed by subject id, with one row per subject, for all subjects in a Gen3 graph. This table may include genomic data, harmonized clinical metadata, or both, along with associated administrative information.
+The default behavior is to produce a table keyed by subject id, with one row per subject, for all subjects in a Terra Workspace. This table may include genomic data, harmonized clinical metadata, or both, along with associated administrative information.
 
 Additionally, convenience functions are provided for working with Terra data tables, including uploading, downloading, modification, and deletion.  
 
