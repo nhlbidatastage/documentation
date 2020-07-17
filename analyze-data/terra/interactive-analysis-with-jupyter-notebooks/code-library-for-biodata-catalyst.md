@@ -28,20 +28,22 @@ This notebook may be a good starting place for many analyses. For example, it is
 
 Genomic data in BioData Catalyst is accessed through the Data Repository Service \(DRS\). Before using this tooling we suggest you review this [documentation](https://support.terra.bio/hc/en-us/articles/360039330211).
 
-The Python package [terra-notebook-utils](https://github.com/DataBiosphere/terra-notebook-utils) provides tools for accessing genomic data via DRS in Jupyter notebooks or the terminal in Terra. It is available in the latest Jupyter notebook default environment on Terra.  
+The Python package [terra-notebook-utils](https://github.com/DataBiosphere/terra-notebook-utils) provides tools for accessing genomic data via DRS in Jupyter notebooks or from the Terminal command-line interface in Terra. It is available in the latest Jupyter notebook default environment on Terra.  
 
-terra-notebook-utils exposes a Python API, as well as wrappers to execute some functionality on the command line interface \(CLI\). The Python API is best explored with Pythons great `help` function. For instance, issuing the follow commands into a Python interpreter or Jupyter notebook will produce help and usage for the `drs` module.
+terra-notebook-utils exposes a Python API, as well as wrappers to execute some functionality on the command-line interface. The Python API is best explored with Python's great `help` function. For instance, issuing the following commands into a Python interpreter or Jupyter notebook will produce help and usage for the `DRS` module.
 
 ```text
 import terra_notebook_utils as tnu
 help(tnu.drs)
 ```
 
+This package can also be deployed in R notebooks using the [Reticulate package](https://rstudio.github.io/reticulate/).
+
 terra-notebook-utils will continue to grow as more popular bioinformatics functions are wrapped into the package so that they are compatible with DRS. For example, the VCF tooling highlighted below can resolve DRS links. 
 
 ## VCF Tooling
 
-TopMED multi-sample VCF files indexed by BioData Catalyst have been jointly called for each "Freeze", or release of genomic data. These files are accessible in the "Reference File" node of the [Gen3 graph](https://gen3.biodatacatalyst.nhlbi.nih.gov/DD). 
+TOPMed multi-sample VCF files indexed by BioData Catalyst have been jointly called for each "Freeze", or release of genomic data. These files are accessible in the "Reference File" node of the [Gen3 graph](https://gen3.biodatacatalyst.nhlbi.nih.gov/DD). 
 
 TOPMed researchers not part of the TOPMed Consortium receive jointly called VCFs subsetted by project and consent code. If users have access to multiple projects and consent codes, they may wish to merge these VCFs to form a synthetic cohort. The [Merge & Subsample VCFs notebook ](https://terra.biodatacatalyst.nhlbi.nih.gov/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/VCF%20Merge%20and%20Subsample%20Tutorial.ipynb)demonstrates tooling to merge and subsample jointly called VCFs.
 
