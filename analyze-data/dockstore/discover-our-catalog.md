@@ -14,7 +14,7 @@ Organizations are landing pages for collaborations, institutions, consortiums, c
 
 [NHLBI BioData Catalyst](https://dockstore.org/organizations/bdcatalyst) 
 
-Here, you can find a suite of analysis tools we have developed with researchers that are aimed at the BioData catalyst community. Examples include workflows for performing GWAS and Structural Variant Calling. Many of these collections also point users to tutorials where you can launch these workflows in our partner platforms and run an analysis.
+Here, you can find a suite of analysis tools we have developed with researchers that are aimed at the BioData Catalyst community. Examples include workflows for performing GWAS and Structural Variant Calling. Many of these collections also point users to tutorials where you can launch these workflows in our partner platforms and run an analysis.
 
 [TOPMed](https://dockstore.org/organizations/topmed)
 
