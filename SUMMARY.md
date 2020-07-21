@@ -1,7 +1,6 @@
 # Table of contents
 
 * [BioData Catalyst Documentation - Overview](README.md)
-* [Overview](overview.md)
 
 ## Community <a id="community-conduct"></a>
 
