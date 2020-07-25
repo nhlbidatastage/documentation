@@ -31,7 +31,10 @@
 
 ## Analyze data
 
-* [Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/projects-on-the-platform)
+* [Seven Bridges](analyze-data/seven-bridges/README.md)
+  * [Knowledge Center](https://sb-biodatacatalyst.readme.io/docs/projects-on-the-platform)
+  * [Getting Started Guide](analyze-data/seven-bridges/getting-started-guide.md)
+  * [Troubleshooting Tasks](https://sb-biodatacatalyst.readme.io/page/troubleshooting-tutorial)
 * [Terra](analyze-data/terra/README.md)
   * [Getting Started with Terra](analyze-data/terra/getting-started-with-terra.md)
   * [Getting Started with BioData Catalyst Data from Gen3](analyze-data/terra/getting-started-with-biodata-catalyst-data-from-gen3.md)
