@@ -20,6 +20,7 @@
   * [What Can I Access?](explore_data/pic-sure-for-biodata-catalyst-user-guide/what-can-i-access.md)
   * [Search](explore_data/pic-sure-for-biodata-catalyst-user-guide/search.md)
   * [Data Analysis Using the PIC-SURE API](explore_data/pic-sure-for-biodata-catalyst-user-guide/data-analysis-using-the-pic-sure-api.md)
+  * [PIC-SURE API Documentation](explore_data/pic-sure-for-biodata-catalyst-user-guide/pic-sure-api-documentation.md)
 * [Discovering Data Using Gen3](explore_data/gen3-discovering-data/README.md)
   * [Dictionary](explore_data/gen3-discovering-data/dictionary.md)
   * [Exploration](explore_data/gen3-discovering-data/exploration.md)
