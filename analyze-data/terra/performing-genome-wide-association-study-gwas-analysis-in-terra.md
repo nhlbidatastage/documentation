@@ -6,7 +6,7 @@ Terra provides powerful support for performing Genome-Wide Association Studies \
 
 ####  Kinship Matrices
 
-These workspaces cover how to generate Genetic Related Matrices using Hail for input into a GWAS. Users with access to kinship matrices from the TOPMed DCC may wish to exclude these steps and instead import Exchange Area kinship files using the[ bring your own data instructions](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra/using-your-own-data-with-terra). 
+A Jupyter notebook in both workspaces covers uses Hail to generate Genetic Related Matrices  for input into the GWAS workflows. Users with access to kinship matrices from the TOPMed consortium may wish to exclude these steps and instead import kinship files using the[ bring your own data instructions](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/analyze-data/terra/using-your-own-data-with-terra). 
 
 ### Tutorial Workspace
 
