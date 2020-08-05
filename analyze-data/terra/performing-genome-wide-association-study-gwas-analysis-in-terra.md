@@ -31,7 +31,7 @@ Below are reported costs from using 1,000 and 10,000 samples to conduct a GWAS u
 | [genesis\_GWAS](https://dockstore.org/workflows/github.com/AnalysisCommons/genesis_wdl/genesis_GWAS:v1_4_1?tab=info) workflow | $0.94 | $6.67 |
 | **TOTAL** | **$32.29** | **$347.68** |
 
-These costs were derived from running these anlayses in Terra in June 2020.
+These costs were derived from running these analyses in Terra in June 2020.
 
 
 
