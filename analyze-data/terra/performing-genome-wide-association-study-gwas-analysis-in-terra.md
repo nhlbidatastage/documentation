@@ -22,7 +22,7 @@ This template is an example workspace that asks researchers to export TOPMed pro
 
 ## Cost Examples
 
-Below are reported costs from using 1,000 and 10,000 samples to conduct a GWAS using the BioData Catalyst GWAS Blood Pressure Trait template workspace. The costs were derived from single variant tests that used Freeze 5b VCF files that were filtered for common variants \(MAF &lt;0.05\) for input into workflows. The way these steps scale will vary with the number of variants, individuals, and parameters chosen, as well as the underlying algorithms of each step. Unfiltered TOPMed Freeze 5b VCF files contain 582 million variants and Freeze 8 increases to ~1.2 billion. For GWAS analyses with Freeze 8 data, computational resources and costs are expected to be significantly higher.
+Below are reported costs from using 1,000 and 10,000 samples to conduct a GWAS using the BioData Catalyst GWAS Blood Pressure Trait template workspace. The costs were derived from single variant tests that used Freeze 5b VCF files that were filtered for common variants \(MAF &lt;0.05\) for input into workflows. The way these steps scale will vary with the number of variants, individuals, and parameters chosen. TOPMed Freeze 5b VCF files contain 582 million variants and Freeze 8 increases to ~1.2 billion. For GWAS analyses with Freeze 8 data, computational resources and costs are expected to be significantly higher.
 
 | Analysis Step | Cost \(n=1,000; Freeze5b\) | Cost \(n=10,000; Freeze 5b\) |
 | :--- | :--- | :--- |
