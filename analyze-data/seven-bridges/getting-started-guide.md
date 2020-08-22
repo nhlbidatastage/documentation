@@ -163,15 +163,15 @@ To set up the draft Task, select “Run” on the App from the Apps tab. This wi
 
 ## Search and access hosted TOPMed studies
 
-If you would like to work with the hosted TOPMed studies \(or see the list of available studies\), navigate to “Data” on the top menu bar and then select the **Data Browser**. This will bring you to a page that shows the hosted TOPMed studies listed by disease type. TOPMed studies with genomic data are prefaced by “NHLBI TOPMed: XX” and are listed next to any associated parent study. The phs numbers are listed for each study. Select “Details” to expand the box and see the consent groups for each study. For the TOPMed studies, you can see the total number of ﬁles, samples, and subjects. For the parent studies, the total number of ﬁles available is listed.
+If you would like to work with the hosted TOPMed studies \(or see the list of available studies\), navigate to “Data” on the top menu bar and then select the **Data Browser**. This will bring you to a page that shows the hosted TOPMed studies listed by disease type. TOPMed studies with genomic data are prefaced by “NHLBI TOPMed: XX” and are listed next to any associated parent study. The phs numbers are listed for each study. Select “Details” to expand the box and see the consent groups for each study. For the TOPMed studies, you can see the total number of files, samples, and subjects. For the parent studies, the total number of files available is listed.
 
-BioData Catalyst hosts TOPMed studies from Freeze5 and has CRAM ﬁles and single- sample VCF ﬁles for all subjects. There are also multi-sample VCFs and phenotype ﬁles on a per study per consent group basis. In addition, BioData Catalyst also hosts TOPMed parent studies with phenotype ﬁles. Follow the instructions below to see how to ﬁnd speciﬁc ﬁle types for a TOPMed study and consent group.
+BioData Catalyst hosts multi-sample VCF files from TOPMed Freeze8 and the raw clinical files for these studies. These files are available per study and per consent group. These are the same files that a user would find in the dbGaP accession for the particular study except that BioData Catalyst hosts un-tarred versions of the files whereas dbGaP offers tarred versions. BioData Catalyst also hosts CRAM files and single-sample VCF files for all subjects. Users can also find multi-sample VCFs from TOPMed Freeze5 and these are in the tar format like dbGaP. Follow the instructions below to see how to find specific file types for a TOPMed study and consent group.
 
 Starting from the dataset selection page, select the study “NHLBI TOPMed: The Jackson Heart Study.” All TOPMed studies \(genomic data\) have the preface “NHLBI TOPMed” in the name. We will query only one dataset, however, users have the option to select several hosted studies at once. Click “Explore 1 selected” to go to the query page of the Data Browser.
 
 ![](../../.gitbook/assets/18.jpeg)
 
-From the query page, users can see the list of active datasets on the left-hand side. They can search over several different entities to ﬁnd ﬁles on the platform including Subject, Sample, and File. Each of these entities has a number of properties that you can ﬁlter through to search the ﬁle metadata. Select the File entity to begin this search. Your screen will look like the second image below.
+From the query page, users can see the list of active datasets on the left-hand side. They can search over several different entities to find files on the platform including Subject, Sample, and File. Each of these entities has a number of properties that you can filter through to search the file metadata. Select the File entity to begin this search. Your screen will look like the second image below.
 
 ![](../../.gitbook/assets/19.jpeg)
 
@@ -181,17 +181,33 @@ Now you can select the consent group you want to work with. In the File entity, 
 
 ![](../../.gitbook/assets/21.jpeg)
 
-As an example, select HMB-IRB and “Filter by.” Now add the Property “Data Type,” which will show the 4 different types of ﬁles for this study: aligned reads \(CRAMs\), Simple Germline
 
-Variation \(single-sample VCFs\), Unharmonized Clinical Data \(phenotype ﬁles on a per study and consent group basis\), and Variant Call \(multi-sample VCFs on a per study and consent group basis\).
+
+As an example, select HMB-IRB and “Filter by.” Now add the Property “Data Type,” which will show the 4 different types of files for this study: 
+
+* Aligned reads \(CRAMs\)
+* Simple Germline Variation \(single-sample VCFs\)
+* Unharmonized Clinical Data \(phenotype files for each study consent group\)
+* Variant Call \(multi-sample VCFs separated by chromosome for each study consent group\)
 
 ![](../../.gitbook/assets/22.jpeg)
 
-Select Aligned Reads and “Filter by” to ﬁnd the CRAM ﬁles for this study and consent group. It is important to refresh the results in the lower-left corner next to the ﬁle tab. This will show the total number of CRAM ﬁles for this study and consent group on BioData Catalyst.
+Select Aligned Reads and “Filter by” to find the CRAM files for this study and consent group. It is important to refresh the results in the lower left corner next to the file tab. This will show the total number of CRAM files for this study and consent group on BioData Catalyst.
 
 ![](../../.gitbook/assets/23.jpeg)
 
-The ﬁle names identiﬁed are listed in the bottom part of the page with red lock symbols next to them to indicate that they are controlled ﬁles. To link these ﬁles to a project for analysis, select “Copy ﬁles to project” in the upper right-hand part of the page. Please note that users can only link ﬁles to a project if they are approved to access those ﬁles on dbGaP. Therefore, if you are not approved for the “NHLBI TOPMed: The Jackson Heart Study” consent group HMB-IRB, the platform will prevent you from bringing these controlled ﬁles to a project. Please also note that because these are controlled ﬁles, they must be linked to a project marked as controlled.
+To find the multi-sample VCF files from TOPMed Freeze8, edit the “Data Type” field of the above search. Check the box next to Variant Call instead of Aligned Reads. To search specifically for Freeze8 data and eliminate Freeze5 data from your search, add the “Freeze” property to the search.
 
-Only open access metadata is available for users to search over in the Data Browser, so all BioData Catalyst users can view all available studies on BioData Catalyst and perform the same searches.
+![](../../.gitbook/assets/search-multi-sample-vcfs-by-freeze.png)
+
+Filter by Freeze8 and refresh the results in the lower-right corner above the list of file names. For the Jackson Heart Study consent group HMB-IRB, you will now have found 23 multi-sample VCF files from TOPMed Freeze8, one for each chromosome.
+
+![](../../.gitbook/assets/find-freeze8-multi-sample-vcfs-for-jhs.png)
+
+The file names identified are listed in the bottom part of the page with red lock symbols next to them to indicate that they are controlled files. To link these files to a project for analysis, select “Copy files to project” in the upper right-hand part of the page. **Please note that users can only link files to a project if they are approved to access those files on dbGaP.** Therefore, if you are not approved for the “NHLBI TOPMed: The Jackson Heart Study” consent group HMB-IRB, the platform will prevent you from bringing these controlled files to a project. **Because these are controlled files, they must be linked to a project marked as controlled.**  
+
+
+Only open access metadata is available for users to search over in the Data Browser, so all BioData Catalyst users can view all available studies on BioData Catalyst and perform the same searches.   
+  
+****
 
