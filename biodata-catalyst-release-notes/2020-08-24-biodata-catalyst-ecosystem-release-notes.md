@@ -33,7 +33,7 @@ The 2020-08-24 data release includes the addition of TOPMed Freeze 8 data for a 
 * **API and User Interface Technical Documentation:**[ ****PIC-SURE technical documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/pic-sure-for-biodata-catalyst-user-guide/pic-sure-api-documentation)  provides users with information about the PIC-SURE API and user interface and examples of how to load data into the PIC-SURE High Performance Data Store. 
 * **Scalability and cost-effectiveness analysis of whole genome-wide association studies in the Cloud:**[ This recent article](https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocaa068/5876972) from PIC-SURE provides a straightforward and innovative methodology to optimize cloud configuration in order to conduct genome-wide association studies and helps users understand the trade-off between speed and cost.
 
-### Data Release
+### Data release
 
 The table below highlights which TOPMed studies were included in the 2020-08-24 data release. Freeze 8 multi-sample VCFs were added for the 29 studies listed in the table below. This includes 19 studies which were previously hosted on BioData Catalyst with Freeze 5b data available and 10 studies which are new to BioData Catalyst. For each study and consent group, VCF files are available on a per chromosome basis and in an un-tarred format. For the 10 studies which are new to BioData Catalyst, CRAM files and unharmonized clinical files are also available for access. Additionally, 10 of these studies were updated to the latest version. The data is now available for access across the entire ecosystem. 
 
