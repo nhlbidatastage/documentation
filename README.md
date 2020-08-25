@@ -4,7 +4,7 @@ description: >-
   that are part of the  NHLBI BioData Catalyst ecosystem.
 ---
 
-# BioData Catalyst Documentation - Overview
+# BioData Catalyst Documentation - Ecosystem Overview
 
 ## Welcome to NHLBI BioData Catalyst
 
