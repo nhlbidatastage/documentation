@@ -2,10 +2,6 @@
 
 * [BioData Catalyst Documentation - Ecosystem Overview](README.md)
 
-## Getting Started
-
-* [Onboarding Syllabus using Gen3, Terra, Dockstore, and PIC-SURE](getting-started/untitled.md)
-
 ## Community <a id="community-conduct"></a>
 
 * [Statement of Conduct](community-conduct/statement-of-conduct.md)
