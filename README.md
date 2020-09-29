@@ -45,7 +45,7 @@ The NHLBI BioData Catalyst ecosystem features the following platforms and servic
 
 **Analyze Data in Cloud-based Shared Workspaces**
 
-* _BioData Catalyst Powered by Seven Bridges_ - Collaborative workspaces where researchers can find and analyze hosted datasets \(e.g. TOPMed\) by using hundreds of optimized analysis tools \(e.g. Jupyterlab, RStudio\) and workflows \(pipelines\).
+* _BioData Catalyst Powered by Seven Bridges_ - Collaborative workspaces where researchers can find and analyze hosted datasets \(e.g. TOPMed\) as well as their own data by using hundreds of optimized analysis tools and workflows in CWL, as well as JupyterLab and RStudio for interactive analysis.
 * _BioData Catalyst Powered by Terra_ - Secure collaborative place to organize data, run and monitor workflow \(e.g. WDL\) analysis pipelines, and perform interactive analysis using applications such as Jupyter Notebooks and the Hail GWAS tool.
 
 **Use Community Tools on Controlled-access Datasets**
