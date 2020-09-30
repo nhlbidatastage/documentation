@@ -99,7 +99,7 @@ We encourage users to publish their workflows so they can be used by other resea
 
 **Costs and cloud credits.**
 
-There is no charge for the storage of the data that is **already available** in the ecosystem. Costs are incurred for computation, the storage of derived results, and the storage of **any new** data uploaded to the BioData Catalyst ecosystem. Cloud credits are available on the system, and you can [learn more here](https://bdcatalyst.freshdesk.com/support/solutions/articles/60000610275-how-much-does-it-cost-to-use-biodata-catalyst-do-you-offer-cloud-credits-).
+BioData Catalyst hosts a number of datasets available for analysis to users with appropriate data access approvals. Users are not charged for the storage of these hosted datasets; however, if hosted data is used in analyses users incur costs for computation and storage of derived results. Cloud credits are available on the system, and you can [learn more here](https://biodatacatalyst.nhlbi.nih.gov/resources/cloud-credits).
 
 ## Publications About NHLBI BioData Catalyst, Citing Us, and Our Help Desk
 
