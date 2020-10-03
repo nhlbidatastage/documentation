@@ -1,4 +1,4 @@
-# Commons Alliance Onboarding Syllabus
+# Gen3, PIC-SURE, Terra, Dockstore Onboarding Syllabus
 
 ## Biodata Catalyst
 
