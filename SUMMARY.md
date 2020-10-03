@@ -1,6 +1,8 @@
 # Table of contents
 
 * [BioData Catalyst Documentation - Ecosystem Overview](README.md)
+* [Commons Alliance Onboarding Syllabus](onboarding-syllabus-using-gen3-terra-dockstore-and-pic-sure/README.md)
+  * [Communication Pathways](onboarding-syllabus-using-gen3-terra-dockstore-and-pic-sure/communication-pathways.md)
 
 ## Community <a id="community-conduct"></a>
 
