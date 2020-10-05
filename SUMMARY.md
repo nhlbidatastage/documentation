@@ -37,6 +37,7 @@
   * [Getting Started Guide](analyze-data/seven-bridges/getting-started-guide.md)
   * [Comprehensive Analysis Tips](analyze-data/seven-bridges/comprehensive-analysis-tips.md)
   * [Troubleshooting Tasks](analyze-data/seven-bridges/troubleshooting-tasks.md)
+  * [GWAS with GENESIS workflows](analyze-data/seven-bridges/gwas-page-placeholder.md)
   * [Annotation Explorer](analyze-data/seven-bridges/annotation-explorer.md)
 * [Terra](analyze-data/terra/README.md)
   * [Getting Started with Terra](analyze-data/terra/getting-started-with-terra.md)
