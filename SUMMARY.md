@@ -1,8 +1,6 @@
 # Table of contents
 
 * [BioData Catalyst Documentation - Ecosystem Overview](README.md)
-* [Gen3, PIC-SURE, Terra, Dockstore Onboarding Syllabus](onboarding-syllabus-using-gen3-terra-dockstore-and-pic-sure/README.md)
-  * [Communication Pathways](onboarding-syllabus-using-gen3-terra-dockstore-and-pic-sure/communication-pathways.md)
 
 ## Community <a id="community-conduct"></a>
 
@@ -54,6 +52,7 @@
   * [Tutorials](https://bdcatalyst.gitbook.io/biodata-catalyst-tutorials/tutorials/terra-tutorials)
   * [Videos](analyze-data/terra/videos.md)
   * [Frequently Asked Questions](analyze-data/terra/frequently-asked-questions.md)
+  * [Onboarding Syllabus](analyze-data/terra/onboarding-syllabus-using-gen3-terra-dockstore-and-pic-sure.md)
   * [Full Online Documentation for Terra](analyze-data/terra/terra-full-documentation.md)
 * [Dockstore](analyze-data/dockstore/README.md)
   * [Launch workflows with BioData Catalyst](analyze-data/dockstore/launch-workflows-with-biodata-catalyst.md)
