@@ -22,6 +22,10 @@ description: >-
 
   A small group of experts that represent the personas featured within the priority User Narratives. For their time and help, Ambassadors will receive early access to the BioData Catalyst platform, free compute time, monetary fee for time, and relevant travel expenses will be covered.
 
+* **App** 
+
+  1\) In Seven Bridges, an app is a general term to refer to both tools and     workflows. 2\) App may also refer to persistent software that is integrated into a platform. ****
+
 * **API**
 
   Application Programmer Interfaces. API technologies serve as software-based intermediaries to exchange data.
@@ -77,6 +81,10 @@ description: >-
 * **Containers**
 
   A standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another \(for example, Docker\).
+
+* **Command**
+
+  In workflow writing, the command specifies the literal command line run \(akin to what you would run in the terminal\). 
 
 * **COPDGene**
 
@@ -154,6 +162,10 @@ description: >-
 * **Docker**
 
   Software for running containers, packaged, portable units of code and dependencies that can be run in the same way across many computers. See also Containers.
+
+* **Dockerfile**
+
+  A text document that contains all the commands a user could call on the command line to assemble an image.
 
 * **Dockstore**
 
@@ -258,6 +270,14 @@ description: >-
 * **Interoperability**
 
   The ability of data or tools from multiple resources to effectively integrate data, or operate processes, across all systems with a moderate degree of effort.
+
+* **Instance**
+
+  In cloud computing, refers to a virtual server instance from a public or private cloud network.
+
+* **Image**
+
+  In the context of containers and Docker, this refers to the resting state of the software. 
 
 * **IP**
 
@@ -405,6 +425,10 @@ description: >-
 
   Science & Technology Research Infrastructure for Discovery, Experimentation, and Sustainability
 
+* **Task**
+
+  In workflow writing, the term task encompasses all of the information necessary to execute a command, such as specifying input/output files and parameters. 
+
 * **Team**
 
   Groups of people led by a Principal Investigator \(PI\), or PIs, who will complete milestones and produce deliverables. Each group has been assigned a name, represented by the elements on the periodic chart.
@@ -412,6 +436,10 @@ description: >-
 * **Tiger Teams**
 
   A diversified group of experts brought together to investigate, solve, build, or recommend possible solutions to unique situations or problems. Populated with mature experts who know what's at stake, what needs to be done, and how to work well with others; their strengths are diversity of knowledge, a single focus or purpose, cross-functional communications, decision-making sovereignty, and organizational agility.
+
+* **Tool**
+
+  In Common Workflow Language, the term tool specifies a single command. This definition is not as discrete in other workflow languages such as WDL.
 
 * **Tool Registry Service \(TRS\)**
 
@@ -453,7 +481,7 @@ description: >-
 
 * **Whitelist**
 
-  A security measure to permit only an approved list of entities \(the
+  A security measure to permit only an approved list of entities. We recommend instead using the term "allow list". 
 
 * **Workflow**
 
@@ -467,4 +495,12 @@ description: >-
 * **Workstream**
 
   A collection of related features; orthogonal to a User Narrative
+
+* **Wrapping**
+
+  The process of describing a command-line tool or custom script in Common Workflow Language \(CWL\) so that it can be easily run in multiple cloud environments, dynamically scale compute requirements based on inputs, and be inserted into distinct analysis pipelines.
+
+* **Virtual Machine \(VM\)**
+
+  An isolated computing environment with its own operating system. ****
 

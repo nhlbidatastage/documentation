@@ -63,7 +63,14 @@
 
 ## Community Tools & Integration
 
-* [Dockstore Integration With Terra](community-tools-and-integration/dockstore-integration-with-terra.md)
+* [Bring Your Own Tool\(s\) to BioData Catalyst](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/README.md)
+  * [Glossary](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/glossary.md)
+  * [Working with Docker](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/working-with-docker.md)
+  * [Creating, testing, and scaling WDL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-wdl-workflows.md)
+  * [Creating, testing, and scaling CWL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-cwl-workflows.md)
+  * [Version Control, Publishing, and Validation of Workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/version-control-publishing-and-validation-of-workflows.md)
+  * [Forums](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/forums.md)
+  * [Advanced Topics](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/advanced-topics.md)
 * [Import a Dockstore App With Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/import-a-dockstore-app)
 
 ## BioData Catalyst Glossary
