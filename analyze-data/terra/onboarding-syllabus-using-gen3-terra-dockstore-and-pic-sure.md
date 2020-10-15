@@ -22,6 +22,17 @@ description: >-
 | Data Available | [Information](https://biodatacatalyst.nhlbi.nih.gov/resources/data/) |
 | Obtaining and Getting Access | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-[documentation]/data-access/untitled) |
 
+## Onboarding Webinars
+
+| Topic | Resources |
+| :--- | :--- |
+| Terra 101:  Webinar for BioData Catalyst Users | [Webinar](https://drive.google.com/file/d/1XiR3VBMPygQe6NpWbPIuHjjsq1lYU2KH/view?usp=sharing) |
+| Terra 101: Overview | [Slides](https://drive.google.com/file/d/1-6tGgHedGUqoCzGMNmA3HABxCMPKwinQ/view?usp=sharing) |
+| Terra 101: Data in the Cloud | [Slides](https://drive.google.com/file/d/1-6tGgHedGUqoCzGMNmA3HABxCMPKwinQ/view?usp=sharing) |
+| Terra 101: Interactive Analysis | [Slides](https://drive.google.com/file/d/1XCZogzuQ3kGSa_qOJNUlrnqMQZcVVbIO/view?usp=sharing) |
+| Terra 101: Process Data in Terra with workflows | [Slides](https://drive.google.com/file/d/1yE5sbON6p3XPGrwEh9MHC4nW8JJcRL-o/view?usp=sharing) |
+| Terra 101: Billing and Access | [Slides](https://drive.google.com/file/d/1-6tGgHedGUqoCzGMNmA3HABxCMPKwinQ/view?usp=sharing) |
+
 ## BioData Catalyst Powered by Gen3
 
 ### Discover Data Using Gen3
