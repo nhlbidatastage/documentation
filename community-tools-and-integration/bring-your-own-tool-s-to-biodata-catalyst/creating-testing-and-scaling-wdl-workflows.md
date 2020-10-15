@@ -88,6 +88,7 @@ Terra also has several tips for reducing costs in order to promote the efficienc
 
 * [Controlling cloud costs](https://support.terra.bio/hc/en-us/articles/360029772212-Controlling-Cloud-costs-sample-use-cases)
 * [Enabling call-caching & deleting intermediate files](https://support.terra.bio/hc/en-us/articles/360039681632-Saving-storage-costs-by-deleting-Intermediate-files)
+* [Experimental Jupyter Notebook for estimating costs of workflows run in Terra](https://app.terra.bio/#workspaces/biodata-catalyst/BioData%20Catalyst%20Collection/notebooks/launch/Workflow%20Cost%20Estimator.ipynb)
 
 Once your workflow is working as expected, we ask that you publish your work to share with the research community. You can find resources for how to publish your work on GitHub and Dockstore in the section below titled _Version Control, Publishing, and Validation of Workflows_.   
 
