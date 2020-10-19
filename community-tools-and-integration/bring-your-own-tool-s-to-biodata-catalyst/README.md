@@ -1,6 +1,8 @@
 # Bring Your Own Tool\(s\) to BioData Catalyst
 
-Authors: Beth Sheets \(UC Santa Cruz, Genomics Institute\), Dave Roberson \(Seven Bridges\), Dan Vicente \(Seven Bridges\)
+Authors: Beth Sheets \(UC Santa Cruz, Genomics Institute\), Dave Roberson \(Seven Bridges\) 
+
+Contributors: Dan Vicente \(Seven Bridges\), Alison Leaf \(Seven Bridges\), Stephanie Gogarten \(Fellow\), Sheila Gaynor \(Fellow\), Jean Monlong \(Fellow\), Kenny Westermann \(Fellow\)
 
 Reproducibility is one of the biggest challenges facing science. Several issues associated with reproducibility have been well summarized in the [FAIR \(Findable, Accessible, Interoperable, and Reusability\) Guiding Principles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175/).  The BioData Catalyst ecosystem promotes FAIR and reproducible analyses by leveraging Docker-based reproducible tools in two descriptor languages. The [Common Workflow Language \(CWL\)](https://www.commonwl.org/) is currently supported in Seven Bridges workspaces, while the [Workflow Description Language \(WDL\)](https://openwdl.org/) is currently supported in Terra workspaces. 
 
