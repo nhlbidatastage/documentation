@@ -4,7 +4,7 @@ The Annotation Explorer is an application developed by Seven Bridges in collabor
 
 ![](../../.gitbook/assets/ae-ss-2.png)
 
-The Annotation Explorer currently hosts a subset of genomic annotations obtained using Whole Genome Sequence Annotator software for TOPMed variants. Currently, annotations for TOPMed Freeze5 variants and TOPMed Freeze8 variants are integrated with the Annotation Explorer. Researchers who are approved to access one or more of the TOPMed Freeze5 studies will have the ability to access the Freeze5 data on Annotation Explorer. Access to annotations for Freeze8 data will be made available after the Freeze8 data is released on BioData Catalyst.
+The Annotation Explorer currently hosts a subset of genomic annotations obtained using Whole Genome Sequence Annotator software for TOPMed variants. Currently, annotations for TOPMed Freeze5 variants and TOPMed Freeze8 variants are integrated with the Annotation Explorer. Researchers who are approved to access one or more of the TOPMed studies included in Freeze8 or Freeze5 will be able to access these annotations in the Annotation Explorer.
 
 ![](../../.gitbook/assets/ae-ss-1.png)
 
