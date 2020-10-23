@@ -1,0 +1,60 @@
+*fastSKAT is not included in the benchmarking doc because of the way the aggregation units are created. It's probably running SKAT and not fasSKAT,,,,,,,,AWS Instances,,,,,Google instances,,,,,,
+,Analysis,Samples,Variants,"Rel. matrix
+    in NM",Test," Parallel
+instances","Instance
+type",Instance,CPU,RAM (GB),Time,Cost,Instance,CPU,RAM (GB),Time,Cost,CostRatio,
+,Aggregate test,10K,,w/o,Burden,8,On Dm,r5.12xlarge,1,8,"1 h, 11 min",$16,n1-highmem-32,1,8,"1 h, 55 min",$16,100%,
+,Aggregate test,10K,,Sparse,Burden,8,On Dm,r5.12xlarge,1,8,"1 h, 10min",$17,n1-highmem-32,1,8,2 h,$17,100%,
+,Aggregate test,10K,,Dense,Burden,8,On Dm,r5.12xlarge,1,8,"1 h, 12 min",$16,n1-highmem-32,1,8,"2 h, 40 min",$16,100%,
+,Aggregate test,36K,,w/o,Burden,8,On Dm,r5.12xlarge,1,8,"1 h, 46 min",$28,n1-highmem-32,1,8,"2 h, 17 min",$30,107%,
+,Aggregate test,36K,,Sparse,Burden,8,On Dm,r5.12xlarge,1,9,"1 h, 50 min",$31,n1-highmem-32,1,9,"2 h, 30 min",$30,97%,
+,Aggregate test,36K,,Dense,Burden,8,On Dm,r5.12xlarge,4,36,"2h, 59 min",$66,n1-highmem-32,4,36,6 h,$91,138%,* Average job length higher on Google for 15%
+,Aggregate test,50K,,w/o,Burden,8,On Dm,r5.12xlarge,1,8,"2 h, 28 min",$40,n1-highmem-32,1,8,"5 h, 50 min",$43,108%,
+,Aggregate test,50K,,Sparse,Burden,8,On Dm,r5.12xlarge,1,9,"2 h, 11 min",$43,n1-highmem-32,1,9,"5 h, 50 min",$40,93%,
+,Aggregate test,50K,,Dense,Burden,8,On Dm,r5.24xlarge,8,70,"4 h, 47 min",$208,n1-highmem-96,8,70,6 h,$270,130%,* Average job length higher on Google for 15%. Almost the same number of jobs in parallel.
+Approx,Aggregate test,50K,,Dense,Burden,8,On Dm,r5.24xlarge,8,70,"4 h, 30 min",$218,n1-highmem-96,,,,,,
+Approx,Aggregate test,50K,,Dense,Burden,8,On Dm,r5.24xlarge,8,70,9 h,$218,n1-highmem-96,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,Aggregate test,10K,,w/o,SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 15 min",$16,n1-highmem-32,1,8,"1 h, 50 min",$17,106%,
+,Aggregate test,10K,,Sparse,SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 15 min",$17,n1-highmem-32,1,8,2 h,$16,94%,
+,Aggregate test,10K,,Dense,SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 17 min",$17,n1-highmem-32,1,8,"2 h, 50 min",$17,100%,
+,Aggregate test,36K,,w/o,SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 47 min",$27,n1-highmem-32,1,8,"2 h, 45 min",$30,111%,
+,Aggregate test,36K,,Sparse,SKAT,8,On Dm,r5.12xlarge,1,9,"1 h, 50 min",$31,n1-highmem-32,1,9,"2 h, 20 min",$30,97%,
+,Aggregate test,36K,,Dense,SKAT,8,On Dm,r5.12xlarge,6,48,"5 h, 5 min",$110,n1-highmem-32,6,48,12 h,$162,147%,"* Average job length higher on Google for 15%. Difference in execution time due to less jobs run in parallel on Google (AWS 8, Google 4)"
+,Aggregate test,50K,,w/o,SKAT,8,On Dm,r5.12xlarge,1,8,"2 h, 27 min",$40,n1-highmem-32,1,8,5 h,$45,113%,
+,Aggregate test,50K,,Sparse,SKAT,8,On Dm,r5.12xlarge,1,9,"2 h, 23 min",$44,n1-highmem-32,1,9,5 h,$45,102%,
+,Aggregate test,50K,,Dense,SKAT,8,On Dm,r5.24xlarge,13,100,"11 h, 2 min",$500,n1-highmem-96,13,100,14 h,$620,124%,"* This is approximation for Google instance, since we had a lot of qued tasks and that affected the execution time and price. The reason for Difference in AWS and Google (approximeted) is due to different average execution time on Google (longer tasks on Google for 15%)"
+Approx,Aggregate test,50K,,Dense,SKAT,8,On Dm,r5.24xlarge,12,90,9 h,$435,n1-highmem-96,12,90,14 h,$620,143%,"* This is approximation for Google instance, since we had a lot of qued tasks and that affected the execution time and price. The reason for Difference in AWS and Google (approximeted) is due to different average execution time on Google (longer tasks on Google for 15%)"
+Approx,Aggregate test,50K,,Dense,SKAT,8,On Dm,r5.24xlarge,12,90,18 h,$435,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,Aggregate test,10K,,w/o,SMMAT,8,On Dm,r5.12xlarge,1,8,"1 h, 15 min",$16,n1-highmem-32,1,8,1 h 30 min,$15,94%,
+,Aggregate test,10K,,Sparse,SMMAT,8,On Dm,r5.12xlarge,1,8,"1 h, 16 min",$16,n1-highmem-32,1,8,2 h,$16,100%,
+,Aggregate test,10K,,Dense,SMMAT,8,On Dm,r5.12xlarge,1,8,"1 h, 18 min",$17,n1-highmem-32,1,8,"2 h, 50 min",$17,100%,
+,Aggregate test,36K,,w/o,SMMAT,8,On Dm,r5.12xlarge,1,8,"1 h, 45 min",$28,n1-highmem-32,1,8,"2 h, 43 min",$30,107%,
+,Aggregate test,36K,,Sparse,SMMAT,8,On Dm,r5.12xlarge,1,9,"1 h, 48 min",$32,n1-highmem-32,1,9,"2 h, 25 min",$30,94%,
+,Aggregate test,36K,,Dense,SMMAT,8,On Dm,r5.12xlarge,6,48,5h,$111,n1-highmem-32,6,48,12 h,$160,144%,"* Average job length higher on Google for 15%. Difference in execution time due to less jobs run in parallel on Google (AWS 8, Google 4)"
+,Aggregate test,50K,,w/o,SMMAT,8,On Dm,r5.12xlarge,1,8,"2 h, 30 min",$40,n1-highmem-32,1,8,5 h,$42,105%,
+,Aggregate test,50K,,Sparse,SMMAT,8,On Dm,r5.12xlarge,1,9,"2 h, 47 min",$44,n1-highmem-32,1,9,5 h,$50,114%,
+,Aggregate test,50K,,Dense,SMMAT,8,On Dm,r5.24xlarge,13,100,"11 h, 30 min",$500,n1-highmem-96,13,100,14 h,$620,124%,"* This is approximation for Google instance, since we had a lot of qued tasks and that affected the execution time and price. The reason for Difference in AWS and Google (approximeted) is due to different average execution time on Google (longer tasks on Google for 15%)"
+Approx,Aggregate test,50K,,Dense,SMMAT,8,On Dm,r5.24xlarge,12,90,9 h,$435,n1-highmem-96,12,90,14 h,$620,143%,"* This is approximation for Google instance, since we had a lot of qued tasks and that affected the execution time and price. The reason for Difference in AWS and Google (approximeted) is due to different average execution time on Google (longer tasks on Google for 15%)"
+Approx,Aggregate test,50K,,Dense,SMMAT,8,On Dm,r5.24xlarge,12,90,18 h,$435,,12,90,,,,
+,,,,,,,,,,,,,,,,,,,
+,Aggregate test,10K,,w/o,SKAT-O,8,,,1,8,,,n1-highmem-32,1,8,--,--,,
+,Aggregate test,10K,,Sparse,SKAT-O,8,,,1,8,,,n1-highmem-32,1,8,"3 h, 30 min",$20,,
+,Aggregate test,10K,,Dense,SKAT-O,8,,,1,24,,,n1-highmem-32,1,24,--,--,,
+,Aggregate test,,,w/o,SKAT-O,,,,,,,,,,,,,,
+,Aggregate test,,,Sparse,SKAT-O,,,,,,,,,,,,,,
+,Aggregate test,,,Dense,SKAT-O,,,,,,,,,,,,,,
+,Aggregate test,,,w/o,SKAT-O,,,,,,,,,,,,,,
+,Aggregate test,,,Sparse,SKAT-O,,,,,,,,,,,,,,
+,Aggregate test,,,Dense,SKAT-O,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,Aggregate test,10K,,w/o,Fast SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 14 min",$16,n1-highmem-32,1,8,"1 h, 30 min",$16,100%,
+,Aggregate test,10K,,Sparse,Fast SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 15 min",$16,n1-highmem-32,1,8,"1 h, 30 min",$16,100%,
+,Aggregate test,10K,,Dense,Fast SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 17 min",$17,n1-highmem-32,1,8,"2 h, 50 min",$17,100%,
+,Aggregate test,36K,,w/o,Fast SKAT,8,On Dm,r5.12xlarge,1,8,"1 h, 50 min",$28,n1-highmem-32,1,8,3 h,$30,107%,
+,Aggregate test,36K,,Sparse,Fast SKAT,8,On Dm,r5.12xlarge,1,9,"1 h, 40 min",$34,n1-highmem-32,1,9,"4 h, 30min",$32,94%,
+,Aggregate test,36K,,Dense,Fast SKAT,8,On Dm,r5.12xlarge,6,50,"5 h, 30 min",$135,n1-highmem-32,6,50,11 h,$160,119%,"* Average job length higher on Google for 15%. Difference in execution time due to less jobs run in parallel on Google (AWS 8, Google 4)"
+,Aggregate test,50K,,w/o,Fast SKAT,8,On Dm,r5.12xlarge,1,10,"1 h, 30 min",$40,n1-highmem-32,1,10,3 h,$45,113%,
+,Aggregate test,50K,,Sparse,Fast SKAT,8,On Dm,r5.12xlarge,1,10,"1 h, 30 min",$43,n1-highmem-32,1,10,3 h,$45,105%,
+,Aggregate test,50K,,Dense,Fast SKAT,8,On Dm,r5.24xlarge,13,100,"11 h, 41 min",$501,n1-highmem-96,13,100,14 h,$650,130%,

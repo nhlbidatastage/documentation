@@ -1,0 +1,77 @@
+,,,,,,,AWS Instance,,,,,Google Instance,,,,,,,,,,,,,,,,,,Resources,,,
+,Analysis,Samples,Input,Variants,"Check
+ GDS","Instance
+type",Instance,CPU,RAM (GB),Time,Cost,Instance,CPU,RAM (GB),Time,Cost,,,,Analysis that was done,Additional Info,Link,Input type,Data Set,Samples,Duration,Cost,Spot/On Dm,Instance,CPU,Disk,Ram,
+,VCF to GDS,2.5K,"vcf.gz
+",,,Spot,c5.18xlarge,1,4,"1 h, 16 min",5$,n1-standard-64,1,4,"1 h, 30 min",6.67$,,,1000G data,,,,,,,,,,,,,,
+,VCF to GDS,2.5K,"vcf.gz
+",,No,Spot,c5.18xlarge,1,4,34 min,1$,n1-highmem-32,1,4,47 min,0.52$,,,,VCF to GDS run - 23 chromosomes 1 CPU,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/14afe6b7-1430-4cfe-a693-eb7225c540e9/,vcf.gz,1000G,2.5K,"1 h, 16 min",5$,Spot,c5.18xlarge,Unused,Unused,Unused,
+,VCF to GDS,10K,"vcf.gz
+",,,On Dm,c5.9xlarge,1,4,"1 d, 4 h",170$,n1-standard-16,1,4,"1 d, 16 h",130$,* n1-standard-16 cheeper,,,VCF to GDS run - 23 chromosomes 1 CPU,GOOGLE INST - Files on Google,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/768a7be3-9b80-446a-a454-ee20f625d3de/#,vcf.gz,1000G,2.5K,"1 h, 38 min",2.90$,Spot,n1-standard-64,Unused,Unused,Unused,
+,VCF to GDS,10K,"vcf.gz
+",,No,Spot,c5.18xlarge,1,4,"5 h, 50 min",8$,n1-highmem-32,1,4,8 h,5$,,,,,,,,,,,,,,,,,
+,VCF to GDS,36K,"vcf.gz
+",,,On Dm,c4.8xlarge,1,4,5 d,730$,,,,,,,,,VCF to GDS run - 23 chromosomes 1 CPU,GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/06a9593f-7c25-4d8f-a5cc-76e48d639ec0/#,vcf.gz,1000G,2.5K,"1 h, 32 min",2.89$,Spot,n1-standard-64,Unused,Unused,Unused,6.67$
+Approx,VCF to GDS,36K,"vcf.gz
+",,,On Dm,c5.9xlarge,1,4,5 d,460$,,,,,,,,,,,,,,,,,,,,,,
+,VCF to GDS,36K,"vcf.gz
+",,No,On Dm,c5.9xlarge,1,4,17 h,45$,n1-standard-16,1,4,"1 d, 9 h",45$,,,,VCF to GDS run - 23 chromosomes 72 CPUs,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/a4dbd0d4-e73c-4f09-8521-22ed95cd8d93/,vcf.gz,1000G,2.5K,"1 h, 9 min",6.46$,Spot,c5.18xlarge,Used,Unused,Unused,
+,VCF to GDS,36K,"vcf.gz
+",,No,On Dm,m5.4xlarge,1,4,"1 d, 3h",43$,n1-standard-16,1,4,"1 d, 9 h",45$,,,,VCF to GDS run - 23 chromosomes 16 CPUs ,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/6e70dd63-8e39-487a-99d3-38fae2e5a61b/#,vcf.gz,1000G,2.5K,"3 h, 8 min",3.60$,Spot,c3.4xlarge,Used,Unused,Unused,
+,VCF to GDS,50K,"vcf.gz
+",,,On Dm,c4.8xlarge,1,4,6 d,"1,150$",,,,,,,,,,,,,,,,,,,,,,
+,VCF to GDS,50K,"vcf.gz
+",,,On Dm,c5.9xlarge,1,4,5 d,725$,,,,,,,,,,,,,,,,,,,,,,
+,VCF to GDS,50K,"vcf.gz
+",,No,On Dm,c5.9xlarge,1,4,"1 d, 7 h",77$,n1-standard-16,1,4,"2 d, 7 h",75$,,,,VCF to GDS run - 23 chromosomes 4 CPUs ,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/8ac99b09-229d-43b7-8b5f-1133b8493211/#,vcf.gz,1000G,2.5K,FAILED due to memory,,Spot,c4.xlarge,,,,
+,VCF to GDS,50K,bcf,,No,On Dm,c5.18xlarge,1,4,"1 d, 11 h",110$,n1-standard-64,1,4,"2 d, 7 h",180$,*Approximation for AWS based on other task,,,VCF to GDS run - 23 chromosomes 1 CPU,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/62d22333-98ec-458d-9762-85b3bb8e3528/,bcf.gz,1000G,2.5K,FAILED due to BCF.gz,,Spot,c5.18xlarge,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,* Note: ,"When run VCF to GDS on c5.9 and c5.18 with the same input parameters, the total cost should be approximately the same because the price of c5.18 is twice as c5.9
+but we can run the task with smaller number of instances. If we used 2 c5.9 instances, we will have only one 1 c5.18.",,,,,,,,,,,,,,,,,,VCF to GDS run - 23 chromosomes 1 CPU,No Check GDS,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/b3a5c7fb-f269-4fd7-a91f-c30fd5c0f83c/#,vcf.gz,1000G,2.5K,34 min,1$,Spot,c5.18xlarge,Unused,Unused,Unused,
+,* Note: ,"Also, as we can see in the results c5 instances appeared to be the most appropriate for this workflow. To ilustrate this we included tasks with m instance and one with c4 as well.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,* Note: ,"This workflow doesn't require a lot of memory per job. We managed to run all analysis with 4GB per job, and for smaller sample sizes these can be run with less memory e.g. 2GB/job. 
+This can descrease the execution time and cost even more. ",,,,,,,,,,,,,,,,,,VCF to GDS run - 23 chromosomes 1 CPU,No Check GDS GOOGLE INST - Files on Goole,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/4e6aff5d-180c-4298-ad6d-864f35559a6b/#,vcf.gz,1000G,2.5K,54 min,0.59$,Spot,n1-highmem-32,Used,Unused,Unused,
+,* Note: ,"Samples with up to 10k can be run with 2GB/job as well, but we need to have in mind that this parameter is setup only for vcf to gds step
+(currently there is no resources inputs for check gds step) and that if we run task with chech gds step, our price wont be twice as low as with 4GB.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 chromosomes 1 CPU,No Check GDS GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/1c672762-58a3-4cec-b563-0e7c55440bc9/#,vcf.gz,1000G,2.5K,47 min,0.52$,Spot,n1-highmem-32,Used,Unused,Unused,6.22$
+,* Need to add number of variants as well,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 chromosomes 1 CPU,No Check GDS GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/61f3529a-91c3-4d9a-b27c-3b27595f8ce9/#,vcf.gz,1000G,2.5K,46 min,1.44$,Spot,n1-standard-64,Unused,Unused,Unused,5.70$
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,freeze5 10K,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/c0ab0797-d875-4c27-a3dd-c147de3f7da3/#,vcf.gz,freeze5,10K,"20 h, 30 min",211$,On Dm,c5.18xlarge,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,No Check GDS,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/b049ad21-704b-44b9-89ff-afcd2c4bc1f5/#,vcf.gz,freeze5,10K,"5 h, 50 min",7.50$,Spot,c5.18xlarge,Unused,Unused,Unused,2GB/job
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/94c479d7-eedc-4584-bcfa-f3d32f8bcf66/#,vcf.gz,freeze5,10K,8 h,4.61$,Spot,n1-highmem-32,,,,34$
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/0d69fab5-9075-44d7-9556-169073018fed/#,vcf.gz,freeze5,10K,"7 h, 18 min",12.61$,Spot,n1-standard-64,Unused,Unused,Unused,35$
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/78722dc7-b704-4e6f-9003-7d07a432e213/#,vcf.gz,freeze5,10K,FAILED due to memory,,On Dm,c4.2xlarge,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/532a015c-4782-453c-8e28-aed5f05a0702/,vcf.gz,freeze5,10K,"2 d, 48 min",252$,On Dm,c4.4xlarge,Used,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs 8 CPUs,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/6c3be02c-2ec8-4279-afba-8fd8023e823f/,vcf.gz,freeze5,10K,"17 h, 19 min",226$,On Dm,c5.18xlarge,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,"2GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/190682ad-3a78-4e5b-bcef-732d73b0f5dd/#,vcf.gz,freeze5,10K,"1 d, 4 h",170$,On Dm,c5.9,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,"4GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/2165ee17-6302-421c-85b8-3c9aca7be34b/#,vcf.gz,freeze5,10K,"1 d, 4 h",170$,On Dm,c5.9,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,"GOOGLE INST 2GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/b03dc65a-9d46-46ed-b04b-a6dadbe98661/#,vcf.gz,freeze5,10K,"1 d, 15 h",130$,On Dm,n1-standard-16,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,"GOOGLE INST 4GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/79ba8176-0e43-4e9b-931e-117798d8eca7/#,vcf.gz,freeze5,10K,"1 d, 16 h",130$,On Dm,n1-standard-16,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,freeze5 36K,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,4GB 1CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/3d212364-4d4d-470f-986b-ac3428ff97b3/,vcf.gz,freeze5,36K,"6 d, 20h","1,180$",On Dm,c4.8xlarge,Unused,Unused,Unused,It's not possible to run on c4.4 it's small
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,4GB 1CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/384b0513-3491-492d-bdea-382c6e269964/#,vcf.gz,,36K,5 d,730$,On Dm,c5.9xlarge,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,No Check GDS 4GB 1 CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/f30d756b-a3f7-400c-b403-e2213fb6ca1f/#,vcf.gz,freeze5,36K,"1 d, 3h",77$,Spot(lost),c4.8xlarge,Unused,Unused,Unused,2GB/job
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,No Check GDS 4GB 2 CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/9855a9a1-d958-4f81-8cf2-ca41eb0a3043/,vcf.gz,freeze5,36K,"16 h, 45 min",45$,On Dm,c5.9,Used,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,No Check GDS 4GB 1 CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/5e00962e-87f3-4aef-bce4-7dbca1e351a8/#,vcf.gz,freeze5,36K,"20 h, 30 min",65$,,c5.9,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,No Check GDS 4GB 1CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/e9eeb28a-0dae-4f91-8440-aadb29756c88/#,vcf.gz,freeze5,36K,"1 d, 3 h",43$,On Dm,m5.4,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,GOOGLE INST No Check GDS 4GB 1CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/e324c45f-b179-4e0c-9255-a7aabe28837b/#,vcf.gz,freeze5,36K,"1 d, 9 h",45$,On Dm,n1-standard-16,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,GOOGLE INST No Check GDS 4GB 1 CPU,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/e1dbc7df-3c39-4f79-ad82-bf1ad3078221/#,vcf.gz,freeze5,36K,"1 d, 6 h",53$,On Dm,n1-standard-16,Used,Unused,Unused,170$
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs 36 CPU,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/102c60a5-f2cd-4232-8a4c-f248dd8ff105/,vcf.gz,freeze5,36K,"6 d, 5h","1,250$",On Dm,c4.8xlarge,Used,Unused,Unused,It's not possible to run on c4.4 it's small
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,freeze5 50K,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/6d1c6dbf-6399-4462-b383-6633ee8c1e3e/#,vcf.gz,freeze5,50K,"5 d, 10h","1,400$",On Dm,c5.18xlarge,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,4 GB,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/0e23613d-68e6-4c39-b9e6-0a4c281685b5/#,vcf.gz,freeze5,36K,"6 d, 1 h","1,150$",On Dm,c4.8xlarge,Used,Unused,Unused,It's not possible to run on c4.4 it's small
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs,4 GB,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/c1d78d6e-d00c-455f-ac24-1178fecbbdc0/#,vcf.gz,freeze5,36K,5 d,724$,On Dm,c5.9xlarge,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs 36CPUs,36 CPUs,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/31753fec-53f0-4238-b413-d1341290fcf8/#,vcf.gz,freeze5,50K,"4 d, 15h","1,430$",On Dm,c5.18xlarge,Used,Used,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs 36CPUs,No Check GDS 36CPUs,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/185a77f8-60ca-4417-9f62-908483291a1b/#,vcf.gz,freeze5,50K,"15 h, 20 min",80$,Spot,c5.18xlarge,Used,Used,Unused,10GB/job
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,"No Check GDS 10GB, 2 CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/3b95473c-5c35-43dd-b88c-b22170e9522b/#,vcf.gz,freeze5,50K,"1 d, 2h",110$,On Dm,m5.12,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,"No Check GDS 10GB, 5 CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/42b19a77-c06c-4d0d-9a2a-5de34985efb2/#,vcf.gz,freeze5,50K,15 h,75$,On Dm,c5.9,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,"No Check GDS 4GB, 1 CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/218b0624-43ac-41cb-b0b7-9c880db05467/#,vcf.gz,freeze5,50K,"1 d, 7h",77$,On Dm,c5.9,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,"No Check GDS 10GB, 2 CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/468c0f59-8b6b-42bc-ad1a-b08cfda2b622/#,vcf.gz,freeze5,50K,"1 d, 3 h",71$,On Dm,m5.4,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,"No Check GDS 10GB, 5CPUs",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/8d0bc4a4-94c6-4dd6-83a4-2ba0a6f77980/#,bcf,freeze5,50K,"1 d, 11h",220$,On Dm,c5.18xlarge,,,,* Still can't be parallelized
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,No Check GDS,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/417b28e8-08f1-4bc9-81e1-f8097f1cd305/#,bcf,freeze5,50K,"1 d, 20h",210$,On Dm,r5.4,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,No Check GDS,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/92cab491-39b4-4556-9422-b78d6bdd8fad/#,bcf,freeze5,50K,"2 d, 7 h",180$,On Dm,n1-standard-64,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,"No Ch.GDS 10GB,5CPU/job GOOGLE INST",,vcf.gz,freeze5,50K,"1 d, 6 h",90$,On Dm,n1-standard-16,,,,
+,,,,,,,,,,,,,,,,,,,,VCF to GDS run - 23 CHRs ,"No Ch.GDS 4GB,1CPU/job GOOGLE INST",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/6b21b6da-f0c5-483c-9a14-9c88d4b20d5e/#,vcf.gz,freeze5,50K,"2 d, 7 h",75$,On Dm,n1-standard-16,,,,

@@ -25,18 +25,26 @@ The resulting execution times, costs, and general advice for running GENESIS wor
 
 The contents of this guide are arranged as follows: 
 
-* **Introduction**
-* **Helpful Terms to Know**
-* **GENESIS VCF to GDS**	
-* **GENESIS Null model**	
-* **GENESIS Single Association testing**	
-* **GENESIS Aggregate Association testing**	
-* **GENESIS Sliding window Association testing**	
-* **General considerations**	
+* Introduction
+* Helpful Terms to Know
+* GENESIS VCF to GDS	
+* GENESIS Null model	
+* GENESIS Single Association testing	
+* GENESIS Aggregate Association testing	
+* GENESIS Sliding window Association testing	
+* General considerations	
 
 Below is a link to **download the results of our Benchmarking Analysis** described herein. It may prove useful to have this file open for reference when reading through this guide. 
 
-{% file src="../../.gitbook/assets/benchmarking-sliding-window-joint-results \(1\).csv" caption="Seven Bridges Benchmarking" %}
+{% file src="../../.gitbook/assets/benchmarking-vcf-to-gds.csv" caption="Benchmarking: VCF to GDS" %}
+
+{% file src="../../.gitbook/assets/benchmarking-null-model.csv" caption="Benchmarking: Null Model" %}
+
+{% file src="../../.gitbook/assets/benchmarking-single-test.csv" caption="Benchmarking: Single Test" %}
+
+{% file src="../../.gitbook/assets/benchmarking-aggregate-test-joint-results.csv" caption="Benchmarking: Aggregate Test" %}
+
+{% file src="../../.gitbook/assets/benchmarking-sliding-window-joint-results \(1\).csv" caption="Benchmarking: Sliding Window" %}
 
 ### **Helpful terms to know**
 
@@ -104,13 +112,7 @@ The null model can be fit with relatedness matrices \(i.e. mixed models\) or wit
 Results of the **GENESIS Single Association Testing workflow** benchmarking can be seen in the table above. Some important notes to consider when using this workflow:
 
 * _**Null model type effect:**_ The main cost and duration driver in these tasks is the null model type. The null model can be fit without a relatedness matrix \(i.e. simple regression models\), or with a relatedness matrix that can be sparse or dense \(i.e. mixed models\). The table above shows that task cost and execution time increases as the null model is weighted \(dense &gt; sparse &gt; none\). Differences between the model with dense matrix and the model with sparse matrix are significant, which is driven by both increased CPU time and memory required to use a dense matrix. Our advice is to check the relatedness matrix before fitting the model, and _**transform it to sparse if it is dense**_, especially if sample size is large. The null model type has direct influences on further parameters setup such as: instance type selection, CPU per job, Memory per job, etc.  
-
-
-
 * _**Instance type:**_ Benchmarking showed that the most appropriate instance type is an AWS r5.x instance. Instance type selection is especially important when we are performing analysis with many samples \(30k participants and above\). In the tasks with up to 30k samples, r5.4xlarge instances can be used, and r5.12xlarge with more participants included. In addition, it is important to note that if a single association test is performed with a dense null model, then r5.12xlarge or r5.24xlarge instances should be picked. When it comes to Google instances, results can be seen in the above table as well. Since there often isn’t a Google instance that is the exact equivalent of the AWS instance, , we recommend choosing the most appropriate Google instance \(matching the chosen AWS instance\) from the list of available Google instances on BioData Catalyst.
-
-
-
 * _**CPU and memory per job:**_ ****CPUs and memory per job input parameters are determining the number of jobs to be run in parallel on one instance. For example:
 
   * If a task is run on c5.9xlarge\(36CPUs and 72GB RAM\) with 1CPU/job and      4GB/job, the number of jobs run in parallel will be min{36/1,72/4}=18. 
@@ -121,12 +123,7 @@ Results of the **GENESIS Single Association Testing workflow** benchmarking can 
   The bottleneck in single variant association testing is memory, so we suggest carefully considering this parameter and instance type. Workflow defaults are 1 CPU/job and 8GB/job. The table above shows that these tasks require much more memory than CPUs, therefore r.x instances are most appropriate in these cases.  
   The table additionally shows that the task where the null model is fit with the dense relatedness matrix requires the most memory per job. This parameter also depends on the number of participants included in the analysis. 
 
-
-
 * _**Maximum number of parallel instances:**_ The default number of parallel instances is 8. The impact of changing this number is mainly reflected through execution time. The tasks with more parallel instances will be finalized faster. This parameter can be set in Execution settings when drafting a task. However, each user has a limited total number of parallel instances and capturing a big number of parallel instances per task leads to a decrease in the total number of different tasks that can run at the same time.
-
-
-
 * **Spot instances:** If it is expected for the task to be finalized within a few hours, it can be run on spot instances in order to reduce the execution cost. However, losing a spot instance leads to rerunning the task using on-demand instances which can lead to a higher cost than running the task on on-demand instances from the beginning. That is why spot instances are generally only suitable for short tasks. 
 
 ### **GENESIS Aggregate Association testing**
@@ -134,13 +131,7 @@ Results of the **GENESIS Single Association Testing workflow** benchmarking can 
 **GENESIS Aggregate association testing** can be performed using burden, SKAT, SMMAT, fastSKAT and SKAT-O tests. Our general conclusions are as follows:
 
 * _**Null model selection:**_ The same as in the single variant association testing, the main cost and duration driver in these tasks is the null model type. The null model can be fit without a relatedness matrix \(i.e. simple regression models\), or with a relatedness matrix that can be sparse or dense \(i.e. mixed models\). The table above shows that task cost and execution time increases as the null model is weighted \(dense &gt; sparse &gt; none\). Differences between the model with dense matrix and the model with sparse matrix are significant, which is driven by both increased CPU time and memory required to use a dense matrix. Our advice is to check the relatedness matrix before fitting the model, and _**transform it to sparse if it is dense**_**,** especially if sample size is large. The null model type has direct influences on further parameters setup such as: instance type selection, CPU per job, Memory per job, etc. 
-
-
-
 * _**Instance type:**_ ****Benchmarking showed that the most appropriate instance type is an AWS r5.x instance. The majority of the tasks can be run on r5.12xlarge instances or on r5.24xlarge instances when the null model is with the dense relatedness matrix. Results for Google instances can be seen in the above table as well. Since the Google instance options often do not have an exact AWS equivalent, we selected the closest match from the list of available Google instances on BioData Catalyst.
-
-
-
 * _**CPU and memory per job:**_ CPUs and memory per job input parameters determine the number of jobs to be run in parallel on one instance. For example:
 
   * If a task is run on c5.9xlarge\(36CPUs and 72GB RAM\) with 1CPU/job and      4GB/job, the number of jobs run in parallel will be min{36/1,72/4}=18. 
@@ -156,7 +147,7 @@ SKAT and SMMAT tests are similar when it comes to CPU and Memory per job require
 
 ![](../../.gitbook/assets/bm-ss6.png)
 
-* _**Maximum number of parallel instances:**_ ****The default number of parallel instances is 8. The impact of changing this number is mainly reflected through execution time. The tasks with more parallel instances will be finalized faster. This parameter can be set in Execution settings when drafting a task. However, each user has a limited total number of parallel instances and capturing a big number of parallel instances per task leads to a decrease in the total number of different tasks that can run at the same time. 
+* _**Maximum number of parallel instances:**_ ****The default number of parallel instances is 8. The impact of changing this number is mainly reflected through execution time. The tasks with more parallel instances will be finalized faster. This parameter can be set in Execution settings when drafting a task. However, each user has a limited total number of parallel instances and capturing a big number of parallel instances per task leads to a decrease in the total number of different tasks that can run at the same time.
 * _**Spot instances:**_ If it is expected for the task to be finalized in a few hours it can be run on spot instances. This will reduce the execution cost. However, losing a spot instance leads to rerunning the task on on-demand instances, which can lead to a higher cost than running the task on on-demand instances from the beginning. That is why spot instances are generally suitable for short tasks.
 
 ### **GENESIS Sliding window Association testing**
@@ -164,13 +155,7 @@ SKAT and SMMAT tests are similar when it comes to CPU and Memory per job require
 GENESIS Sliding window association testing can be performed using burden, SKAT, SMMAT, fastSKAT and SKAT-O tests. When running sliding window test is good to know:
 
 * _**Null model selection:**_ The same as in the previous tests the main cost and duration driver in these tasks is the null model type. The null model can be fit without a relatedness matrix \(i.e. simple regression models\), or with a relatedness matrix that can be sparse or dense \(i.e. mixed models\).  The table below shows that task cost and execution time increases as the null model is weighted \(dense &gt; sparse &gt; none\). Differences between the model with dense matrix and the model with sparse matrix are significant, which is driven by both increased CPU time and memory required to use a dense matrix. Our advice is to check the relatedness matrix before fitting the model, and _**transform it to sparse if it is dense**_, especially if sample size is large. The null model type has direct influences on further parameters setup such as: instance type selection, CPU per job, Memory per job, etc.
-
-
-
 * _**Instance type:**_ ****Benchmarking showed that for analysis with or without sparse relatedness matrix tasks can be completed on a c5.9xlarge AWS instance. For analysis with dense relatedness matrix included in the null model and with 50k samples or more, r5.12xlarge instances can be used. Also, it is important to note that in this case increasing the instance \(for example from c5.9xlarge to c5.18xlarge\) will not lead to shorter execution time. Furthermore, it can be completely opposite. By increasing the size of the instance we also increase the number of jobs running in parallel. At one point there will be a lot of jobs running in parallel and accessing the same memory space which can reduce the performance and increase task duration. Results for Google instances can be seen in respective tables. Since the Google instance options often do not have an exact AWS equivalent, we selected the closest match from the list of available Google instances on BioData Catalyst.
-
-
-
 * _**CPU and memory per job:**_ When running a sliding window test it is important to ensure that CPU resources at the instances that we are using are not overused. Avoiding 100% CPU usage in these tasks is crucial for fast execution. For that reason, it is good to decrease the number of jobs which are running in parallel on one instance.  The number of parallel jobs is highlighted in the summary table as it is an important parameter for the execution of this task. We can choose different CPU and memory inputs as long as that combination gives us an appropriate number of parallel jobs.   ****This is example how the number of parallel jobs are calculated:
 
   * If we run our task on c5.9xlarge\(36CPUs and 72GB RAM\) with 1CPU/job and      4GB/job, the number of jobs run in parallel will be min{36/1,72/4}=18. 
@@ -178,11 +163,9 @@ GENESIS Sliding window association testing can be performed using burden, SKAT, 
 
   For details on the number of jobs that we’ve set for each tested case please refer to the  table below.
 
-
-
-* _**Window size and window step:**_ The default values for these parameters are 50kb and 20kb \(kilobases\), respectively. Please have in mind that since the sliding window algorithm is considering all bases inside the window, the window length and number of windows are parameters that are directly affecting the execution time and the price of the task. 
-* _**Maximum number of parallel instances:**_ The default number of parallel instances is 8. The impact of changing this number is mainly reflected through execution time. The tasks with more parallel instances will be finalized faster. This parameter can be set in Execution settings when drafting a task. However, each user has a limited total number of parallel instances and capturing a big number of parallel instances per task leads to a decrease in the total number of different tasks that can run at the same time. 
-* _**Spot instances:**_ If it is expected for the task to be finalized in a few hours it can be run on spot instances. This will reduce the execution cost. However, losing a spot instance leads to rerunning the task on on-demand instances which can lead to a higher cost than running the task on on-demand instances from the beginning. That is why spot instances are generally suitable for short tasks. 
+* _**Window size and window step:**_ The default values for these parameters are 50kb and 20kb \(kilobases\), respectively. Please have in mind that since the sliding window algorithm is considering all bases inside the window, the window length and number of windows are parameters that are directly affecting the execution time and the price of the task.
+* _**Maximum number of parallel instances:**_ The default number of parallel instances is 8. The impact of changing this number is mainly reflected through execution time. The tasks with more parallel instances will be finalized faster. This parameter can be set in Execution settings when drafting a task. However, each user has a limited total number of parallel instances and capturing a big number of parallel instances per task leads to a decrease in the total number of different tasks that can run at the same time.
+* _**Spot instances:**_ If it is expected for the task to be finalized in a few hours it can be run on spot instances. This will reduce the execution cost. However, losing a spot instance leads to rerunning the task on on-demand instances which can lead to a higher cost than running the task on on-demand instances from the beginning. That is why spot instances are generally suitable for short tasks.
 
 **Benchmarking results:** 
 
@@ -213,13 +196,7 @@ The following is an explanation of the procedure we applied for **GENESIS Single
 
 In **GENESIS Single Association testing workflow,** the variants are tested in segments. The number of segments that the workflow will process is a ratio of the total number of variants and a segment length \(which is one of the input parameters in this workflow\). For example: if we are testing a whole genome with 3,000,000,000 variants and use the default segment length value of 10,000kb, we will have 300 segments. Furthermore, if we use the default value for maximum number of parallel instances, which is 8, we can approximate the average number of segments that each instance processes: 37. 
 
-**The GENESIS Single Association testing workflow** can process segments in parallel \(processing of one segment is a job\). The number of parallel segments \(jobs\) depends on the CPU per job and Memory per job parameters, and can be calculated as described previously. For example: if we are running the analysis on a c5.9xlarge instance \(36 CPUs and 72GB RAM\) with 1 CPU/job and 4GB/job, we will have 18 jobs in parallel. Knowing that each of our 8 instances is processing approximately 37 jobs in parallel it means that each instance will have approximately 2 cycles. Furthermore, knowing the average job length we can approximate the running time of 1 instance: it will be 2 cycles multiplied by average job length. Since the instances are running in parallel, this will be the total execution time. Lastly, when execution time is known, we can calculate the task price: the number of instances multiplied by execution time per hour, multiplied by instance price per hour. For each tested scenario in our benchmarking analysis, we obtained the average job length based on the corresponding tasks  which included 2 chromosomes, such that the total number of jobs was above 30.  
-  
-
-
-  
-  
-
+**The GENESIS Single Association testing workflow** can process segments in parallel \(processing of one segment is a job\). The number of parallel segments \(jobs\) depends on the CPU per job and Memory per job parameters, and can be calculated as described previously. For example: if we are running the analysis on a c5.9xlarge instance \(36 CPUs and 72GB RAM\) with 1 CPU/job and 4GB/job, we will have 18 jobs in parallel. Knowing that each of our 8 instances is processing approximately 37 jobs in parallel it means that each instance will have approximately 2 cycles. Furthermore, knowing the average job length we can approximate the running time of 1 instance: it will be 2 cycles multiplied by average job length. Since the instances are running in parallel, this will be the total execution time. Lastly, when execution time is known, we can calculate the task price: the number of instances multiplied by execution time per hour, multiplied by instance price per hour. For each tested scenario in our benchmarking analysis, we obtained the average job length based on the corresponding tasks  which included 2 chromosomes, such that the total number of jobs was above 30.
 
 
 

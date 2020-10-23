@@ -1,0 +1,171 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Resources,,,
+,,,,,,,AWS Instance,,,,,Google Instance,,,,,,,#,Analysis that was done,Additional Info,Link,Input type,Data Set,Samples,Duration,Cost,Spot/On Dm,Instance,CPU,Disk,Ram,
+,Analysis,Samples,Variants,"Relatedness 
+matrix","Instance
+type","Parallel
+ instances",Instance,CPU,RAM (GB),Time,Cost,Instance,CPU,RAM (GB),Time,Cost,,,,1000G,,,,,,,,,,,,,
+Approx,"Single test
+
+",2.5K,,w/o,Spot,8,r4.8,1,2,"1 h, 8 min",3$,n1-standard-64,1,2,1h,7$,,,,Single test - Plain,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/1b2ea957-a276-4fbe-a021-b9375415ab9d/#,,1000G,2.5K,"1 h, 8 min",3$,Spot,wf default (r4.8),Used,Unused,Unused,
+,"Single test
+
+",2.5K,,Sparse,Spot,,r4.8,1,8,"1 h, 6 min",5$,n1-standard-64,1,8,"1 h, 52 min",15$,,,,Single test - Sparse,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/b326dfd4-b6c2-4bca-b4b5-eea0f4afd224/#,,1000G,2.5K,"1 h, 4 min",5$,Spot,wf default (r4.8),Used,Unused,Unused,
+Approx,"Single test
+
+",2.5K,,Dense,Spot,8,r4.8,1,2,"1 h, 6 min",5$,n1-standard-64,1,2,1h,7$,* It's not able to run on smaller instance,,,Single test - Sparse,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/8443ddf4-bb90-47d8-aa2a-de87ae701364/#,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/8b4dcff9-bebe-425d-b9c8-0583d754563a/#,,1000G,2.5K,"1 h, 51 min",13$,Spot,wf default (r4.8),Used,Unused,Unused,
+,"Single test
+
+",10K,,w/o,On dm,8,c5.18,1,2,50 min,10$,n1-standard-4,1,2,"1 h, 12 min",13$,,,,Single test - Dense,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/1000g-bencharmking-data/tasks/ce6a9a27-a791-46fe-9960-6047280683d8/#,,1000G,2.5K,"1 h, 6 min",5$,Spot,wf default (r4.8),Used,Unused,Unused,
+,"Single test
+
+",10K,,Sparse,On dm,8,c5.18,1,2,58 min,11$,n1-standard-4,1,2,"1 h, 13 min",14$,,,,,,,,,,,,,,,,,
+,"Single test
+
+",10K,,Sparse,On dm,8,r4.8,1,2,"1 h, 30 min",11$,n1-standard-4,1,2,"1 h, 13 min",14$,,,,Single test - Plain,"2GB, 1CPU/job",Approximation,,1000G,2.5K,"1 h, 8 min",3$,Spot,wf default (r4.8),,,,
+Approx,"Single test
+
+",10K,,Dense,On dm,8,r5.4,1,8,3 h,24$,n1-highmem-32,1,8,"2 h, 20 min",30$,* More jobs in parallel on Google. Google instance more expensive.,,,Single test - Sparse,"2GB, 1CPU/job",Approximation,,1000G,2.5K,"1 h, 51 min",13$,Spot,wf default (r4.8),,,,
+Approx,"Single test
+
+",36K,,w/o,On dm,8,r5.4,1,5,"3 h, 20 min",27$,n1-standard-64,1,5,"1 h, 30 min",35$,* Google instance bigger and more jobs in parallel can be done,,,Single test - Dense,"2GB, 1CPU/job",Approximation,,1000G,2.5K,"1 h, 6 min",5$,Spot,wf default (r4.8),,,,
+Approx,"Single test
+
+",36K,,Sparse,On dm,8,r5.4,1,5,4 h,32$,n1-highmem-16,1,5,"4 h, 30 min",35$,,,,,,,,,,,,,,,,,
+Approx,"Single test
+
+",36K,,Sparse,On dm,8,r5.12,1,5,"1 h, 20 min",32$,n1-standard-64,1,5,"1 h, 30 min",35$,,,,Single test - Dense,GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/4352bc09-9734-49a3-98c0-98697a53e0d7/#,,1000G,2.5K,"1 h, 52 min",11$,Spot,n1-standard-64,Unused,Unused,Unused,w/o attached disk
+Approx,"Single test
+
+",36K,,Dense,On dm,8,r5.12,1,50,"1 d, 15 h",930$,n1-highmem-96,1,50,"1 d, 6 h","1,300$","* More jobs in parallel, average job len longer on Google, big diff in price Google vs AWS",,,Single test - Dense,GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/12de3430-efd3-46b2-9333-ed64112a2903/#,,1000G,2.5K,Failed due to small instance,,Spot,n1-standard-4,,,,Resources on n1-standard-4;pd-ssd;160 instance is lower than job assoc_single_r_271_s required.
+Approx,"Single test
+
+",36K,,Dense,On dm,8,r5.24,1,50,17 h,800$,,,,,,,,,Single test - Dense,GOOGLE INST,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/6d9c618d-b1a4-4902-8cbb-c4646de98376/#,,1000G,2.5K,Failed due to small instance,,Spot,n1-standard-8,,,,Resources on n1-standard-8;pd-ssd;160 instance is lower than job assoc_single_r_271_s required.
+Approx,"Single test
+
+",50K,,w/o,On dm,8,r5.12,1,8,2 h,44$,n1-standard-96,1,8,2 h,73$,"* The same number of jobs, but google inst. more expensive.",,,,,,,,,,,,,,,,
+Approx,"Single test
+
+",50K,,Sparse,On dm,8,r5.12,1,8,2 h,48$,n1-standard-96,1,8,2 h,73$,"* The same number of jobs, but google inst. more expensive.",,,FREEZE5 10K,,,,,,,,,,,,,
+Approx,"Single test
+
+",50K,,Dense,On dm,8,r5.24,48,100,11 d,"13,500$",n1-highmem-96,16,100,6 d,"6,600$",* Difference in cost is combined effect of difference in number of parallel jobs (6 on Google vs 2 on AWS ) partly offset with significant difference in job length (17h Google vs 12h AWS in average) ,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain,"2 GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/c46a2a1c-675b-4e1a-95c2-d444ed2b5c1e/#,,freeze5,10K,50 min,10$,On Dm,c5.18,Used,Unused,Used,
+,,,,Sparse,,,,,,,,,,,,,,,,Single Variant test - Plain CHR22,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/353324ee-59dc-48b0-979e-294d613befa6/#,,freeze5,10K,14 min,0.77$,On Dm,c5.18,Unused,Unused,Unused,
+,* Note,"It appears that for small sample sizes we can use c instances. When compared to r instances, execution time is much faster and the price is the same",,,,,,,,,,,,,,,,,,Single Variant test - Plain,GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/ed27ed39-5d4c-4592-8bb4-60032fbda093/#,,freeze5,10K,"1 h, 12 min",13$,On Dm,n1-standard-4,Used,Unused,Unused,* Here we don't have 1-1 matching instance.
+,* Note,"The botle neck of thes wf is memory per job. We can see that its affected primarily by the null model type, buy also with the sample size",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/64e842a0-3cba-4485-972d-fd34a0554fe3/,,freeze5,10K,"1 h, 43 min",8$,Spot,wf default (r4.8),Used,Unused,Unused,
+,* Note,Small files can se run in tasks with spot instances,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"7GB, 1CPU/job",Approximation,,,10K,"1 h, 12 min",17$,On Dm,wf default (r4.8),,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"7GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/298d9e57-8758-4e67-94af-e4e03450d394/,,freeze5,10K,"1 h, 34 min",20$,On Dm,wf default (r4.8),Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"7GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/488d6999-42d2-431b-a5a9-9d4802cab665/#,,freeze5,10K,"1 h, 10 min",15$,On Dm,wf default (r4.8),Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"2GB, 1CPU/job",Approximation,,,10K,30 min,12$,On Dm,c5.18,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"2GB, 1CPU/job",Approximation,,,10K,"1 h, 30 min",12$,On Dm,r5.4,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"2 GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/9ff482eb-b18c-4d6e-9f3b-0828dc85c878/#,,,10K,58 min,11$,On Dm,c5.18,Used,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"GOOGLE - 2 GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/cfabacb0-ce8e-4e45-b8d9-82f6f753b04a/#,,,10K,"1 h, 13 min",12$,On Dm,n1-standard-4,Used,Unused,Unused,w/o attached disk
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse,"2 GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/81f4b2f8-2ab0-4c77-8d38-291ddab1fa9f/#,,freeze5,10K,59 min,11$,On Dm,c5.18,Used,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse chr 22,"7GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/51ef03cf-a073-46c8-8965-4338f018f9a4/#,,freeze5,10K,33 min,1$,On Dm,wf default (r4.8),Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense,"8GB, 1CPU/job",Approximation,,,,2h,34$,On Dm,wf default (r4.8),,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense,"8GB, 1CPU/job",Approximation,,,,3h,24$,On Dm,r5.4,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/68662909-0117-44d8-8dea-b37ad4c55a86/#,,freeze5,10K,"2 h, 17 min",31$,On Dm,wf default (r4.8),Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense,GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/2f62fa0e-ee32-452f-a7a4-ac9c49371054/,,freeze5,10K,"2 h, 19 min",28$,On Dm,n1-highmem-32,Used,Unused,Used,w/o attached disk
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense chr 22,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/50baef32-171e-468d-866f-fde3bee5e441/#,,freeze5,10K,28 min,1.5$,On Dm,c5.18,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,FREEZE5 36K,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"1.1h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Plain chr4,chr8","5GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/3f4a899e-98a3-4860-afb1-cf3ff4f31e64/#,,freeze5,36K,"1 h, 36 min",4$,On Dm,m5.12,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"5GB, 1CPU/job",Approximation,,,,"3 h, 20 min",27$,On Dm,r5.4,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"5GB, 1CPU/job",Approximation,,,,"4 h, 30 min",28$,On Dm,m5.4,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"5GB, 1CPU/job",Approximation,,,,"1 h, 10 min",41$,On Dm,m5.24,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"5GB, 1CPU/job",Approximation,,,,"2 h, 15 min",53$,On Dm,c5.18,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"1.5h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Plain chr4,chr8",GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/73dcf3e2-3060-4a85-80d6-7d4a5604ccb0/,,freeze5,36K,"2 h, 14 min",5$,On Dm,n1-highmem-16,Used,Unused,Unused,w/o attached disk
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"5GB, 1CPU/job",Approximation,,,,"4 h, 30 min",35$,On Dm,n1-highmem-16,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"5GB, 1CPU/job",Approximation,,,,"1 h, 30 min",35$,On Dm,n1-standard-64,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"1.3h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse chr8,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/39ba9fa1-86c7-4425-bf3c-fb5d7a364f15/#,,freeze5,36K,"3 h, 7 min",4$,On Dm,r5.4,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Sparse chr4,chr8","5GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/54cdda5a-ff36-498e-b6ff-0d98067a7fe6/#,,freeze5,36K,"3 h, 3 min",7.5$,On Dm,m5.12,Used,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Sparse chr4,chr8","5GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/600f6a96-1465-40d5-ab2f-5991c700c719/#,,freeze5,36K,2 h,6.5$,On Dm,r5.12,Used,Unused,Unused,* Difference vs old results: Previous jobs were much longer and so the previous approximations were higher
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"5GB, 1CPU/job",,,,,"1 h, 20 min",32$,On Dm,r5.12,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"5GB, 1CPU/job",,,,,"1 h, 20 min",49$,On Dm,m5.24,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"5GB, 1CPU/job",,,,,"1 h, 20 min",65$,On Dm,r5.24,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"5GB, 1CPU/job",,,,,4 h,32$,On Dm,r5.4,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"1.5h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Sparse chr4,chr8",GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/b7fc38fd-560d-45a2-9bed-d1f35ebaac6c/#,,freeze5,36K,"2 h, 21 min",11$,On Dm,n1-standard-96,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Sparse chr4,chr8",GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/60989134-1520-4f2c-b905-3f5bc3aa80b0/#,,freeze5,36K,"2 h, 19 min",7$,On Dm,n1-standard-32,,,,* Excluded attached disk in task
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"5GB, 1CPU/job",Approximation,,,,"4 h, 30 min",35$,On Dm,n1-highmem-16,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"5GB, 1CPU/job",Approximation,,,,"1 h, 30 min",35$,On Dm,n1-standard-64,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"5.1h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Dense chr4,chr8","50GB, 1CPU/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/e71a0439-f9e4-4b6e-a797-44810543356d/#,,freeze5,36K,"9 h, 30 min",123$,On Dm,r5.12,Unused,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"50GB, 1CPU/job",Approximation,,,,39 h,930$,On Dm,r5.12,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"50GB, 1CPU/job",Approximation,,,,17 h,800$,On Dm,r5.24,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"50GB, 1CPU/job",Approximation,,,,10 d,"1,550$",On Dm,m5.24,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"7h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Dense chr4,chr8",GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/6a45e153-7cb3-4dac-8bac-3c962d2613c6/#,,freeze5,36K,12 h,250$,On Dm,n1-standard-96,Unused,Unused,Used,* The same time due to bigger number of instances
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"50GB, 1CPU/job",Approximation,,,,2 d,"1,800$",On Dm,n1-standard-96,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"50GB, 1CPU/job",Approximation,,,,1 d,"1,300$",On Dm,n1-highmem-96,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,FREEZE5 50K,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain chr22 ,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/decc2588-a2ff-4604-aca7-4e8422c8812e/#,,freeze5,50K,"1 h, 8 min",1$,On Dm,r5.4,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse chr 22,,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/c1e83e39-745b-45aa-bc05-c15ec7a74c8f/#,,freeze5,50K,"2 h, 43 min",3$,On Dm,r5.4,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense chr 22,"20GB, 4CPUs/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/8d57d798-47a4-4b2b-8b10-217f75843b90/#,,freeze5,50K,FAILED,,On Dm,r5.12,,,,
+,,,,,,,,,,,,,,,,,,,,"1.8h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Plain chr4, chr8","8GB, 1CPUs/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/937df6e8-f08d-477c-ae5d-3bf46afe9178/#,,freeze5,50K,"2 h, 43 min",8$,On Dm,r5.4,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"8GB, 1CPUs/job",Approximation,,,,"5 h, 30 min",44$,On Dm,r5.4,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"8GB, 1CPUs/job",Approximation,,,,2 h,44$,On Dm,r5.12,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"8GB, 1CPUs/job",Approximation,,,,2 h,88$,On Dm,r5.24,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"8GB, 1CPUs/job",Approximation,,,,11 h,70$,On Dm,m5.4,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"2h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Plain chr4, chr8",GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/abf5f391-fa4e-49bb-859c-d6e55736aa66/#,,freeze5,50K,"2 h, 41 min",13$,On Dm,n1-standard-96,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"8GB, 1CPU/job",Approximation,,,,2 h,73$,On Dm,n1-standard-96,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Plain WGS,"8GB, 1CPU/job",Approximation,,,,4 h,61$,On Dm,n1-highmem-32,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"2h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Sparse chr4, chr8",,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/f2df1443-eb53-45a6-8f28-e363fd94e64c/,,freeze5,50K,"5 h, 4 min",15$,On Dm,r5.4,Used,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Sparse chr4, chr8","8GB, 1CPUs/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/c4093ebb-ef77-42aa-a5ab-9684b52ba312/#,,freeze5,50K,3 h,10$,On Dm,r5.12,,,,"*Again we have difference in average job length. Previouslu was above 200min, now 120 min."
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"8GB, 1CPUs/job",,,,,6 h,48$,On Dm,r5.4,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"8GB, 1CPUs/job",,,,,2 h,48$,On Dm,r5.12,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"8GB, 1CPUs/job",,,,,2 h,97$,On Dm,r5.24,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"8GB, 1CPUs/job",,,,,12 h,75$,On Dm,m5.4,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"2h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Sparse chr4, chr8",GOOGLE,https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/dee1a672-6e91-4c4e-abbf-f6d1a0fc4532/,,freeze5,50K,"3 h, 30 min",16$,On Dm,n1-standard-96,Unused,Unused,Unused,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"8GB, 1CPU/job",Approximation,,,,2 h,73$,On Dm,n1-standard-96,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Sparse WGS,"8GB, 1CPU/job",Approximation,,,,4 h,61$,On Dm,n1-highmem-32,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"12h average job (both chr4, chr8)",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Dense chr4, chr8","20GB, 4CPUs/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/220545bb-e7cb-4316-93d6-dee4069f7ee1/#,,freeze5,50K,FAILED,,On Dm,r5.12,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Dense chr4, chr8","100GB, 48CPUs/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/milan.domazet/freeze5benchmarkingdata/tasks/4008b5ae-eaee-49a0-a884-c910c0f0ab5b/#,,freeze5,50K,"2 d, 11 h","1,045$",On Dm,m5.12,Unused,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"100GB, 48CPUs/job",Approximation,,,,11 d,"13,500$",On Dm,r5.24,,,,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"100GB, 48CPUs/job",Approximation,,,,22 d,"13,000$",On Dm,r5.12,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"16h average job (both chr4, chr8) ",,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,"Single Variant test - Dense chr4, chr8","GOOGLE 100GB, 16CPUs/job",https://platform.sb.biodatacatalyst.nhlbi.nih.gov/u/dajana_panovic/freeze8-benchmarking-google-instances/tasks/9293c1a3-7641-40f8-84ec-1828812f9706/#,,freeze5,50K,"1 d, 7 h",780$,On Dm,n1-highmem-96,Unused,Unused,Used,
+,,,,,,,,,,,,,,,,,,,,Single Variant test - Dense WGS,"GOOGLE 100GB, 16CPUs/job",,,freeze5,50K,6 d,"6,600$",On Dm,n1-highmem-96,,,,
