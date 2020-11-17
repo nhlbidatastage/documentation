@@ -62,7 +62,7 @@ The BioData Catalyst ecosystem manages access to the hosted controlled data usin
 
 **How do I login?**
 
-Users log into BioData Catalyst platforms with their eRA Commons credentials and authentication is performed by iTrust. Every time a user logs in, the ecosystem checks his/her user credentials to ensure s/he can only access the data for which s/he has dbGaP approval. 
+Users log into BioData Catalyst platforms with their eRA Commons credentials \(see [Understanding eRA Commons Accounts](https://era.nih.gov/register-accounts/understanding-era-commons-accounts.htm)\) and authentication is performed by iTrust. Every time a user logs in, the ecosystem checks his/her user credentials to ensure s/he can only access the data for which s/he has dbGaP approval. 
 
 While all of the platforms within BioData Catalyst use eRA Commons credentials and iTrust performs authorization and authentication, respectively, there are some slight differences between the platforms when getting set up:
 
