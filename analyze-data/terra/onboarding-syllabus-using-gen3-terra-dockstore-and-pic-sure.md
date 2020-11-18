@@ -32,6 +32,7 @@ description: >-
 | Terra 101: Interactive Analysis | [Slides](https://drive.google.com/file/d/1XCZogzuQ3kGSa_qOJNUlrnqMQZcVVbIO/view?usp=sharing) |
 | Terra 101: Process Data in Terra with workflows | [Slides](https://drive.google.com/file/d/1yE5sbON6p3XPGrwEh9MHC4nW8JJcRL-o/view?usp=sharing) |
 | Terra 101: Billing and Access | [Slides](https://drive.google.com/file/d/1-6tGgHedGUqoCzGMNmA3HABxCMPKwinQ/view?usp=sharing) |
+| Terra 201: Data Discovery and Exploration with Gen3 and Terra | [Webinar](https://drive.google.com/file/d/1TOPBcmbkuj68XGanz3TbaQWE0Kov-6kU/view?usp=sharing), [Slides](https://drive.google.com/file/d/1Hz7wgWE2rA7yQX_sQVF5enQw34nAAjAr/view?usp=sharing) |
 
 ## BioData Catalyst Powered by Gen3
 
