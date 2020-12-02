@@ -29,3 +29,7 @@ Documentation is essential to reproducibility. When releasing your work on Githu
 * Contact information for the workflow maintainer
 * Relevant links to external resources 
 
+### Dockstore Best Practices
+
+Dockstore has outlined a set of [best practices](https://docs.dockstore.org/en/develop/advanced-topics/best-practices/best-practices-dockstore.html) for publishing your work in the repository. 
+
