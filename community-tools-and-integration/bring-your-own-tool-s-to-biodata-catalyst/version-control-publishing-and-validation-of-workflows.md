@@ -8,6 +8,7 @@ Version control is vital in reproducibility since it helps track changes you or 
 * Upload your workflow to a GitHub repository
 * [Register your tool on Dockstore](https://docs.dockstore.org/en/develop/getting-started/dockstore-tools.html)
 * [Automatically sync updates between GitHub and Dockstore with GitHub Apps](https://docs.dockstore.org/en/develop/getting-started/github-apps/github-apps-landing-page.html)
+* [Request a DOI for your Dockstore workflow](https://docs.dockstore.org/en/develop/advanced-topics/snapshot-and-doi.html?highlight=doi)
 
 ### Source Control Best Practices
 
