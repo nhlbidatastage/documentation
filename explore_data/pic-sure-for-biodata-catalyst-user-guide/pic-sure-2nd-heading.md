@@ -2,7 +2,7 @@
 
 To obtain access to PIC-SURE on BioData Catalyst:
 
-1. You must have an NIH eRA commons account or an NIH username and password. [Please see these instructions](https://era.nih.gov/commons/#Commons/1_Admin/mgacct_create.htm%3FTocPath%3D_____24).
+1. You must have an NIH eRA commons account or an NIH username and password. [Please see these instructions](https://era.nih.gov/register-accounts/understanding-era-commons-accounts.htm).
 2. You must have an active dbGaP Data Access Request Approval, for more information on how to obtain access to data please visit the [BioData Catalyst Data Access webpage.](https://biodatacatalyst.nhlbi.nih.gov/resources/data)
 3. Navigate to the [https://biodatacatalyst.nhlbi.nih.gov/](https://biodatacatalyst.nhlbi.nih.gov/). Click on **Resources**. This will bring down a drop-down menu, choose **SERVICES.** Services will bring you to the list of platforms and services on the BioData Catalyst ecosystem. To access **PIC-SURE,** scroll down to BioData Catalyst powered by PIC-SURE and click **Launch**. **This will direct you to the log-in screen or go directly to** [**https://picsure.biodatacatalyst.nhlbi.nih.gov**](https://picsure.biodatacatalyst.nhlbi.nih.gov/)**.**
 
