@@ -2,7 +2,7 @@
 
 **TOPMed Harmonized Clinical Variables**
 
-Additionally, there are limited amounts of harmonized data available at this time. The TOPMed Data Coordinating Center curation team has identified forty-four \(44\) variables that are shared across seventeen \(17\) NHLBI studies and has normalized the patient values for these variables. The 17 studies whence the 44 clinical variables have been identified, in alphabetic order, are:
+The TOPMed Data Coordinating Center curation team has produced forty-four \(44\) harmonized phenotype variables from seventeen \(17\) NHLBI studies. The 17 studies whence the 44 clinical variables have been identified, in alphabetic order, are:
 
 * Atherosclerosis Risk in Communities Study \(ARIC\)
 * Cardiovascular Health Study \(CHS\)
