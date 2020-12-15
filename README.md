@@ -83,7 +83,7 @@ The NHLBI BioData Catalyst currently hosts a subset of datasets from TOPMed incl
 
 **Harmonized data available.**
 
-There are limited amounts of harmonized data available at this time. The TOPMed Data Coordinating Center curation team has normalized the patient values for the forty-four \(44\) variables they found are shared across seventeen \(17\) NHLBI studies. Information about the 17 studies and the 44 clinical variables can be found in the [_BioData Catalyst Powered by PIC-SURE User Guide_](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/pic-sure-for-biodata-catalyst-user-guide/harmonized-data).
+There are limited amounts of harmonized data available to users with appropriate access at this time. The TOPMed Data Coordinating Center curation team has produced forty-four \(44\) harmonized phenotype variables from seventeen \(17\) NHLBI studies. Information about the 17 studies and the 44 variables can be found in the  [_BioData Catalyst Powered by PIC-SURE User Guide_](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/pic-sure-for-biodata-catalyst-user-guide/harmonized-data).
 
 **Bring your own data and workflows into the system.**
 
