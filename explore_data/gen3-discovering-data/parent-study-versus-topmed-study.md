@@ -6,7 +6,7 @@ description: >-
 
 # Current Projects
 
-## 1. List of Current Project IDs on the BioData Catalyst Gen3 platform
+## 1. List of Current Project IDs on the BioData Catalyst Gen3 Platform
 
 * Parent
 * TOPMed 
