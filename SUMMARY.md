@@ -73,9 +73,10 @@
   * [Advanced Topics](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/advanced-topics.md)
 * [Import a Dockstore App With Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/import-a-dockstore-app)
 
-## BioData Catalyst Glossary
+## BioData Catalyst Resources <a id="biodata-catalyst-glossary"></a>
 
 * [BioData Catalyst Glossary](biodata-catalyst-glossary/bdc_glossary.md)
+* [Citation and Acknowledgement](biodata-catalyst-glossary/citation-and-acknowledgement.md)
 
 ## BioData Catalyst Release Notes
 
