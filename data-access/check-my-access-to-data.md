@@ -12,6 +12,8 @@ Go to [https://gen3.biodatacatalyst.nhlbi.nih.gov/](https://gen3.biodatacatalyst
 
 ![Screenshot of checking what data you have access to in Gen3](https://lh4.googleusercontent.com/MXtMa17RughimMZMMfbKA2bl_Ob4Nalry5I88L6qaA1D_ZRPuXMbv3eQYX236qFCapW-NSXWiGzNr2vCtAcyfeG48AYVDa54VWNQzeTDqrf2gB54H0bF8zzCct8TdgCaHZmq8LVq)
 
+Users can see projects they have access to when selecting `Data with Access`. `Data without Access` shows data where users do not have subject-level access but summary statistics can be accessed.  `All Data` shows all projects but also where users have no access to \(a lock will appear\). The default is set to  `Data with Access`.  Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/).  Read more information on Data Access [in this section in the Documentation.](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data/exploration#data-accessibility)
+
 **Through the BioData Catalyst powered by Seven Bridges platform:**
 
 Go to [https://platform.sb.biodatacatalyst.nhlbi.nih.gov/](https://platform.sb.biodatacatalyst.nhlbi.nih.gov/) and login to check your data access by:

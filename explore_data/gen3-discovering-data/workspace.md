@@ -26,7 +26,9 @@ To start a workspace, click the Launch button. You should see the following laun
 
 ![The launching screen.](../../.gitbook/assets/workspace_loading.png)
 
-This action will launch the VM, which can take up to five minutes depending upon the size and complexity of the workspace.
+{% hint style="info" %}
+Launching a VM can take up to five minutes depending upon the size and complexity of the workspace.
+{% endhint %}
 
 Once the VM is ready, the initial screen for the workspace will appear. For scripts and output that need to be saved when the workspace is terminated, please store those files in the `pd/` directory. 
 
@@ -34,7 +36,7 @@ Once the VM is ready, the initial screen for the workspace will appear. For scri
 
 ![The initial workspace for R Studio.](../../.gitbook/assets/r_workspace.png)
 
-This workspace will persist once the user has logged out of the Gen3 BioData Catalyst system. If the workspace is no longer being used, please terminate the workspace using the `Terminate Workspace` button found at the bottom of the window. Doing this will return the user to the Workspace page with all the workspace options. 
+This workspace will persist once the user has logged out of the Gen3 BioData Catalyst system. If the workspace is no longer being used, **please terminate the workspace** using the `Terminate Workspace` button found at the bottom of the window. Doing this will return the user to the Workspace page with all the workspace options. 
 
 More information about Gen3 Workspace can be found [here](https://gen3.org/resources/user/analyze-data/).
 

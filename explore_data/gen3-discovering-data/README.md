@@ -10,13 +10,13 @@ description: >-
 
 In order to navigate and access data available on the Gen3 platform, please start by visiting the [login page](https://gen3.biodatacatalyst.nhlbi.nih.gov/login). You will need an eRA Commons account as well as access permissions through the [Database of Genotypes and Phenotypes \(dbGaP\)](https://www.ncbi.nlm.nih.gov/gap/). If you are a researcher, login using your [eRA Commons account](https://public.era.nih.gov/commons/public/login.do). BioData Catalyst consortia developers can login using their Google accounts. Please make sure to use the correct login method that contains access to your available projects.
 
-![Login page for the BioData Catalyst Gen3 portal](../../.gitbook/assets/image%20%2851%29.png)
+![Login page for the BioData Catalyst Gen3 portal.](../../.gitbook/assets/bdc_dec20_landingpage.png)
 
 Once logged in, your username will appear in the upper right-hand corner of the page. You will also see a display with aggregate statistics for the total number of subjects, studies, aliquots and files available within the BioData Catalyst platform.
 
 > **NOTE**: These numbers may differ from those displayed in the dbGaP records as they include TOPMed studies as well as the associated parent studies.
 
-![Post-login view of the BioData Catalyst Gen3 front page.](../../.gitbook/assets/screenshot_2020-01-17-https-gen3-datastage-io.png)
+![Post-login view of the BioData Catalyst Gen3 front page.](../../.gitbook/assets/bdc_dec20_firstpage_after_login.png)
 
 ## Types of Hosted Data <a id="types-of-hosted-data"></a>
 
@@ -32,7 +32,11 @@ Unharmonized clinical files are also available on the Gen3 platform and contain 
 
 ### Genomic <a id="genomic"></a>
 
-The Gen3 platform hosts genomic data provided by the [Trans-Omics for Precision Medicine](https://www.nhlbiwgs.org/) \(TOPMed\) program. At present, this includes CRAM and VCF files together with their respective index files. Each TOPMed project will contain at least one multi-sample VCF that comprises all subjects within the consent group. These files are available under the "Files" tab in the [Exploration](exploration.md#the-files-tab) page.
+The Gen3 platform hosts genomic data provided by the [Trans-Omics for Precision Medicine](https://www.nhlbiwgs.org/) \(TOPMed\) program and the [1000 Genomes Project](https://www.internationalgenome.org/) plus synthetic tutorial data from Terra. At present, these projects include CRAM and VCF files together with their respective index files. Specifically for TOPMed projects, each project will contain at least one multi-sample VCF that comprises all subjects within the consent group. CRAM and VCF are based on an individual level, whereas multi-sample VCFs are based on the study consent level.
+
+All files are available under the "Files" tab in the [Exploration](exploration.md#the-files-tab) page. More detailed information on currently hosted data on the Gen3 platform can be found [here](parent-study-versus-topmed-study.md).
+
+
 
 ## Gen3 Pages <a id="gen3-pages"></a>
 
