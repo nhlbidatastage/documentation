@@ -2,7 +2,7 @@
 description: How to cite and acknowledge BioData Catalyst.
 ---
 
-# Citation and Acknowledgement
+# BioData Catalyst Citation and Acknowledgement
 
 **For citation of the NHLBI BioData Catalyst:**
 

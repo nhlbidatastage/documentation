@@ -76,7 +76,7 @@
 ## BioData Catalyst Resources <a id="biodata-catalyst-glossary"></a>
 
 * [BioData Catalyst Glossary](biodata-catalyst-glossary/bdc_glossary.md)
-* [Citation and Acknowledgement](biodata-catalyst-glossary/citation-and-acknowledgement.md)
+* [BioData Catalyst Citation and Acknowledgement](biodata-catalyst-glossary/citation-and-acknowledgement.md)
 
 ## BioData Catalyst Release Notes
 
