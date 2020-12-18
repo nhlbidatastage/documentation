@@ -16,7 +16,7 @@ Users can navigate through data in the Exploration page by selecting any of the 
 
 * `Data with Access`: A user can view all of the summary data and associated study information for studies the user has access to, including but not limited to Project ID, file types, and clinical variables. 
 * `Data without Access`: 
-  * Locks next to the project ID signify users that they do not have subject-level access but they can still search through the available studies but only view summary statistics. Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/).  
+  * Locks next to the project ID signify to users that they do not have subject-level access but they can still search through the available studies but only view summary statistics. Users can request access to data by visiting the [dbGaP homepage](https://dbgap.ncbi.nlm.nih.gov/).  
   * Projects will also be hidden if the select cohort contains fewer than 50 subjects \(`50` ↓, "You may only view summary information for this project", example below\); in this case grayed out boxes and locks both appear. An additional lock means users have no access.
 
 ![The view on the list of Projects when &quot;Data without Access&quot; is selected.](../../.gitbook/assets/bdc_dec20_expl_acess_3%20%281%29.png)
