@@ -43,7 +43,7 @@ description: >-
 | Logging into Gen3 | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data) |
 | Gen3 Data Dictionary | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data/dictionary) |
 | Gen3 Data Exploration | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data/exploration) |
-| Parent and TOPMed Studies | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-[documentation]/explore_data/gen3-discovering-data/parent-study-versus-topmed-study) |
+| Parent and TOPMed Studies | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/explore_data/gen3-discovering-data/parent-study-versus-topmed-study) |
 
 ## BioData Catalyst Powered by Terra
 
