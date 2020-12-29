@@ -20,7 +20,7 @@ description: >-
 | Topic | Resources |
 | :--- | :--- |
 | Data Available | [Information](https://biodatacatalyst.nhlbi.nih.gov/resources/data/) |
-| Obtaining and Getting Access | [Documentation](https://app.gitbook.com/@bdcatalyst/s/biodata-catalyst-documentation/data-access/check-my-access-to-data) |
+| Obtaining and Getting Access | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/data-access/check-my-access-to-data) |
 
 ## Onboarding Webinars
 
