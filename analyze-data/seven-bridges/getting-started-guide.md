@@ -2,7 +2,7 @@
 
 ## Onboarding to NHLBI BioData Catalyst Powered by Seven Bridges
 
-_This guide aims to help you create an account on NHLBI BioData Catalyst powered by Seven Bridges and learn the basics of creating a workspace \(project\), running an analysis, and searching the hosted data. For more information, please refer to the platform documentation at_ [_http://sb-biodatacatalyst.readme.io/docs_](http://sb-biodatacatalyst.readme.io/docs)_._
+_This guide aims to help you create an account on NHLBI BioData Catalyst powered by Seven Bridges and learn the basics of creating a workspace \(project\), running an analysis, and searching the hosted data. For more information, please refer to the platform documentation at_ [_https://sb-biodatacatalyst.readme.io/docs_](https://sb-biodatacatalyst.readme.io/docs)_._
 
 ## Accessing hosted TOPMed datasets on BioData Catalyst
 
