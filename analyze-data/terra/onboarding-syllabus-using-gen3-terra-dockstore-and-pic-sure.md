@@ -13,7 +13,7 @@ description: >-
 | :--- | :--- |
 | Ecosystem | [Information](https://biodatacatalyst.nhlbi.nih.gov/) |
 | Platforms and Services | [Information](https://biodatacatalyst.nhlbi.nih.gov/resources/services/) |
-| Documentation Repository | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-[documentation]/) |
+| Documentation Repository | [Documentation](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/) |
 
 ### BioData Catalyst Data
 
