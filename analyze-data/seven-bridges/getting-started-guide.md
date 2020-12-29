@@ -12,7 +12,7 @@ The BioData Catalyst ecosystem manages user access to the hosted controlled data
 
 Principal Investigators with an approved DAR can enable their lab staff to access the hosted datasets on the BioData Catalyst ecosystem by giving the lab staff “designated downloader status” on dbGAP. These individuals must:
 
-* Have an eRA commons account or an NIH username and password. Please see these [instructions](https://era.nih.gov/commons/%23Commons/1_Admin/mgacct_create.htm%3FTocPath%3D_____24).
+* Have an eRA commons account or an NIH username and password. Please see these [instructions](https://era.nih.gov/register-accounts/understanding-era-commons-accounts.htm).
 * Log in to dbGaP at least once.
 
 To give lab staff downloader status, please refer to these [instructions](https://www.youtube.com/watch?v=Yem3OH26kX4&t=1s). **Please note that having other researchers listed on your dbGaP DAR application as internal and external collaborators will not result in these individuals getting access to hosted dataset on BioData Catalyst.** PI’s will need to add internal collaborators from their dbGaP application to the list of designated downloaders as described above. In addition, external collaborators will need to go through this same process for those at their own institution.
