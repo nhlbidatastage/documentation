@@ -2,7 +2,7 @@
 
 Version control is vital in reproducibility since it helps track changes you or contributors make to your code and documentation. We suggest using GitHub to host your workflows in an open access repository so that the research community can benefit from your work, and your work can benefit from feedback by the research community. Dockstore, our repository of Docker-based workflows, syncs automatically with GitHub. Below, find steps for getting started with GitHub and Dockstore: 
 
-* [Create a GitHub account](http://www.github.com/join)
+* [Create a GitHub account](https://www.github.com/join)
 * [A primer on GitHub](https://lab.github.com/githubtraining/introduction-to-github)
 * If you haven’t already, [Create a Dockstore Account](https://docs.dockstore.org/en/develop/getting-started/register-on-dockstore.html?highlight=register) and link your account to external services including Github
 * Upload your workflow to a GitHub repository
