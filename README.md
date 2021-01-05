@@ -105,7 +105,7 @@ BioData Catalyst hosts a number of datasets available for analysis to users with
 
 **Let us know about your publications and see how you can cite us.**
 
-If you are writing a manuscript about research you conducted using NHLBI BioData Catalyst, please use [the citation available here](https://biodatacatalyst.nhlbi.nih.gov/about#citation) \(scroll to the bottom of the page\).
+If you are writing a manuscript about research you conducted using NHLBI BioData Catalyst, please use [the citation available here](https://bdcatalyst.gitbook.io/biodata-catalyst-documentation/biodata-catalyst-glossary/citation-and-acknowledgement) \(scroll to the bottom of the page\).
 
 Immediately after learning your manuscript has been accepted, please email [BDCatalystOutreach@nih.gov](mailto:BDCatalystOutreach@nih.gov) to let us know. Please include in your email the manuscript title, the name of the publication that accepted your manuscript, and information about pre-publication posting \(if it will take place\), along with your name and contact information.
 
