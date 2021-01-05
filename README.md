@@ -101,7 +101,7 @@ We encourage users to publish their workflows so they can be used by other resea
 
 BioData Catalyst hosts a number of datasets available for analysis to users with appropriate data access approvals. Users are not charged for the storage of these hosted datasets; however, if hosted data is used in analyses users incur costs for computation and storage of derived results. Cloud credits are available on the system, and you can [learn more here](https://biodatacatalyst.nhlbi.nih.gov/resources/cloud-credits).
 
-## Publications About NHLBI BioData Catalyst, Citing Us, and Our Help Desk
+## BioData Catalyst Publications
 
 **Let us know about your publications and see how you can cite us.**
 
