@@ -2,7 +2,7 @@
 description: V1.0 - 20201229
 ---
 
-# BioData Catalyst Data Generators Guidance
+# BioData Catalyst Data Generator Guidance
 
 ## 1. Introduction
 
