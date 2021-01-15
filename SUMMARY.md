@@ -13,7 +13,7 @@
 
 ## Data Generators
 
-* [BioData Catalyst Data Generator Guidance](data-generators/biodata-catalyst-data-generators-guidance.md)
+* [BioData Catalyst Data Generator Guidance](data-generators/biodata-catalyst-data-generator-guidance.md)
 
 ## Explore available data <a id="explore_data"></a>
 
