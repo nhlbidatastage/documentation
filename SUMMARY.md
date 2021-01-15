@@ -84,6 +84,7 @@
 
 ## BioData Catalyst Release Notes
 
+* [2021-01-15 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2021-01-15-biodata-catalyst-ecosystem-release-notes.md)
 * [2020-10-23 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2020-10-23-biodata-catalyst-ecosystem-release-notes.md)
 * [2020-08-24 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2020-08-24-biodata-catalyst-ecosystem-release-notes.md)
 * [2020-04-02 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2020-04-02-biodata-catalyst-ecosystem-release-notes.md)
