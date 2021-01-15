@@ -11,6 +11,10 @@
 
 * [How to check what data you have access to on BioData Catalyst](data-access/check-my-access-to-data.md)
 
+## Data Generators
+
+* [BioData Catalyst Data Generators Guidance](data-generators/biodata-catalyst-data-generators-guidance.md)
+
 ## Explore available data <a id="explore_data"></a>
 
 * [PIC-SURE for BioData Catalyst User Guide](explore_data/pic-sure-for-biodata-catalyst-user-guide/README.md)
