@@ -83,7 +83,7 @@ In the second step of submission, the data source/generator will work with the G
 
 #### **Figure 1:** NHLBI BioData Catalyst Data Submission Process Flow
 
-![Download the PDF file for a larger version of the Data Submission Process Flow](../.gitbook/assets/0%20%282%29.png)
+![](../.gitbook/assets/0%20%282%29.png)
 
 **\[V1.0\]** High-level step-by-step process, per Figure 1:
 
