@@ -4,7 +4,7 @@
 
 ### **Section overview:**
 
-In this section, the reader will first learn how the Seven Bridges Software Development \(SDK\) enables the easy creation of CWL workflows that will benefit the greater BDCatalyst community. We will review the benefits of the SDK and then walk through an example of workflow creation, testing, and scaling. There are also links to more detailed resources for further reading.
+In this section, the reader will first learn how the Seven Bridges Software Development Kit \(SDK\) enables the easy creation of CWL workflows that will benefit the greater BDCatalyst community. We will review the benefits of the SDK and then walk through an example of workflow creation, testing, and scaling. There are also links to more detailed resources for further reading.
 
 ### **Helpful Terms to Know on Seven Bridges:**
 
