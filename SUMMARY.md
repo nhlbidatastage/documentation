@@ -9,6 +9,7 @@
 
 ## Data Access
 
+* [Understanding Access Requirements for BioData Catalyst](data-access/understanding-access-requirements-for-biodata-catalyst.md)
 * [How to check what data you have access to on BioData Catalyst](data-access/check-my-access-to-data.md)
 
 ## Data Generators
