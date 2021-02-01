@@ -70,6 +70,8 @@ The table below defines the BioData Catalyst Core Terminology:
 
 ![](.gitbook/assets/project-management-approach.png)
 
+{% file src=".gitbook/assets/pm-graphic.pdf" caption="Project Management Approach PDF" %}
+
 ### Strategic Planning Documents Reviewed & Approved by NHLBI Leadership
 
 
