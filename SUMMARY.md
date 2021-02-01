@@ -90,3 +90,7 @@
 * [2020-08-24 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2020-08-24-biodata-catalyst-ecosystem-release-notes.md)
 * [2020-04-02 BioData Catalyst Ecosystem Release Notes](biodata-catalyst-release-notes/2020-04-02-biodata-catalyst-ecosystem-release-notes.md)
 
+## Request for Comments <a id="request-for-comment"></a>
+
+* [Data Upload and Download Policy and Recommendations For Users](request-for-comment/data-upload-and-download-policy-and-recommendations-for-users.md)
+
