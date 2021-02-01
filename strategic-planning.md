@@ -74,5 +74,13 @@ The table below defines the BioData Catalyst Core Terminology:
 
 ### Strategic Planning Documents Reviewed & Approved by NHLBI Leadership
 
+{% file src=".gitbook/assets/biodata-catalyst-strategic-framework-plan-v1-v2.0-1-.pdf" %}
+
+{% file src=".gitbook/assets/biodata-catalyst-implementation-plan-v1-v2.0.pdf" %}
+
+{% file src=".gitbook/assets/biodata-catalyst-data-management-strategy-v1.0-3-.pdf" %}
+
+{% file src=".gitbook/assets/biodata-catalyst-project-management-plan-v2.0-1-.pdf" %}
+
 
 
