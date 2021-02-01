@@ -1,4 +1,4 @@
-# Strategic Plan
+# Strategic Planning
 
 In the context of agile development and a Consortium with a diverse set of members, the application of various agile-development terms may mean different things to different individuals.
 
