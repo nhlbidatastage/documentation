@@ -29,7 +29,7 @@ BioData Catalyst hosts data from the NHLBI Trans-Omics for Precision Medicine \(
 
 When conducting TOPMed-related research on BioData Catalyst, members of the TOPMed consortium must follow the[ TOPMed Publications Policy](https://www.nhlbiwgs.org/topmed-publications-policy) and associated processes \(e.g., operating within Working Groups\). 
 
-To learn more,[ visit the TOPMed website](https://www.nhlbiwgs.org/topmed-data-access-scientific-community), the[ TOPMed FAQs](https://www.nhlbiwgs.org/faqs) \(login required\) or the[ BioData Catalyst FAQs](https://bdcatalyst.freshdesk.com/support/search/solutions?term=topmed).
+To learn more, including information on [joining](https://www.nhlbiwgs.org/new-user-instructions) TOPMed,[ visit the TOPMed website](https://www.nhlbiwgs.org/topmed-data-access-scientific-community), the[ TOPMed FAQs](https://www.nhlbiwgs.org/faqs) \(login required\) or the[ BioData Catalyst FAQs](https://bdcatalyst.freshdesk.com/support/search/solutions?term=topmed).
 
 ## IRB
 
