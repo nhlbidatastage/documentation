@@ -5,7 +5,8 @@
 ## Community <a id="community-conduct"></a>
 
 * [Statement of Conduct](community-conduct/statement-of-conduct.md)
-* [Who We Are](community-conduct/who-we-are.md)
+* [Who We Are](community-conduct/who-we-are/README.md)
+  * [Forums](community-conduct/who-we-are/forums.md)
 
 ## Data Access
 
@@ -74,7 +75,6 @@
   * [Creating, testing, and scaling WDL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-wdl-workflows.md)
   * [Creating, testing, and scaling CWL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-cwl-workflows.md)
   * [Version Control, Publishing, and Validation of Workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/version-control-publishing-and-validation-of-workflows.md)
-  * [Forums](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/forums.md)
   * [Advanced Topics](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/advanced-topics.md)
 * [Import a Dockstore App With Seven Bridges](https://sb-biodatacatalyst.readme.io/docs/import-a-dockstore-app)
 
