@@ -69,7 +69,7 @@
 ## Community Tools & Integration
 
 * [Bring Your Own Tool\(s\) to BioData Catalyst](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/README.md)
-  * [Glossary](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/glossary.md)
+  * [BYOT Glossary](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/byot_glossary.md)
   * [Working with Docker](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/working-with-docker.md)
   * [Creating, testing, and scaling WDL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-wdl-workflows.md)
   * [Creating, testing, and scaling CWL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-cwl-workflows.md)
