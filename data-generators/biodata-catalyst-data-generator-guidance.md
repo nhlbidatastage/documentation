@@ -455,7 +455,7 @@ As part of the ingestion process, all files loaded to the AWS and Google cloud s
 
 For the NHLBI BioData Catalyst Ecosystem, the NHLBI Designated Authorizing Official has recognized the Authority to Operate \(ATO\) issued to the Broad Institute, University of Chicago, and Seven Bridges Genomics as presenting acceptable risk, and therefore the National Cancer Institute \(NCI\) ATO serves as an Interim Authority to Test \(IATT\) when used by designated TOPMed investigators and collaborators.
 
-Quality assurance is a key element of NHLBI BioData Catalyst’s backbone. As stated in the [Data Management Strategy Document](https://www.biodatacatalyst.org/assets/StrategicPlanning/20200831_BioData-Catalyst-Data-Management-Strategy-V1.0.pdf), Key Performance Indicators are in place to measure quality assurance with regards to data storage and other pertinent security and privacy features of NHLBI BioData Catalyst.
+Quality assurance is a key element of NHLBI BioData Catalyst’s backbone. As stated in the [Data Management Strategy Document](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LwOmaDlbanAQ-7fhd89%2F-MSQNuuBT8OTybfpaFOf%2F-MSQOqTObVjOCSU52OF1%2FBioData%20Catalyst%20Data%20Management%20Strategy%20-%20V1.0%283%29.pdf?alt=media&token=0dd92f29-7db4-42e4-af30-eebdc6617c49), Key Performance Indicators are in place to measure quality assurance with regards to data storage and other pertinent security and privacy features of NHLBI BioData Catalyst.
 
 For reference, linked below are Genomic Data Security considerations for both AWS and GCP:
 
