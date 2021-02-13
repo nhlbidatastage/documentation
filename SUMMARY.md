@@ -6,7 +6,7 @@
 
 * [Statement of Conduct](community-conduct/statement-of-conduct.md)
 * [Who We Are](community-conduct/who-we-are/README.md)
-  * [BioData Catalyst forums](community-conduct/who-we-are/forums.md)
+  * [BioData Catalyst forum](community-conduct/who-we-are/forums.md)
 
 ## Data Access
 
