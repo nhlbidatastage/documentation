@@ -1,4 +1,4 @@
-# BioData Catalyst forum
+# BioData Catalyst Forum
 
 [**BioData Catalyst Forum**](https://bdcatalyst.freshdesk.com/support/discussions/60000024585)
 
