@@ -5,8 +5,8 @@
 ## Community <a id="community-conduct"></a>
 
 * [Statement of Conduct](community-conduct/statement-of-conduct.md)
-* [Who We Are](community-conduct/who-we-are/README.md)
-  * [BioData Catalyst Forum](community-conduct/who-we-are/forums.md)
+* [Who We Are](community-conduct/who-we-are.md)
+* [BioData Catalyst Forum](community-conduct/forums.md)
 
 ## Data Access
 
@@ -65,13 +65,13 @@
   * [Launch workflows with BioData Catalyst](analyze-data/dockstore/launch-workflows-with-biodata-catalyst.md)
   * [Discover our catalog](analyze-data/dockstore/discover-our-catalog.md)
   * [Intro to Docker, WDL, CWL](analyze-data/dockstore/intro-to-docker-wdl-cwl.md)
+  * [Dockstore Forum](analyze-data/dockstore/dockstore-forum.md)
   * [Contribute to the community](analyze-data/dockstore/contribute-to-the-community.md)
 
 ## Community Tools & Integration
 
 * [Bring Your Own Tool\(s\) to BioData Catalyst](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/README.md)
   * [BYOT Glossary](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/byot_glossary.md)
-  * [Dockstore Forum](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/dockstore-forum.md)
   * [Working with Docker](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/working-with-docker.md)
   * [Creating, testing, and scaling WDL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-wdl-workflows.md)
   * [Creating, testing, and scaling CWL workflows](community-tools-and-integration/bring-your-own-tool-s-to-biodata-catalyst/creating-testing-and-scaling-cwl-workflows.md)
